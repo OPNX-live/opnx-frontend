@@ -1,0 +1,385 @@
+@import 'src/style/globalStyle.scss';
+.referral {
+    background: rgba(20,22,25,1);
+    height: 100%;
+    #HpQrcode {
+        display: none;
+    }
+    .banner {
+        width: 100%;
+        display: none;
+    }
+    .referrals-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .referral-top-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: url('../../assets/image/take/banner.png');
+        background-size: 541px 400px;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        height: 400px;
+    }
+    .referral-top {
+        height: 400px;
+        .earn-code {
+            padding-top: 71px;
+            font-size: 18px;
+            color: rgba(229, 223, 245, 1);
+            margin-bottom: 20px;
+        }
+        .earn-up {
+            font-size: 48px;
+            font-weight: 600;
+            max-width: 51%;
+            display: inline-block;
+            // display: flex;
+            // justify-content: flex-start;
+            .percentage {
+                color: #318BF5;
+                margin: 0 12px;
+            }
+        }
+        .link-content {
+            margin-top: 26px;
+            // width: 50%;
+            display: flex;
+            .title {
+                color: rgba(229, 223, 245, 0.6);
+                font-size: 14px;
+                margin-bottom: 12px;
+            }
+            .gun {
+                width: 1px;
+                height: 15px;
+                background: rgba(229, 223, 245, 1);
+                margin: 0 12px;
+            }
+            .link-left {
+                // width: 390px;
+            }
+            .link-left,
+            .link-right {
+                margin-right: 17px;
+                .content {
+                    border-radius: 4px;
+                    height: 44px;
+                    border: 1px solid rgba(75, 66, 121, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0 16px 0 10px;
+                    .link-text {
+                        color: rgba(229, 223, 245, 1);
+                        font-size: 16px;
+                        display: inline-block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        max-width: 200px;
+                    }
+                }
+                .copy-link {
+                    color: #318BF5;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+                .qrcode {
+                    height: 24px;
+                    cursor: pointer;
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .to-step {
+        padding: 24px 0px 0px 0px;
+        .step-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: rgba(229, 223, 245, 1);
+        }
+        .stake-list {
+            margin-top: 36px;
+            display: flex;
+            justify-content: space-between;
+            .stake-item {
+                padding: 27px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .ellipse-bg {
+                    height: 120px;
+                    width: 120px;
+                    margin-bottom: 45px;
+                }
+                .describe {
+                    text-align: center;
+                    color: rgba(229, 223, 245, 1);
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .referral-tabs {
+        padding: 24px 0px 58px 0px;
+        @include ant-tab(100%,
+        18px);
+        .ant-table .ant-table-content .ant-table-tbody>tr>td {
+            background: rgba(20,22,25,1);
+        }
+        .ant-table-content {
+            overflow: hidden !important;
+        }
+        .empty-table {
+            height: 295px;
+        }
+        .ant-tabs-tab-btn {
+            font-weight: bold;
+        }
+    }
+    .referral-footer {
+        background: rgba(20, 22, 25, 1);
+    }
+    .link-btn {
+        display: flex;
+        .link-input {
+            border: 1px solid #e2e2e2;
+            border-radius: 4px;
+            line-height: 36px;
+            padding: 0 10px;
+        }
+    }
+    .btn-gradient {
+        width: 100px;
+        height: 38px !important;
+    }
+    .rebates-rules {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // min-height: 400px;
+        img {
+            margin-top: 60px;
+            width: 132px;
+            height: 132px;
+        }
+        div {
+            margin-top: 15px;
+            color: rgba(229, 223, 245, 1);
+        }
+    }
+    .ant-tooltip-inner {
+        padding: 10px 10px 4px 10px !important;
+    }
+    .ant-spin-nested-loading {
+        // display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .referral {
+        .referral-top {
+            padding: 0px 0 0 24px;
+            .earn-up {
+                width: 50%;
+                font-size: 28px;
+                .percentage {
+                    margin: 0 6px;
+                }
+            }
+            .link-content {
+                width: 50%;
+                flex-direction: column;
+                .link-left {
+                    width: 75%;
+                    padding-right: 12px;
+                }
+                .link-right {
+                    width: 220px;
+                }
+                .link-left,
+                .link-right {
+                    margin: 10px 0;
+                    .content {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        // padding: 0 16px;
+                    }
+                    .copy-link {
+                        cursor: pointer;
+                        display: inline-block;
+                        white-space: nowrap;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+        .to-step {
+            padding: 24px 0 0 12px;
+            .stake-list {
+                flex-direction: row;
+            }
+        }
+        .referral-tabs {
+            padding: 24px 0 0 12px;
+        }
+        .end-footer {
+            height: 100%;
+        }
+        .referral-footer {
+            max-height: 750px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .referral {
+        .referral-top {
+            padding: 21px 0 0 12px;
+            height: 430px;
+            .earn-code {
+                padding-top: 30px;
+            }
+            .earn-up {
+                width: 100%;
+                font-size: 28px;
+                .percentage {
+                    margin: 0 6px;
+                }
+            }
+            .link-content {
+                width: 100%;
+                .link-left {
+                    width: 50%;
+                    padding-right: 12px;
+                }
+                .link-right {
+                    width: 220px;
+                }
+            }
+        }
+        .to-step {
+            padding: 24px 0 0 12px;
+            .stake-list {
+                flex-direction: row;
+                // display: flex;
+            }
+        }
+        .referral-tabs {
+            padding: 24px 0 0 12px;
+        }
+        .end-footer {
+            height: 100%;
+        }
+        .referral-footer {
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .referral {
+        .banner {
+            display: block;
+        }
+        .referral-top-content {
+            background-image: none;
+        }
+        .referral-top {
+            padding: 12px 0 0 12px;
+            height: 400px;
+            background-image: none;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            .earn-code {
+                padding-top: 0;
+            }
+            .earn-up {
+                width: 100%;
+                font-size: 28px;
+                .percentage {
+                    margin: 0 6px;
+                }
+            }
+            .link-content {
+                width: 100%;
+                flex-direction: column;
+                .link-left {
+                    width: 100%;
+                    padding-right: 12px;
+                }
+                .link-right {
+                    width: 220px;
+                }
+                .link-left,
+                .link-right {
+                    margin: 17px 0;
+                    .content {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        // padding: 0 16px;
+                    }
+                    .copy-link {
+                        cursor: pointer;
+                        display: inline-block;
+                        white-space: nowrap;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+        .to-step {
+            padding: 24px 0 0 12px;
+            .stake-list {
+                flex-direction: column;
+            }
+        }
+        .referral-tabs {
+            padding: 24px 0 0 12px;
+        }
+        .end-footer {
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .referral {
+        .banner {
+            display: block;
+        }
+        .referral-top {
+            height: 350px;
+            .earn-up {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .referral {
+        .banner {
+            display: block;
+        }
+        .referral-top {
+            .earn-up {
+                font-size: 22px;
+            }
+        }
+    }
+}

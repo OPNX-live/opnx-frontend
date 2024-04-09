@@ -1,0 +1,94 @@
+.export-history {
+  .ant-select-selector {
+    &:hover {
+      border: 1px solid #318BF5 !important;
+    }
+  }
+  .ant-modal-content {
+    border-radius: 12px;
+    padding-bottom: 24px;
+    .ant-modal-header {
+      border-radius: 12px 12px 0 0;
+      border-bottom: 0;
+      padding: 30px 24px;
+      text-align: center;
+      .ant-modal-title {
+        font-size: 24px;
+        font-weight: bold;
+        font-weight: 600;
+        color: rgba(51, 51, 51, 1);
+      }
+    }
+    .ant-modal-body {
+      padding: 0 44px 0 44px;
+      .export-history-container {
+        width: 100%;
+        .ant-radio-group {
+          color: rgba(51, 51, 51, 1);
+          .ant-radio-wrapper:hover .ant-radio,
+          .ant-radio:hover .ant-radio-inner,
+          .ant-radio-input:focus + .ant-radio-inner {
+            border-color: #318BF5;
+          }
+          .ant-radio-wrapper {
+            font-size: 16px;
+            width: 50%;
+            margin-right: 0;
+            padding-bottom: 16px;
+            .ant-radio-checked {
+              .ant-radio-inner {
+                border-color: #318BF5;
+              }
+              .ant-radio-inner::after {
+                background-color: #318BF5;
+              }
+            }
+          }
+          .ant-radio-wrapper:nth-child(2),
+          .ant-radio-wrapper:nth-child(4) {
+            text-align: right;
+          }
+        }
+        .export-history-container-date {
+          font-size: 16px;
+          margin-top: 16px;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+        }
+      }
+      .ant-picker-disabled {
+        background: rgba(255, 255, 255, 0);
+      }
+      .ant-picker {
+        margin-top: 12px;
+        border: none;
+        border-bottom: 1px solid rgba(206, 208, 214, 1);
+        border-radius: 0;
+        width: 310px;
+        .ant-picker-active-bar {
+          display: none;
+        }
+        .ant-picker-suffix {
+          display: inherit;
+        }
+      }
+      .ant-picker-focused {
+        box-shadow: none;
+      }
+      .ant-btn {
+        border: none;
+        width: 310px;
+        height: 44px;
+        background: #318BF5;
+        color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        margin-top: 24px;
+      }
+      .ant-btn::after {
+        display: none;
+      }
+    }
+  }
+}

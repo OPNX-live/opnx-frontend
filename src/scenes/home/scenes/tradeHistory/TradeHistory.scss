@@ -1,0 +1,41 @@
+@import "src/style/globalStyle.scss";
+
+.tradeHistory {
+  background-color: rgba(20,22,25,1);
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .t-h-header {
+    width: 100%;
+    font-size: 36px;
+    
+    font-weight: 600;
+    color: rgba(229, 223, 245, 1);
+    padding: 16px 24px;
+    height: 75px;
+    border-bottom: 2px solid rgba(49, 53, 61, 1);
+  }
+
+  .t-h-container {
+    width: 100%;
+    padding: 12px 0 0 27px;
+    @include ant-tab(100%, 18px);
+
+    .ant-tabs-extra-content {
+      margin-right: 42px;
+      font-size: 14px;
+      
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+      cursor: pointer;
+      img{
+          margin-left: 4px;
+      }
+    }
+    .ant-tabs-top > .ant-tabs-nav{
+      margin-bottom: 33px;
+    }
+  }
+}

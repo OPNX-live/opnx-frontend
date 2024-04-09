@@ -1,0 +1,49 @@
+.earn-rote {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    background: rgba(20,22,25,1);
+    .rote-top {
+        font-size: 16px;
+        color: #E5DFF5;
+    }
+    .rote {
+        margin-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        .rote-left {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 114px;
+            border-radius: 2px;
+            border: 1px solid #3D424D;
+            align-items: center;
+            .rote-up {
+                font-size: 24px;
+                
+                font-weight: 500;
+                color: #FFFFFF;
+                margin-top: 6px;
+            }
+            .rote-spot {
+                font-size: 12px;
+                
+                font-weight: 500;
+                color: #FFFFFF;
+                margin-top: 6px;
+            }
+            .rote-invite {
+                width: 77%;
+                height: 28px;
+                border-radius: 2px;
+                border: 1px solid #318BF5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 6px;
+                cursor: pointer;
+            }
+        }
+    }
+}

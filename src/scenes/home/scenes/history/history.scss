@@ -1,0 +1,79 @@
+.wallet-withdraw {
+    // padding-left: 12px;
+    background-color: rgba(20,22,25,1);
+    .wallet-withdraw-title {
+        font-size: 36px;
+        color: #e5dff5;
+        border-bottom: 2px solid rgba(49, 53, 61, 1);
+        font-weight: 600;
+        padding: 16px 0 16px 24px;
+    }
+    .export-title {
+        font-weight: 400;
+        color: rgba(229, 223, 245, 0.6);
+        font-size: 14px;
+        img {
+            margin-left: 4px;
+        }
+    }
+    .ant-tabs {
+        margin-top: 12px;
+        padding-left: 27px;
+        .ant-tabs-nav {
+            // width: 93%;
+            padding-right: 42px;
+            .ant-tabs-nav-wrap::after {
+                background: linear-gradient( 270deg, rgba(49, 139, 245, 0.4) 0%, rgba(49, 139, 245, 0) 100%);
+            }
+            .ant-tabs-nav-list {
+                color: rgba(229, 223, 245, 0.3);
+                font-size: 12px;
+                .balance-tab {
+                    width: 100px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                .ant-tabs-tab {
+                    font-size: 18px;
+                }
+                .ant-tabs-tab-btn:active {
+                    color: #e5dff5;
+                }
+                .ant-tabs-tab.ant-tabs-tab-active {
+                    .ant-tabs-tab-btn {
+                        color: #e5dff5;
+                    }
+                    text-align: center;
+                    color: #e5dff5;
+                }
+                .ant-tabs-tab:hover {
+                    color: rgba(229, 223, 245, 0.6);
+                }
+            }
+            .ant-tabs-nav-operations {
+                .anticon {
+                    svg {
+                        color: white;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .ant-tabs-nav::before {
+            border-bottom: 1px solid rgba(49, 53, 61, 1);
+        }
+        .ant-tabs-ink-bar {
+            background-color: #318BF5;
+        }
+    }
+    .ant-pagination-item-ellipsis {
+        color: #e5dff5 !important;
+    }
+}
+
+@media all and (max-width: 766px) {
+    .wallet-withdraw .ant-tabs {
+        padding-right: 27px;
+    }
+}

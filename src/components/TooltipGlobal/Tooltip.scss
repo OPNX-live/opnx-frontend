@@ -1,0 +1,18 @@
+.ant-tooltip-inner {
+    background-color: rgba(20,22,25,1);
+    width: 100% !important;
+}
+
+.ant-tooltip {
+    max-width: none !important;
+}
+
+.ant-tooltip-arrow::before {
+    background-color: rgba(20,22,25,1);
+    width: 10px;
+    height: 10px;
+}
+
+.ant-tooltip-arrow {
+    height: 14px !important;
+}

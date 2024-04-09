@@ -1,0 +1,19 @@
+.rewardCenter {
+    background-color: rgba(20,22,25,1);
+    .rewardCenter-title {
+        font-size: 36px;
+        color: #e5dff5;
+        border-bottom: 2px solid rgba(49, 53, 61, 1);
+        font-weight: 600;
+        padding: 16px 0 16px 24px;
+    }
+    .export-title {
+        font-weight: 400;
+        color: rgba(229, 223, 245, 0.6);
+        font-size: 14px;
+        img {
+            margin-left: 4px;
+        }
+    }
+    
+}

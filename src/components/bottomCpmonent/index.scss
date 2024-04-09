@@ -1,0 +1,56 @@
+@import "../../style/globalStyle.scss";
+.bottom-component {
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+  height: 147px;
+  background:rgba(20,22,25,1);
+  font-weight: 400;
+  // letter-spacing:0.5px;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  div:first-child {
+    width: 932px;
+
+  }
+
+  div:last-child {
+    width: 932px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 950px)and(min-width:761px){
+  .bottom-component {
+   min-height: 157px; 
+   padding: 0 16px;
+   div:first-child {
+    width: auto;
+
+  }
+
+  div:last-child {
+    width: auto;
+    margin-top: 30px;
+  }
+  }
+}
+@media only screen and (max-width: 760px){
+  .bottom-component {
+   min-height: 157px; 
+   height: auto;
+   padding: 40px 16px;
+   div:first-child {
+    width: auto;
+
+  }
+
+  div:last-child {
+    width: auto;
+    margin-top: 30px;
+  }
+  }
+}

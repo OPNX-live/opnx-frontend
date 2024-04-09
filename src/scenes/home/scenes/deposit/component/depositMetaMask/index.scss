@@ -1,0 +1,167 @@
+
+.deposit-metamask-component {
+  position: relative;
+  right: 0;
+  margin-left: 30px;
+  .deposit-metamask {
+    position: relative;
+    width: 110px;
+    text-align: center;
+
+    .ant-btn {
+      width: 100%;
+      border-radius: 4px;
+      background-color: rgba(20,22,25,1);
+      border: 1px solid #318BF5;
+      color: rgba(243, 239, 255, 1);
+      &:hover {
+        background: #318BF5;
+      }
+    }
+    
+  }
+}
+
+.deposit-metamask-quick {
+  .ant-modal-header {
+    padding: 0 24px;
+    border: none;
+    border-radius: 4px;
+  }
+  .deposit-metamask-quick-title {
+    position: relative;
+    top: -20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(55, 52, 78, 0.75);
+    text-align: center;
+  }
+  .deposit-metamask-quick-item {
+    margin-bottom: 8px;
+    .ant-form-item-label {
+      text-align: left;
+      label {
+        text-align: left;
+        &:after {
+          content: "";
+         }
+      }
+    }
+    .ant-form-item-control {
+      text-align: right;
+      margin-left: 0;
+    }
+    .deposit-metamask-quick-item-fee {
+      display: block;
+      text-align: center;
+    }
+  }
+  .ant-btn-primary {
+    width: 100%;
+    background-color: #318BF5;
+    border: 1px solid #318BF5;
+  }
+}
+
+.deposit-metamask-quick-confirm {
+  margin-bottom: 40px;
+    .ant-modal-header {
+      padding: 0 24px;
+      border: none;
+      border-radius: 4px;
+  }
+  .ant-modal-body {
+    padding: 0 0 10px;
+    .ant-form {
+      padding: 0 24px;
+    }
+  }
+  .deposit-metamask-quick-title {
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(55, 52, 78, 0.75);
+    text-align: center;
+  }
+  .deposit-metamask-quick-confirm-top-content {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 44px;
+    line-height: 44px;
+    color: #318BF5;
+    background-color: rgba(49, 139, 245, 0.1);
+  }
+  .ant-form-item {
+    .ant-form-item-label {
+      text-align: center;
+      label {
+        line-height: 32px;
+        display: inline-block;
+        width: 100%;
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  .ant-form-item-control {
+    text-align: left;
+    margin-left: 0;
+    .ant-slider-rail {
+      background-color: rgba(55, 52, 78, 0.08);
+    }
+    .ant-slider-handle {
+      border: solid 3px #318BF5;
+    }
+    .ant-slider-track {
+      background-color: #318BF5;
+    }
+    .ant-input-suffix {
+      color: #318BF5;
+      cursor: pointer;
+    }
+    .ant-radio-group {
+      .ant-radio-button-wrapper {
+        border: none;
+        border-radius: 4px;
+        margin-right: 10px;
+        background-color: rgba(55, 52, 78, 0.12);
+        &:hover {
+          color: #318BF5;
+        }
+      }
+      .ant-radio-button-wrapper-checked {
+        background-color: rgba(49, 139, 245, 0.1);
+        span {
+          color: #318BF5;
+        }
+       &:before {
+         display: none;
+       }
+      }
+
+      .ant-radio-button-wrapper:not(:first-child)::before {
+        display: none;
+      }
+    }
+  }
+  .ant-btn-primary {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #318BF5;
+    border: 1px solid #318BF5;
+  }
+}
+
+#deposit-metamask-logo {
+  width: 100%;
+}
+.hide-deposit-metamask {
+  width: 0;
+  height: 0;
+  .deposit-metamask {
+    transform: translate(1000px, 1000px);
+  }
+}

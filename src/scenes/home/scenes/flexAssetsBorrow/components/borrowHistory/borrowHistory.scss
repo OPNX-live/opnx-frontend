@@ -1,0 +1,387 @@
+@import "src/style/globalStyle.scss";
+.borrow-history {
+  padding-top: 13px;
+  background-color: rgb(20, 22, 25);
+  .ant-spin-dot-item {
+    background-color: #318bf5 !important;
+  }
+  .borrow-top {
+    background-color: rgba(20, 22, 25, 1);
+    padding-left: 24px;
+    margin-top: 16px;
+  }
+  .borrow-bottom {
+    background-color: rgba(20, 22, 25, 1);
+    padding-left: 24px;
+    margin-top: 16px;
+  }
+  .ant-table .ant-table-content .ant-table-tbody > tr > td {
+    white-space: nowrap;
+  }
+  .funding-box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    .markets-top {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+      margin-top: 16px;
+      margin-bottom: 9px;
+    }
+    .ant-picker-suffix {
+      display: flex;
+      align-items: center;
+      padding-top: 2px;
+      svg {
+        width: 16px;
+        height: 14.4px;
+      }
+    }
+    .ant-picker-range-separator {
+      padding: 0 3px;
+    }
+    .ant-picker-suffix {
+      display: flex;
+      align-items: center;
+      padding-top: 2px;
+      svg {
+        width: 16px;
+        height: 14.4px;
+      }
+    }
+    @include date(200px, 32px, 14px);
+    .ant-picker {
+      border-radius: 4px;
+      border: 1px solid #31353d;
+      font-size: 14px;
+      font-weight: 500;
+      color: rgba(229, 223, 245, 1);
+      width: 220px;
+      height: 32px;
+      padding: 5px 10px;
+    }
+  }
+  .borrow-history-top {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    @include ant-tab(100%, 18px);
+    .ant-table-wrapper {
+      width: 100%;
+    }
+    .ant-tabs-tab {
+      padding-top: 17px !important;
+      padding-bottom: 15px !important;
+    }
+    .ant-tabs .ant-tabs-nav::before {
+      border-bottom: 1px solid #000000 !important;
+    }
+    .markets-top {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+    }
+    .markets {
+      .spot-select {
+        margin-top: 8px;
+      }
+      @include ant-select(200px, 32px, 14px);
+    }
+    .type {
+      .spot-select {
+        margin-top: 8px;
+      }
+      @include ant-select(200px, 32px, 14px);
+      margin-left: 16px;
+    }
+    .ant-select-selector {
+      &:hover {
+        border: 1px solid #318bf5 !important;
+      }
+    }
+    .date {
+      .ant-picker-suffix {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+        svg {
+          width: 16px;
+          height: 14.4px;
+        }
+      }
+
+      .ant-picker-range-separator {
+        padding: 0 3px;
+      }
+      .ant-picker-suffix {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+        svg {
+          width: 16px;
+          height: 14.4px;
+        }
+      }
+      margin-left: 16px;
+      @include date(200px, 32px, 14px);
+      .ant-picker {
+        border-radius: 4px;
+        border: 1px solid #31353d;
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(229, 223, 245, 1);
+        width: 220px;
+        height: 32px;
+        padding: 5px 10px;
+      }
+    }
+  }
+  .borrow-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(20, 22, 25, 1);
+    height: 233px;
+    img {
+      width: 87px;
+      height: 87px;
+      margin: 47px 0 20px 0;
+    }
+    .to-borrow {
+      width: 129px;
+      height: 32px;
+      background: rgba(213, 210, 243, 0.16);
+      border-radius: 2px;
+      text-align: center;
+      line-height: 32px;
+    }
+  }
+  .active-btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #539ef7;
+    .repay-btn,
+    .self-btn {
+      cursor: pointer;
+      padding-right: 32px;
+    }
+  }
+  .borrow-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 33px;
+    right: 66px;
+    width: 110px;
+    height: 32px;
+    background: rgba(213, 210, 243, 0.16);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .spot-btn {
+    margin-left: 10px;
+    @include ant-btn-default(80px, 32px);
+    .ant-btn-text:not([disabled]) {
+      background: none;
+      border-radius: 4px;
+      font-size: 14px;
+      color: rgba(229, 223, 245, 1);
+      border: 1px solid #31353d;
+      &:hover {
+        border: 1px solid #31353d;
+        color: rgba(229, 223, 245, 0.6);
+      }
+    }
+  }
+  .coin-borrowed {
+    margin-left: 10px;
+    @include ant-select(200px, 32px, 14px);
+    .borrowed-top {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+      margin-bottom: 9px;
+    }
+    .ant-select-selection-item {
+      line-height: 34px !important;
+    }
+  }
+  .spot-search {
+    margin-left: 40px;
+    @include ant-btn-default(80px, 32px);
+    .ant-btn-text:not([disabled]) {
+      background: none;
+      border-radius: 4px;
+      border: 1px solid #318bf5;
+      font-size: 14px;
+      color: #318bf5;
+      &:hover {
+        color: rgba(49, 139, 245, 0.6);
+      }
+    }
+  }
+  .funding-payments {
+    margin-top: 20px;
+    width: 100%;
+    .funding-box {
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 24px;
+      .markets-top {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(229, 223, 245, 0.6);
+        margin-top: 16px;
+        margin-bottom: 9px;
+      }
+      .ant-picker-suffix {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+        svg {
+          width: 16px;
+          height: 14.4px;
+        }
+      }
+      .ant-picker-range-separator {
+        padding: 0 3px;
+      }
+      .ant-picker-suffix {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+        svg {
+          width: 16px;
+          height: 14.4px;
+        }
+      }
+      @include date(200px, 32px, 14px);
+      .ant-picker {
+        border-radius: 4px;
+        border: 1px solid #31353d;
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(229, 223, 245, 1);
+        width: 220px;
+        height: 32px;
+        padding: 5px 10px;
+      }
+    }
+    .funding-payments-top {
+      padding-top: 20px;
+      padding-bottom: 12px;
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 1);
+      width: 100%;
+      border-bottom: 1px solid #000000;
+    }
+  }
+  .coin-div {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(229, 223, 245, 1);
+    margin-left: 4px;
+  }
+  .contract-div {
+    display: flex;
+    align-items: center;
+    span:first-child {
+      height: 16px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      border-radius: 2px;
+    }
+    span:last-child {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 1);
+      margin-left: 4px;
+    }
+  }
+  .empty-table {
+    height: 190px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 234, 237, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > img {
+      width: 48px;
+      height: 60px;
+    }
+  }
+  @include ant-table(
+    14px,
+    14px,
+    rgba(229, 223, 245, 0.3),
+    rgba(229, 223, 245, 1),
+    #12233a,
+    rgba(20, 22, 25, 1),
+    rgb(0, 21, 41)
+  );
+  tbody {
+    td {
+    }
+  }
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border: 1px solid #318bf5 !important;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  background: #318bf5;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-in-range::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(
+    .ant-picker-cell-range-start-single
+  )::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(
+    .ant-picker-cell-range-end-single
+  )::before {
+  background: rgba(49, 139, 245, 0.05);
+}
+
+@media only screen and (max-width: 760px) {
+  .futures-history {
+    .spot-history-top {
+      // flex-direction: column;
+      flex-wrap: wrap;
+      .date {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+      .spot-btn {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+      .type {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+    .ant_table {
+      padding-right: 27px;
+    }
+  }
+  .funding-box {
+    flex-wrap: wrap;
+    .spot-btn {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+}

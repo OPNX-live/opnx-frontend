@@ -1,0 +1,17 @@
+.disable-modal {
+
+  .modal-content {
+    text-align: center;
+    margin-top: 20px;
+    span{
+      cursor: pointer;color:#318BF5;
+      margin-left : 4px
+    }
+  }
+  .dont-show{
+    margin-top: 20px;
+    text-align: center;
+    color: #318BF5;
+    cursor: pointer;
+  }
+}

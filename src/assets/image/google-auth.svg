@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/google</title>
+    <defs>
+        <linearGradient x1="94.2129899%" y1="12.8824838%" x2="0%" y2="34.1329205%" id="linearGradient-1">
+            <stop stop-color="#3B1D98" stop-opacity="0.157124126" offset="0%"></stop>
+            <stop stop-color="#3B1D98" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/google" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo/google">
+            <circle id="椭圆形" fill="#5F40BE" cx="24" cy="24" r="24"></circle>
+            <circle id="椭圆形" fill="#3B1D98" cx="24" cy="24" r="8"></circle>
+            <path d="M44.1280476,24 L47.8259718,26.8650095 C46.6143505,36.9070179 39.2012718,45.039439 29.5289808,47.3200276 L17.5451761,28 L22,24 L44.1280476,24 Z M47.576734,19.4490558 C47.8545898,20.9100983 48,22.418068 48,23.96 C48,24.5725699 47.9770504,25.1797797 47.931964,25.7808164 Z" id="形状结合" fill="url(#linearGradient-1)"></path>
+            <path d="M24,0 C31.5859846,0 38.3499317,3.51956066 42.7479994,9.01483996 L36.3860621,14.8729685 C33.5844202,11.077267 29.0797118,8.61538462 24,8.61538462 C15.5033115,8.61538462 8.61538462,15.5033115 8.61538462,24 C8.61538462,32.4966885 15.5033115,39.3846154 24,39.3846154 C32.4966885,39.3846154 39.3846154,32.4966885 39.3846154,24 C39.3846154,23.4234072 39.3528958,22.8542228 39.2911064,22.2940968 L47.3283052,18.3381848 C47.7673562,20.1536286 48,22.0496459 48,24 C48,37.254834 37.254834,48 24,48 C10.745166,48 0,37.254834 0,24 C0,10.745166 10.745166,0 24,0 Z" id="形状结合" fill=""></path>
+            <rect id="矩形" fill="#FFFFFF" x="22" y="24" width="23" height="3" rx="1.5"></rect>
+            <circle id="椭圆形" fill="#FFFFFF" cx="24.5" cy="4.5" r="1.5"></circle>
+            <circle id="椭圆形" fill="#FFFFFF" cx="24.5" cy="43.5" r="1.5"></circle>
+            <circle id="椭圆形" fill="#FFFFFF" cx="39.5" cy="37.5" r="1.5"></circle>
+            <circle id="椭圆形" fill="#FFFFFF" cx="10.5" cy="38.5" r="1.5"></circle>
+            <circle id="椭圆形" fill="#FFFFFF" cx="4.5" cy="25.5" r="1.5"></circle>
+            <circle id="椭圆形" fill="#FFFFFF" cx="9.5" cy="10.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

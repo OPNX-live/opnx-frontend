@@ -1,0 +1,229 @@
+@import "src/style/globalStyle.scss";
+.cf-address {
+  width: 100%;
+  background-color: rgba(20, 22, 25,1);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  .c-a-breadcrumb {
+    padding: 20px 0 0 24px;
+    display: flex;
+    align-items: flex-end;
+    div {
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+      line-height: 22px;
+    }
+    & > div:first-child {
+      cursor: pointer;
+      &:hover {
+        color: #e5dff5;
+      }
+    }
+    & > div:last-child {
+      color: #e5dff5;
+    }
+    margin-bottom: 24px;
+  }
+  .c-a-title {
+    width: 100%;
+    padding: 0 35px 0 24px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(229, 223, 245, 1);
+    line-height: 43px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(49, 53, 61, 1);
+    margin-bottom: 24px;
+    & > div:last-child {
+      & > span {
+        font-size: 12px;
+        height: 24px;
+        line-height: 22px;
+        border-bottom: 1px dashed rgba(229, 223, 245, 0.6);
+        color: rgba(229, 223, 245, 0.6);
+        .ant-tooltip-inner {
+          max-width: 365px;
+          background-color: #222243;
+          border: 1px solid rgba(49, 53, 61, 1);
+          padding: 10px;
+          font-size: 14px;
+          line-height: 17px;
+          color: #e5dff5;
+        }
+        .ant-tooltip-arrow-content {
+          border: 1px solid rgba(49, 53, 61, 1);
+          width: 8px;
+          height: 8px;
+        }
+      }
+      align-items: flex-end;
+      @include ant-btn-default(121px, 32px, 14px);
+      @include ant-btn-disabled(121px, 32px, 14px);
+      @include ant-switch();
+      .ant-btn-text:not([disabled]) {
+        background: none;
+      }
+      .ant-switch {
+        margin: 0 16px 0 8px;
+      }
+    }
+  }
+  .c-a-form {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: 0 35px 0 24px;
+    .c-a-f-left {
+      align-items: flex-end;
+      .c-a-f-input {
+        div {
+          margin-bottom: 4px;
+        }
+        display: flex;
+        flex-direction: column;
+        @include ant-input(144px, 30px);
+        .ant-input {
+          border: none;
+          background-color: rgba(20, 22, 25,1);
+          padding: 0;
+          border-bottom: 1px solid rgba(49, 53, 61, 1);
+          border-radius: 0;
+          &::placeholder {
+            color: rgba(229, 223, 245, 0.3);
+          }
+        }
+        margin-right: 24px;
+      }
+      @include ant-checkbox();
+      .ant-checkbox-wrapper {
+        & > span:last-child {
+          font-size: 14px;
+          color: rgba(229, 223, 245, 0.8);
+        }
+      }
+    }
+    .c-a-f-right {
+      button {
+        margin-left: 8px;
+      }
+      @include ant-btn-disabled(121px, 32px, 14px);
+      @include ant-btn-default(121px, 32px, 14px);
+    }
+    ::-webkit-scrollbar-track {
+      background-color: #ffffff !important;
+    }
+  }
+  @include ant-table();
+  .ant-table-wrapper {
+    min-width: 100%;
+    padding: 0 0 0 24px;
+    margin-bottom: 24px;
+  }
+  .ant-table .ant-table-content .ant-table-thead > tr > th,
+  .ant-table .ant-table-content .ant-table-tbody > tr > td {
+    &:first-child {
+      padding-right: 0;
+    }
+  }
+  @include ant-pagination();
+  .iconQr {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      .iconQr-hover {
+        display: flex;
+      }
+    }
+    .iconQr-hover {
+      width: 124px;
+      height: 124px;
+      position: absolute;
+      top: -145px;
+      background: #31353d;
+      border: 1px solid #31353d;
+      border-radius: 4px;
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      display: none;
+      .iconQr-hover-box {
+        width: 108px;
+        height: 108px;
+        background-color: #fff;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .iconQr-hover-arrow {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background: #31353d;
+        border: 1px solid #31353d;
+        bottom: -7px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.address-managent-modal .ant-modal-content {
+  width: 434px;
+  .ant-modal-body {
+    padding: 35px 35px 24px;
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+      margin-bottom: 21px;
+      display: flex;
+      justify-content: center;
+    }
+    .text {
+      font-size: 16px;
+
+      color: rgba(51, 51, 51, 1);
+      margin-bottom: 50px;
+    }
+    .footer {
+      display: flex;
+      justify-content: flex-end;
+      @include ant-btn-primary(70px, 35px, 12px);
+      @include ant-btn-text(70px, 35px, 12px);
+    }
+  }
+}
+
+.white {
+  .ant-tooltip-inner {
+    max-width: 365px;
+    background-color: #222243;
+    border: 1px solid rgba(49, 53, 61, 1);
+    padding: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #e5dff5;
+  }
+  .ant-tooltip-arrow-content {
+    border: 1px solid rgba(49, 53, 61, 1);
+    width: 8px;
+    height: 8px;
+  }
+}

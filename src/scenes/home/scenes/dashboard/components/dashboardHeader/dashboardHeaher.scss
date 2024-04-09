@@ -1,0 +1,268 @@
+.dashboardHeaher {
+  width: 100%;
+  background: rgba(20, 22, 25,1);
+  .dashboardHeaher-user,
+  .dashboardHeaher-user-content,
+  .dashboardHeaher-user-content-left,
+  .dashboardHeaher-main,
+  .dashboardHeaher-main-item {
+    display: inline-block;
+  }
+
+  .dashboardHeaher-user {
+    padding: 16px 0 32px 16px;
+    .dashboardHeaher-user-content {
+      width: 41px;
+      height: 41px;
+      border: 1px solid rgba(229, 223, 245, 1);
+      border-radius: 50%;
+      font-size: 20px;
+      font-weight: bold;
+      font-weight: 600;
+      color: rgba(229, 223, 245, 1);
+      text-align: center;
+      line-height: 41px;
+    }
+    .dashboardHeaher-user-content-left {
+      font-size: 16px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 1);
+      border-right: 1px solid #31353d;
+      margin-left: 12px;
+      vertical-align: top;
+      line-height: 15px;
+      height: 41px;
+      padding-right: 32px;
+      // width: 220px;
+      .dashboardHeaher-user-content-left-level {
+        display: flex;
+        align-items: center;
+        .dashboardHeaher-user-content-left-level-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #ffbe00;
+          font-size: 12px;
+          margin-right: 4px;
+          font-weight: 400;
+          background: #2f2a20;
+          height: 20px;
+          border-radius: 4px;
+          img {
+            margin-right: 4px;
+          }
+          .dashboardHeaher-lv {
+            font-weight: 600;
+            margin-right: 4px;
+          }
+        }
+        .dashboardHeaher-user-content-left-kyc-Unverified {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 20px;
+          background: #31353d;
+          border-radius: 4px;
+          font-size: 12px;
+          color: #a9b1b8;
+          padding: 0 10px;
+          svg {
+            margin-right: 4px;
+          }
+        }
+        .dashboardHeaher-user-content-left-kyc {
+          svg {
+            margin-right: 4px;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 20px;
+          padding: 0 10px;
+          background: #152422;
+          border-radius: 4px;
+          font-size: 12px;
+          color: #06b196;
+          img {
+            margin-left: 4px;
+            margin-right: 2px;
+          }
+          // .dashboardHeaher-lv {
+          //   color: #ffbe00;
+          //   font-size: 14px;
+          //   margin-right: 4px;
+          //   font-weight: 600;
+          //   font-weight: bold;
+          //   vertical-align: middle;
+          // }
+          // .dashboardHeaher-lv2 {
+          //   color: #318bf5;
+          //   font-size: 14px;
+          //   margin-right: 4px;
+          //   vertical-align: middle;
+          //   font-weight: 600;
+          //   font-weight: bold;
+          // }
+          // .dashboardHeaher-vip {
+          //   font-size: 12px;
+          //   color: rgba(229, 223, 245, 0.3);
+          // }
+        }
+        font-size: 14px;
+        .dashboardHeaher-user-content-left-level-item:last-child {
+          margin-left: 4px;
+        }
+      }
+
+      p {
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      p:first-child {
+        margin-bottom: 8px;
+        vertical-align: top;
+      }
+    }
+  }
+  .dashboardHeaher-main {
+    height: 41px;
+    margin-left: 39px;
+    font-size: 14px;
+    position: relative;
+    vertical-align: middle;
+    .dashboardHeaher-main-account {
+      color: #318bf5;
+      position: relative;
+      display: inline-block;
+      top: 4px;
+      border-right: 1px solid #31353d;
+      padding-right: 32px;
+      width: 150px;
+      line-height: 25px;
+      height: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: 600;
+      font-weight: bold;
+    }
+    .dashboardHeaher-main-item {
+      padding-left: 32px;
+      position: relative;
+      top: 3px;
+      border-right: 1px solid #31353d;
+      padding-right: 32px;
+      color: rgba(229, 223, 245, 1);
+    }
+  }
+  .dashboardHeaher-warning {
+    svg {
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+      padding-left: 8px;
+      margin-right: 12px;
+    }
+    width: 100%;
+    height: 64px;
+    background: rgba(20, 22, 25,1);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 190, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 190, 0, 1);
+    line-height: 64px;
+    padding-left: 12px;
+    .dashboardHeaher-warning-tfa {
+      font-size: 16px;
+      float: right;
+      font-weight: 400;
+      color: rgba(255, 190, 0, 1);
+      text-decoration: underline;
+      margin-right: 68px;
+      cursor: pointer;
+    }
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .dashboardHeaher {
+    .dashboardHeaher-user {
+      padding-bottom: 10px;
+    }
+    .dashboardHeaher-main {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 820px) {
+  .dashboardHeaher {
+    padding-bottom: 55px;
+    .dashboardHeaher-main {
+      padding-bottom: 0;
+      height: auto;
+
+      .dashboardHeaher-main-account {
+        // width: 100%;
+        margin-bottom: 10px;
+      }
+      .dashboardHeaher-main-item {
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 0;
+      }
+    }
+    .dashboardHeaher-warning {
+      line-height: normal;
+      height: auto;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .dashboardHeaher {
+    padding-bottom: 10px;
+    .dashboardHeaher-main {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      margin: 0;
+    }
+    .dashboardHeaher-user .dashboardHeaher-user-content-left {
+      border: none;
+    }
+    .dashboardHeaher-main-aDiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .dashboardHeaher .dashboardHeaher-main {
+    width: 100%;
+    .dashboardHeaher-main-item {
+      width: 100%;
+      border: none;
+      padding-right: 0;
+      span {
+        float: right;
+      }
+    }
+    .dashboardHeaher-main-account {
+      border: none;
+      width: auto;
+      padding-right: 0;
+    }
+  }
+  .dashboardHeaher .dashboardHeaher-warning {
+    line-height: normal;
+    height: auto;
+    padding: 10px;
+    .dashboardHeaher-warning-tfa {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.bitcoin-country {
+  .title {
+    font-size: 24px;
+    line-height: 31px;
+    color: #37344e;
+  }
+  .subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(55, 52, 78, 0.65);
+    margin-top: 24px;
+  }
+  .btn-close {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+    .white-default {
+      width: 80px;
+      height: 40px;
+      background: #ffffff;
+      border: 1px solid #dddfe4;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover{
+        background: #F1F2F2;
+      }
+    }
+  }
+  .ant-modal-content .ant-modal-footer{
+    padding: 0;
+  }
+}

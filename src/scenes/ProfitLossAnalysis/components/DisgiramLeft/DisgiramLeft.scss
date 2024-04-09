@@ -1,0 +1,26 @@
+.disgiram-left {
+    background: #FFFFFF;
+    margin-top: 18px;
+    .top {
+        color: rgba(55, 52, 78, 0.85);
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        padding-top: 18px;
+        padding-left: 24px;
+        .ant-tooltip-inner {
+            color: rgba(55, 52, 78, 0.85);
+            font-size: 12px;
+        }
+        svg {
+            height: 16px;
+            width: 16px;
+            margin-left: 4px;
+            cursor: pointer;
+        }
+        .avbl {
+            margin-left: 12px;
+            
+        }
+    }
+}

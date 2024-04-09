@@ -1,0 +1,98 @@
+.address-ver-model {
+  width: 387px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-right: 4px;
+  .ant-modal-content {
+      width: 387px;
+      border-radius: 4px;
+      .ant-modal-header{
+        text-align: center;
+      }
+      .ant-modal-body {
+        padding-top: 0;
+          .tfa {
+              .tfa-top {
+                  .tfa-title {
+                    color: #37344E;
+                      text-align: center;
+                      font-weight: bold;
+                      font-size: 16px;
+                  }
+                  .tfa-subtitle {
+                      font-size: 14px;
+                      font-weight: 400;
+                      color: rgba(51, 51, 51, 1);
+                      text-align: center;
+                      margin-top: 10px;
+                  }
+              }
+              .remined{
+                color: rgba(55, 52, 78, 0.45);
+              }
+              .click-code{
+                color: #318BF5;
+                font-size: 14px;
+                cursor: pointer;
+              }
+              .tfa-input {
+                  margin-left: 2px;
+                  padding-top: 20px;
+                  .tfa-way {
+                      font-size: 16px;
+                      font-weight: 400;
+                      color: rgba(51, 51, 51, 1);
+                      margin-top: 20px;
+                      width: 361px;
+                      margin-bottom: 10px;
+                  }
+                  .ant-input-affix-wrapper{
+                    height: 48px;
+                    .ant-input{
+                      width: 100%;
+                      height: 38px;
+                      color: #333333;
+                  }
+                  }
+                  .ant-input{
+                      width: 100%;
+                      height: 48px;
+                      color: #333333;
+                  }
+                  .ant-input:hover,.ant-input-affix-wrapper:hover{
+                      border-color: #318BF5;
+                      box-shadow: #318BF5;
+                  }
+                  .ant-input:focus,.ant-input-affix-wrapper-focused {
+                      border-color: #318BF5;
+                      box-shadow: 0 0 0 2px white;
+                  }
+              }
+              .tfa-error {
+                  font-size: 14px;
+                  font-weight: 400;
+                  color: rgba(247, 98, 96, 1);
+                  margin-top: 16px;
+                  margin-left: 11px;
+              }
+              .ant-btn-primary {
+                width: 100%;
+                height: 48px;
+                background: #318BF5;
+                border-radius: 4px;
+                font-size: 18px;
+                font-weight: 600;
+                color: rgba(229, 223, 245, 1);
+                margin-top: 48px;
+                border: none;
+
+              }
+              .ant-btn[disabled]{
+                background: #E9E9E9;
+                color: #ADB1BB;
+              }
+          }
+      }
+  }
+}

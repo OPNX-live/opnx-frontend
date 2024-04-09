@@ -1,0 +1,32 @@
+
+.withdraw-metamask {
+  position: relative;
+  color: #318BF5;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 10px 0 25px;
+  #withdraw-metamask-logo {
+    position: absolute;
+    top: 0;
+    left: -4px;
+  }
+  &:hover {
+    background-color: rgba(243, 239, 255, 0.08);
+  }
+  .anticon {
+    margin-left: 4px;
+  }
+}
+
+.withdraw-metamask-disable {
+  color: rgba(229, 223, 245, 0.6);
+  cursor: default;
+}
+
+.withdraw-metamask-tooltip {
+    width: 320px;
+    text-align: center;
+    .withdraw-metamask-tooltip-title {
+      text-align: center;
+    }
+}

@@ -1,0 +1,281 @@
+.cf-progress {
+  width: 100%;
+  padding-top: 8px;
+  .progress-card {
+    box-shadow: 0px 0px 4px 0px rgba(39, 25, 112, 0.1);
+    background-color: rgba(20, 22, 25,1);
+    .ant-card-head {
+      border: 0;
+      padding: 0 20px;
+      .ant-card-head-wrapper {
+        border-bottom: 1px solid #31353d;
+        .ant-card-head-title {
+          color: #e5dff5;
+          font-size: 16px;
+          padding: 10px 0;
+          a {
+            color: #ffbe00;
+            cursor: pointer;
+            text-decoration: revert;
+          }
+        }
+
+        .ant-card-extra {
+          font-size: 12px;
+          color: rgba(229, 223, 245, 0.6);
+          display: flex;
+          align-items: center;
+          line-height: 17px;
+          cursor: pointer;
+          padding: 10px 0;
+
+          div {
+            display: flex;
+            align-items: center;
+
+            svg {
+              // width: 8px;
+              // height: 22px;
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .ant-card-body {
+      padding: 15px 20px 46px;
+
+      .dashboard {
+        width: 100%;
+        .dashboard-title {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(229, 223, 245, 0.6);
+          line-height: 19px;
+          margin-bottom: 12px;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .dashboard-flex {
+          width: 100%;
+          font-size: 16px;
+          font-weight: 500;
+          color: #ffbe00;
+          line-height: 21px;
+          margin-bottom: 7px;
+          display: flex;
+          justify-content: space-between;
+
+          // &>div:last-child {
+          //     color: rgba(229, 223, 245, 0.6);
+          // }
+        }
+        .dashboard-vip {
+          width: 100%;
+          font-size: 16px;
+          font-weight: 500;
+          color: rgba(229, 223, 245, 0.6);
+          line-height: 21px;
+          margin-bottom: 24px;
+          display: flex;
+          justify-content: space-between;
+        }
+        .ant-progress-line {
+          width: 100%;
+          margin-bottom: 7px;
+
+          .ant-progress-text {
+            display: none;
+          }
+
+          .ant-progress-inner {
+            background-color: #31353d;
+            border-radius: 16px;
+          }
+
+          .ant-progress-bg {
+            height: 16px !important;
+            background-color: #ffbe00;
+          }
+        }
+
+        .ant-progress-show-info .ant-progress-outer {
+          margin: 0;
+          padding: 0;
+        }
+
+        .dashboard-explanation {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(229, 223, 245, 0.6);
+
+          div {
+            margin-right: 3px;
+            vertical-align: middle;
+          }
+          span {
+            vertical-align: middle;
+          }
+        }
+
+        .dashboard-btn {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 600;
+          color: #318bf5;
+          line-height: 17px;
+          cursor: pointer;
+          padding-left: 6px;
+        }
+      }
+
+      .feeSchedule {
+        .feeSchedule-box-flex {
+          display: flex;
+          justify-content: space-between;
+          box-sizing: border-box;
+          > div {
+            width: 45%;
+          }
+        }
+        .feeSchedule-title {
+          font-size: 16px;
+          font-weight: 400;
+          color: rgba(229, 223, 245, 0.6);
+          line-height: 19px;
+          margin-bottom: 30px;
+          u {
+            color: #318bf5;
+            cursor: pointer;
+            vertical-align: middle;
+            font-weight: bolder;
+          }
+        }
+
+        .feeSchedule-title-vip {
+          font-size: 16px;
+          font-weight: 400;
+          color: rgba(229, 223, 245, 0.6);
+          line-height: 19px;
+          margin-bottom: 60px;
+        }
+
+        .feeSchedule-flex {
+          font-size: 18px;
+          font-weight: 500;
+          color: #ffbe00;
+          line-height: 23px;
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: space-between;
+          :last-child {
+            color: rgba(229, 223, 245, 0.6);
+          }
+        }
+        .feeSchedule-flex-right {
+          font-size: 18px;
+          font-weight: 500;
+          color: #ffbe00;
+          line-height: 23px;
+          margin-bottom: 4px;
+          display: flex;
+          justify-content: space-between;
+          :last-child {
+            color: rgba(229, 223, 245, 0.6);
+          }
+        }
+        .feeSchedule-maker {
+          font-size: 14px;
+          font-weight: 500;
+          color: rgba(229, 223, 245, 0.6);
+          line-height: 18px;
+          margin-bottom: 8px;
+        }
+        .feeSchedule-vip {
+          font-size: 18px;
+          font-weight: 500;
+          color: rgba(229, 223, 245, 0.6);
+          line-height: 23px;
+          margin-bottom: 24px;
+          display: flex;
+          justify-content: space-between;
+        }
+        .ant-progress-line {
+          margin-bottom: 12px;
+
+          .ant-progress-text {
+            display: none;
+          }
+
+          .ant-progress-inner {
+            background-color: rgba(49, 139, 245, 0.5);
+            border-radius: 16px;
+          }
+
+          .ant-progress-bg {
+            height: 16px !important;
+            background-color: #ffbe00;
+          }
+        }
+
+        .ant-progress-show-info .ant-progress-outer {
+          margin: 0;
+          padding: 0;
+        }
+
+        .feeSchedule-explanation {
+          font-size: 16px;
+          color: rgba(229, 223, 245, 0.6);
+          display: flex;
+          align-items: center;
+
+          u {
+            color: #318bf5;
+            cursor: pointer;
+            vertical-align: middle;
+            font-weight: bolder;
+          }
+          div {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cf-progress-feeSchedule {
+  padding: 0;
+
+  .progress-card .ant-card-head .ant-card-head-wrapper {
+    border: 0 !important;
+    align-items: flex-start;
+
+    .ant-card-head-title a {
+      cursor: auto;
+      color: #ffbe00;
+    }
+
+    .ant-card-head-title {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: bold;
+      a {
+        cursor: auto;
+        color: #ffbe00;
+      }
+    }
+  }
+
+  .progress-card .ant-card-head .ant-card-head-wrapper .ant-card-head-title,
+  .progress-card .ant-card-head .ant-card-head-wrapper .ant-card-extra {
+    padding: 23px 0 12px;
+    cursor: auto;
+
+    svg {
+      display: none;
+    }
+  }
+}

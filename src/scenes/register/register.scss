@@ -1,0 +1,227 @@
+@import "../../style/globalStyle.scss";
+
+.register {
+    height: 100%;
+    background: $bgroundRegister;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    .register-content {
+        margin-top: 100px;
+        margin-bottom: 131px;
+        width: 387px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 4px;
+        .register-model-top {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 0 38px 0 47px;
+
+            span:first-child {
+                font-size: 32px;
+                margin-top: 40px;
+                font-weight: 600;
+                font-weight: bold;
+                color: #318BF5;
+            }
+        }
+        .register-panel {
+            margin: 0 25px;
+            .ant-tabs-nav-list {
+                .ant-tabs-tab {
+                    &:hover {
+                      color: rgba(51, 51, 51, 1);
+                    }
+                    .ant-tabs-tab-btn {
+                      color: rgba(102, 102, 102, 1);
+                      &:hover {
+                        color: rgba(51, 51, 51, 1);
+                      }
+                    }
+                }
+                .ant-tabs-tab-active {
+                    .ant-tabs-tab-btn {
+                      color: rgba(51, 51, 51, 1);
+                    }
+                    &:hover {
+                        color: rgba(51, 51, 51, 1);
+                      }
+                }
+                .ant-tabs-ink-bar {
+                    background-color: #318BF5;
+                }
+            }
+            .re-email,.re-password,.re-confirm{
+                font-size:12px;
+                font-weight:400;
+                color:rgba(102,102,102,1);
+            }
+            .re-password{
+                display: flex;
+                justify-content: space-between;
+                .re-weak{
+                    font-size:12px;
+                    font-weight:400;
+                    .weak-span{
+                        margin-right: 8px;
+                    }
+                }
+            }
+            .ant-progress-steps-item{
+                width: 7px !important;
+                height: 4px !important;
+            }
+            .register-input {
+                margin-top: 30px;
+
+                .register-checkbox {
+                    display: flex;
+                    margin-top: 20px;
+                    margin-left: 27px;
+                    align-items: center;
+
+                    img {
+                        width: 14px;
+                        height: 14px;
+                    }
+
+                    .register-radio {
+                        color: #ADB1BB;
+                        font-size: 14px;
+                        margin-left: 9px;
+
+                        &>span {
+                            color: #318BF5;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .ant-form-item-explain {
+                    margin-left: 0;
+                    margin-top: 10px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: rgba(229, 0, 0, 1);
+                    margin-bottom: 26px;
+                }
+
+                .ant-form-item {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 8px;
+                    margin-bottom: 0;
+                }
+                .ant-form-item-has-error{
+                    height: 90px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+                .re-form-item{
+                    height: 60px !important;
+                }
+                .ant-form-item-control{
+                    height: 66px;
+                }
+                .register-ant {
+                    display: flex;
+                    justify-content: flex-start !important;
+                    margin-top: 30px !important;
+                }
+
+                .login-entrance {
+                    text-align: center;
+                    margin-top: 10px;
+                    margin-bottom: 24px;
+
+                    span:first-child {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: rgba(51, 51, 51, 1);
+                    }
+                    span:last-child{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #318BF5;
+                        cursor: pointer;
+                    }
+                }
+
+                .register-div {
+                    border: none;
+                    width: 336px;
+                    height: 48px;
+                    background: #318BF5;
+                    border-radius: 4px;
+
+                    &:hover {
+                        background: #0B71EA;
+                        box-shadow: 0px 10px 20px 0px rgba(118, 0, 229, 0.16);
+                    }
+                }
+
+                .ant-col-offset-8 {
+                    margin: 0;
+                }
+
+                .ant-btn-primary {
+                    border: none;
+                    width: 336px;
+                    height: 48px;
+                    border-radius: 4px;
+                    background: none !important;
+                }
+
+                .ant-input-affix-wrapper {
+                    border:1px solid rgba(204,204,204,1);
+                    border-radius: 4px;
+                    outline: none;
+                    width: 337px;
+                    height: 40px;
+                }
+
+                .ant-input-affix-wrapper-focused {
+                    border-color: none !important;
+                }
+
+                .ant-form-item-has-error .ant-input-affix-wrapper-focused {
+                    box-shadow: none !important;
+                }
+
+                .ant-input-affix-wrapper-focused {
+                    box-shadow: none !important;
+                }
+
+                .ant-form-item-control-input-content {
+                    height: 30px;
+                }
+
+                .ant-input::placeholder {
+                    color: #ADB1BB;
+                    font-size: 16px;
+                    font-weight: 300;
+                    
+                }
+
+                .ant-input {
+                    color: #333333;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+      }
+    }
+}
+@media only screen and (max-width: 760px){
+    .register {
+        background: #ffffff;
+        .register-content{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.at-lv2{
+  .box {
+    height: 98px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #31353D;
+    .level-box {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #31353D;
+    }
+   
+  }
+  .ver3 {
+    width: 180px;
+    height: 38px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #318BF5;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  .basic-info {
+    padding-top: 24px;
+    .info {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      color: #f3efff;
+      img{
+        margin-left: 14px;
+        cursor: pointer;
+      }
+    }
+    .ba-id {
+      font-size: 12px;
+      color: rgba(243, 239, 255, 0.7);
+      margin-top: 8px;
+    }
+  }
+  .at-box{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-top: -7px;
+    margin-left: -20px;
+    .at-message{
+      min-width: 170px;
+      margin-top: 36px;
+      margin-left: 20px;
+      .user{
+        font-size: 12px;
+        color: rgba(243, 239, 255, 0.7);
+      }
+      .message{
+        font-size: 16px;
+        color: #F3EFFF;
+        margin-top: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.withdrawTable {
+  .ant-table {
+    background: rgb(0, 21, 41);
+    margin-top: 16px;
+    .ant-table-tbody > tr:hover > td {
+      background-color: rgba(20,22,25,1);
+    }
+    color: rgba(229, 223, 245, 0.6);
+    .ant-table-tbody {
+      background: rgb(0, 21, 41);
+      tr {
+        td {
+          background: rgba(20,22,25,1);
+          border-bottom: 8px solid black;
+          .information,
+          .information-top {
+            position: relative;
+            .information-address,
+            .information-txid {
+              line-height: 20px;
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 1);
+              span {
+                color: rgba(229, 223, 245, 0.6);
+              }
+            }
+            .information-address {
+              .information-txid-accountName {
+                display: inline-block;
+                font-size: 12px;
+                font-weight: bold;
+                font-weight: 600;
+                color: rgba(229, 223, 245, 1);
+                width: 71px;
+                height: 24px;
+                background: #318BF5;
+                border-radius: 2px;
+                text-align: center;
+                line-height: 27px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding: 0 5px;
+                margin-left: 12px;
+                vertical-align: bottom;
+              }
+            }
+            .information-txid {
+              p {
+                display: inline-block;
+                // margin-bottom: -1px;
+                // border-bottom: 1px solid rgba(229, 223, 245, 1);
+              }
+              a {
+                color: inherit;
+              }
+              a:hover {
+                text-decoration: underline;
+              }
+            }
+            .information-txid:hover > p {
+              text-decoration: underline;
+            }
+          }
+          .information-txid-selectd {
+            width: 0px;
+            height: 0px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid rgba(229, 223, 245, 0.6);
+            position: absolute;
+            top: 5px;
+            right: 5%;
+            cursor: pointer;
+          }
+          .information-txid-select {
+            cursor: pointer;
+            width: 0px;
+            height: 0px;
+            border-top: 5px solid rgba(229, 223, 245, 0.6);
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            position: absolute;
+            top: 5px;
+            right: 5%;
+          }
+        }
+      }
+    }
+    .ant-table-thead {
+      tr {
+        th {
+          background: #12233A;
+          border-bottom: 8px solid black;
+          color: rgba(229, 223, 245, 0.6);
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .ant-table-empty {
+    .ant-table-tbody {
+      background: rgb(0, 21, 41);
+      tr {
+        td {
+          border: 0;
+          .recentHistory-empty-table {
+            p {
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 0.6);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .withdrawTable {
+    .ant-table-container {
+      padding-right: 0;
+    }
+  }
+}

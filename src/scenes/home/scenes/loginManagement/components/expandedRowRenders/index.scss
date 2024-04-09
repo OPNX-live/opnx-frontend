@@ -1,0 +1,114 @@
+.no-hovers-children {
+  padding-left: 10%;
+  // .ant-table-thead {
+  //   position: relative;
+  //   margin-bottom:10px;
+  // }
+  // .ant-table-thead::after {
+  //   content: "";
+  //   display: inline-block;
+  //   position: absolute;
+  //   z-index: 10;
+  //   width: 100%;
+  //   right: 0;
+  //   border-bottom: 1px solid #31353D;
+  // }
+  .ant-table-cell {
+    padding-left: 20px;
+  }
+  .ant-table-tbody > tr td {
+    background: #0e0f1c;
+  }
+  .ant-table-thead > tr {
+    th {
+      background: #0e0f1c;
+      border-bottom: 1px solid #31353d;
+      padding: 0 0 20px 0 !important;
+      padding-left: 11px !important;
+      padding-right: 30px !important;
+      font-size: 16px;
+      font-weight: 600;
+      color: #999999;
+    }
+    th:nth-child(3) {
+      padding-left: 30px !important;
+    }
+    th:nth-child(4) {
+      padding-left: 40px !important;
+    }
+  }
+  .ant-table-tbody {
+    tr {
+      td {
+        background: rgba(20, 22, 25,1);
+        // border-bottom: 1px solid #31353D;
+        text-align: top !important;
+        padding: 0px 0 0 0 !important;
+        // padding-bottom: 10px;
+        padding-left: 14px !important;
+        border-bottom: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #999999;
+        border: 0;
+        .expandedRowRenders-action {
+          cursor: pointer;
+          .expandedRowRenders-action-t1 {
+            font-size: 14px;
+            font-weight: 400;
+            color: #318bf5;
+          }
+        }
+      }
+      .table-accountName {
+        width: 170px;
+        span {
+          display: inline-block;
+          max-width: 150px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          vertical-align: middle;
+        }
+      }
+      td:nth-child(3) {
+        padding-left: 30px !important;
+      }
+      td:nth-child(4) {
+        padding-left: 40px !important;
+      }
+    }
+    // tr:last-child td {
+    //   padding-bottom: 20px;
+    // }
+  }
+  .empty-table {
+    padding: 20px 0 20px 0;
+  }
+}
+.ant-table-expanded-row {
+  .ant-table-thead > tr > th {
+    background: none !important;
+  }
+}
+.ant-tooltip-arrow-content {
+  background-color: rgba(20, 22, 25,1);
+}
+.expandedRowRenders-tooltip {
+  .ant-tooltip-arrow {
+    font-size: 12px;
+  }
+
+  .ant-tooltip-inner {
+    background: #318bf5;
+  }
+  .ant-tooltip-arrow::before {
+    background: #318bf5;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .no-hovers-children {
+    margin-left: 0;
+  }
+}

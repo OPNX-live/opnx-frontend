@@ -1,0 +1,132 @@
+@import "../../../../../../style/globalStyle.scss";
+.metamask-bind-verification {
+    border-radius: 4px;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+  height: 100%;
+  padding: 0 25px;
+  .metamask-bind-verification-content {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    margin: 0 auto;
+
+    .metamask-bind-verification-content-top {
+      text-align: center;
+      margin: 0 0 20px 0;
+      color: #333333;
+      .metamask-bind-verification-content-top-title1 {
+        position: relative;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        font-weight: bold;
+        .anticon-arrow-left {
+          position: absolute;
+          left: 0;
+          top: 8px;
+        }
+      }
+    }
+    .metamask-bind-verification-container-top {
+      display: flex;
+      .metamask-bind-verification-container-right {
+        color: #333333;
+        font-size: 12px;
+        margin-left: 20px;
+        line-height: 14px;
+      }
+    }
+    .metamask-bind-verification-content-bottom {
+      .metamask-bind-verification-content-bottom-title {
+        height: 22px;
+        font-size: 12px;
+        font-weight: 600;
+        font-weight: bold;
+        color: #666666;
+        line-height: 22px;
+      }
+      .ant-input {
+        background: rgba(255, 255, 255, 1);
+        border-radius: 4px;
+        border: 1px solid #cccccc;
+        width: 336px;
+        height: 40px;
+        font-size: 16px;
+        box-shadow: none !important;
+        display: inline-block;
+      }
+      .ant-input:hover,
+      .ant-input:focus {
+        border: 1px solid #318BF5;
+      }
+    }
+    .metamask-bind-verification-content-bottom-title2 {
+      font-size: 12px;
+      color: #333333;
+      margin-bottom: 15px;
+    }
+    .metamask-bind-verification-content-bottom-title3 {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      font-size: 12px;
+      p {
+          line-height: 16px;
+          line-height: 16px;
+      }
+    }
+    .metamask-bind-verification-content-bottom-resend-email {
+      font-size: 14px;
+      color: #318BF5;
+      cursor: pointer;
+    }
+    .matemask-bind-email-btn {
+        width: 100%;
+        text-align: center;
+        .ant-btn-primary {
+            width: 100%;
+            background: #318BF5;
+            border: none;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 4px;
+        }
+        @include ant-btn-primary(336px, 40px, 14px, #318BF5);
+        @include ant-btn-disabled(336px, 40px);
+        .ant-btn-primary[disabled] {
+          background: #318BF5;
+          border: none;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 1);
+        }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .metamask-bind-verification {
+    position: relative;
+    background: white;
+    .metamask-bind-verification-content {
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+      background: rgba(255, 255, 255, 1);
+      margin: 0;
+      .metamask-bind-verification-content-bottom {
+        .ant-input {
+          width: 100%;
+        }
+        @include ant-btn-primary(100%, 40px, 14px, #318BF5);
+        @include ant-btn-disabled(100%, 40px);
+        .ant-btn-primary[disabled] {
+          background: rgba(49, 139, 245, 0.5);
+          border: none;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+  }
+}

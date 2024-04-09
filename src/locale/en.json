@@ -1,0 +1,2474 @@
+{
+  "401": "Invalid username or password",
+
+  "500": "Server is busy, please try again",
+
+  "15007": "Account does not exist",
+
+  "25002": "Invalid username or password",
+
+  "25006": "The account has been set to Locked and cannot be unfrozen. If you have any questions, please contact customer service",
+
+  "25007": "This account has been banned",
+
+  "25010": "Please open the whitelist first",
+
+  "25011": "Your country or region is not in our service area and cannot provide services",
+
+  "25012": "The age does not meet terms of service.",
+
+  "25013": "The nationality does not meet terms of service.",
+
+  "25014": "The ID Card does not meet terms of service.",
+
+  "25015": "The Passport  does not meet terms of service.",
+
+  "25016": "The incorporation date is invalid.",
+
+  "25017": "The incorporation country does not meet terms of service.",
+
+  "25018": "It has failed twice and cannot be submitted again.",
+
+  "25021": "The validity period is less than 60 days and is not available",
+
+  "25022": "The country of residence does not meet the terms of service.",
+
+  "25030": "Invalid Code",
+
+  "25032": "The operation is too frequent, please try again after 10s",
+
+  "30001": "Copy successful",
+
+  "30002": "Transfer successfully",
+
+  "30010": "Deposit address is created successfully",
+
+  "30011": "Deposit is processed successfully",
+
+  "30021": "Withdrawal is processed successfully",
+
+  "31001": "The amount exceeds the Est.max withdraw",
+
+  "31002": "Selected date range cannot exceed 3 months",
+
+  "31003": "The amount is less than the minimum withdrawal requirement",
+
+  "31004": "Please enter the address",
+
+  "31005": "Please enter the amount ",
+
+  "31006": "Errors parameter, missing coin id",
+
+  "31007": "Errors parameter, missing account id",
+
+  "31008": "Enter up to 32 characters",
+
+  "35001": "Failed to copy, try again",
+
+  "35002": "The account risk is too high and this amount cannot be transferred.",
+
+  "35003": "The account does not have permission to operate. If you have any questions, please contact customer service",
+
+  "35010": "Deposit address failed to be created",
+
+  "35011": "Deposit failed to be processed",
+
+  "35012": "The deposit address for this assert has already requested.",
+
+  "35013": "There is no free deposit address for selected coin in the pool.",
+
+  "35021": "Withdrawal failed to be processed",
+
+  "35022": "The account risk is too high to withdraw. You can reduce the withdrawal amount and try again",
+
+  "35023": "The amount has exceeded your withdrawal limit",
+
+  "35024": "The address has been saved and there is no need to save it again.",
+
+  "35025": "Can’t withdraw to the same account",
+
+  "35026": "The withdrawal address format is wrong. Please check the withdrawal address length and character content and try again",
+
+  "35027": "You are not the main account",
+
+  "35028": "The withdrawal amount cannot exceed 8 digits",
+
+  "35029": "Failed to get the balance",
+
+  "35030": "Failed to get market price",
+
+  "35031": "The withdraw request failed",
+
+  "35032": "Balance insufficient",
+
+  "35033": "The address of this account cannot be saved",
+
+  "35034": "Wallet API is abnormal, please try again or contact customer service",
+
+  "35035": "The calculation of the withdrawal fee is wrong",
+
+  "35036": "Insufficient available balance",
+
+  "35037": "The instrument cannot be found",
+
+  "35038": "Quick transfer failed, maybe you have pending orders, holding positions or account risk is too high",
+
+  "35039": "Amount is not enough to deduct Fee, please re-enter.",
+
+  "35040": "Withdraw Fee cannot be empty",
+
+  "35041": "Processing, please contact support if there are any issues",
+
+  "35043": "Suspend withdrawal",
+
+  "35044": "Suspend deposit",
+
+  "40001": "Create successfully",
+
+  "40002": "Unfreeze successfully",
+
+  "40003": "Delete successfully",
+
+  "40004": "Bind successfully",
+
+  "40005": "Unbind successfully",
+
+  "40006": "Reset successfully",
+
+  "40007": "Account switch successful",
+
+  "40008": "Freeze successfully",
+
+  "40009": "Changed successfully",
+
+  "41001": "This name has been created, please try a new one.",
+
+  "41002": "Requires 8-128 characters, can not be a single character, distinguish uppercase and lowercase letters",
+
+  "41003": "There are open orders or positions in this account, you can only freeze the account after canceling all transactions",
+
+  "41004": "Please enter a valid email",
+
+  "41005": "The email has been registered",
+
+  "41006": "Please enter the Email",
+
+  "41007": "Requires 8-32 characters, not pure numbers",
+
+  "41008": "Please enter the password",
+
+  "41009": "Please enter the password",
+
+  "41010": "Please enter a valid email",
+
+  "41011": "Abnormal Parameters.",
+
+  "41012": "Confirm Type cannot be null",
+
+  "41013": "Email Type cannot be null",
+
+  "41014": "Confirm Value cannot be empty",
+
+  "41015": "Confirm Code cannot be empty",
+
+  "41016": "Client Type cannot be null",
+
+  "41017": "Geetest challenge cannot be null",
+
+  "41018": "Geetest validation cannot be null",
+
+  "41019": "Geetest seccode cannot be null",
+
+  "41020": "user Id cannot be null",
+
+  "41021": "Message puzzle verification failed",
+
+  "41022": "API ID cannot be null",
+
+  "41023": "Account Name cannot be null",
+
+  "41024": "Account Id cannot be null",
+
+  "41025": "The subaccount cannot be null",
+
+  "41026": "Illegal character entered",
+
+  "41027": "Wrong format of IP address ",
+
+  "45004": "Failed to reset",
+
+  "45005": "There is only one sub-account and cannot be unbound",
+
+  "45006": "Failed to delete",
+
+  "45008": "The passwords do not match , please re-enter",
+
+  "45011": "Account is not activated, please check the email and click the activation link",
+
+  "45012": "Invalid username or password",
+
+  "45013": "Wrong password, please re-enter",
+
+  "45014": "INVALID EMAIL",
+
+  "45015": "ACCOUNT ACTIVATED",
+
+  "45016": "LINK INVALID",
+
+  "45017": "Mail requests are too frequent",
+
+  "45018": "A confirmation email has been sent",
+
+  "45019": "Account is not activated, please check the email and click on the activation link",
+
+  "45020": "The API Key does not exist",
+
+  "45021": "The API Key is invalid",
+
+  "45022": "The confirmation code is invalide",
+
+  "45023": "The Account already exists",
+
+  "45024": "The current account is not frozen and cannot be deleted",
+
+  "45025": "The current account is not the main account",
+
+  "45026": "The sub-account is invalid",
+
+  "45027": "The API Key is invalid",
+
+  "45028": "The current account does not have permission of management",
+
+  "45029": "The login ID is invalid",
+
+  "45030": "Failed to send email",
+
+  "45031": "The current account is frozen",
+
+  "45032": "Invalid account, cannot reset password",
+
+  "45033": "If you forget sub-account password, please contact the main account administrator",
+
+  "45034": "This sub account has no authority to trade on current ticket, please switch another sub account or contact customer service",
+
+  "45035": "The main account does not have a sub-account for trading the current currency pair",
+
+  "45036": "Parameter exception: missing parameter",
+
+  "45038": "Too many errors have caused the original code to become invalid. Please request a new email.",
+
+  "45041": "There are illegal characters in the password, please use regular characters.",
+
+  "55001": "No flexearn product offers",
+
+  "55002": "Please switch to the main account to create an Earn account",
+
+  "MAX": "MAX",
+
+  "Register": "Register",
+
+  "Email": "Email",
+
+  "Password": "Password",
+
+  "Confirm_Password": "Confirm Password",
+
+  "Weak": "Weak",
+
+  "Medium": "Medium",
+
+  "High": "High",
+
+  "Main_Account": "Main Account",
+
+  "register_text": "I agree to {variable}",
+
+  "register_text_variable": "Open Exchange Terms of Service.",
+
+  "register_Prompt": "Already have an account,",
+
+  "to_login": "To Log In",
+
+  "cancel": "cancel",
+
+  "Confirm": "Confirm",
+
+  "ok": "ok",
+
+  "subaccount_management": "Sub-account Management",
+
+  "switch_account": "Switch Sub-account",
+
+  "create_account_title": "Create New Sub-account",
+
+  "create_title_error1": "Please input your Username!",
+
+  "create_title_error2": "Please input your Password!",
+
+  "create_title_error4": "Please select your tradingType!",
+
+  "create_title": "Create Sub-account",
+
+  "Margin_Type": "Margin Type",
+
+  "account_type_delete": "After deletion, the sub-account will be removed from the list. We will keep transaction records for you",
+
+  "account_type_freeze": "After unfreezing, the account can be used normally.",
+
+  "account_type_disable": "All actions on this account will be disabled.",
+
+  "freeze_success": "Freeze successfully",
+
+  "Unfreeze_success": "Unfreeze successfully",
+
+  "delete_success": "Delete successfully",
+
+  "account_model_unfreeze": "Confirm Unfreeze",
+
+  "account_model_freeze": "Confirm freeze",
+
+  "account_model_delete": "Confirm Delete",
+
+  "Sub_accounts": "Sub-accounts",
+
+  "sub_account_message": "Open Exchange allows for creating and managing sub-accounts that are connected to the main account. You can have one or multiple sub-accounts. They can be used to isolate margin positions {variable}",
+
+  "sub_account_variable": "from each other and to limit your maximum risk exposure from a margin position.",
+
+  "add_subaccount": "Add Sub-account",
+
+  "Total_Value": "Total Account Value",
+
+  "Create_success": "Create successfully",
+
+  "Assets": "Assets",
+
+  "table_empty": "No Sub Account",
+
+  "Account_Name": "Account Name",
+
+  "Account_Type": "Account Type",
+
+  "Freeze": "Freeze",
+
+  "Unfreeze": "Unfreeze",
+
+  "bottom_text": " Prohibited Countries: residents of the United States of America, Cuba, Iran, Syria, Sudan, North Korea, Afghanistan and any other {variable} on our platform are prohibited from holding positions or entering contracts at OPNX.",
+
+  "bottom_text_variable": "Countries that are restricted from trading",
+
+  "bottom_text1": "If it is determined that any OPNX trading participant has given false representations as to their location or place of residence,OPNX reserves the right to close any of their accounts and to liquidate any open positions.",
+
+  "Trade_Type": "Trade Type",
+
+  "Coin": "Coin",
+
+  "deposit_message": "USD can be deposited to Open Exchange via using USDC. 1:1 to deposit USD.",
+
+  "Total_balance": "Total Balance",
+
+  "Reserved": "Reserved",
+
+  "Available_balance": "Available Balance",
+
+  "Network": "Network",
+
+  "Address": "Address",
+
+  "address_empty": "Address creation in progress",
+
+  "deposit_address_title": "Send only {coin} to this deposit address.",
+
+  "Login": "Log in",
+
+  "Reset": "Reset",
+
+  "Search": "Search",
+
+  "Status": "Status",
+
+  "Submit": "Submit",
+
+  "Authy": "Authy",
+
+  "YubiKey": "YubiKey",
+
+  "Google_Auth": "Google Auth",
+
+  "Disable": "Disable",
+
+  "Area": "Area",
+
+  "Success": "Success",
+
+  "no_space_login": "Login",
+
+  "Account": "Account",
+
+  "forgot_password": "Forgot password",
+
+  "no_account_yet": "No account yet?",
+
+  "v2_account_password_setting": "V2 account password setting",
+
+  "before_using": "Before using V2, you need to set a login password for your V2 account.Your original password is still retained in the V1 system.",
+
+  "reset_login_password": "Reset Login Password",
+
+  "account_name": "Account name",
+
+  "account_security": "Account Security",
+
+  "enable_2fa": "Enable 2FA",
+
+  "protected_actions": "Protected Actions",
+
+  "Withdrawals": "Withdrawals",
+
+  "security_modifications": "Security modifications",
+
+  "login_api_management": "Login & API Management",
+
+  "Login_Password": "Login Password",
+
+  "Increase": "Increase",
+
+  "withdrawal_limit": "Withdrawal limit: 10,000 USDT (24h).",
+
+  "increase_kyc_2": "Increase to 100,000 USD (24h) by passing KYC Level 2.",
+
+  "increase_kyc_3": "Increase to 100,000 USD (24h) by passing KYC Level 3.",
+
+  "Withdrawal_limit_Unlimited": "Withdrawal limit: Unlimited",
+
+  "Address_Management": "Address Management",
+
+  "Manage": "Manage",
+
+  "Address_Management_Describe": "Address Management allows you to save and label your withdrawal addresses.",
+
+  "Account_Activity": "Account Activity",
+
+  "Login_name": "Login name",
+
+  "No_Account_Activity": "No Account Activity",
+
+  "turn_off_now": "Turn off now",
+
+  "after_switching_off": "After switching off, your {protectedActions} will not be protected! It is strongly recommended that this is not turned off as it will increase property risk.",
+
+  "enabling_2fa": "I understand the risks for not enabling 2FA",
+
+  "Time": "Time",
+
+  "Source": "Source",
+
+  "IP_Address": "IP Address",
+
+  "FAIL_TFA": "Failure (no valid 2FA provided)",
+
+  "FAIL_PASSWORD": "Failure (incorrect password)",
+
+  "FAIL_PERMISSIONS": "Failure (login suspended)",
+
+  "KYC_Level": "KYC Level",
+
+  "Whitelist_On": "Whitelist On",
+
+  "Whitelist_Off": "Whitelist Off",
+
+  "Whitelist_Title": "When this function is turned on, your account will only be able to withdraw to whitelisted withdrawal addresses. When this function is turned off, your account is able to withdraw to any withdrawal address.",
+
+  "API_management": "API management",
+
+  "Create_API_Key": "Create API Key",
+
+  "User": "User",
+
+  "Label": "Label",
+
+  "Notes": "Notes",
+
+  "Permission": "Permission",
+
+  "Can_Trade": "Can Trade",
+
+  "IP_access_restrictions": "IP access restrictions",
+
+  "Restrict_access": "Restrict access to trusted IPs only (Recommended)",
+
+  "Unrestricted": "Unrestricted (Less Secure)",
+
+  "Unrestricted_Describe": "This API key allows access from any IP address. This is not recommended.",
+
+  "tip_ips": "Tip: Hit enter to confirm IPs. You can also delete selected IPs.",
+
+  "Open_Exchange": "Open Exchange",
+
+  "provides_users_details": "provides users with a power and flexible API. Details at",
+
+  "api_keys_details": "API Keys are available with the following permissions: Read-only, can Trade. To avoid loss of assets, please do not disclose your API Key and Secret to anyone.",
+
+  "My_API_Key": "My API Key",
+
+  "Creation_Time": "Creation Time",
+
+  "No_My_API_Key": "No API Key",
+
+  "Edit": "Edit",
+
+  "API_Secret": "API Secret",
+
+  "API_Secret_details": "For your security, your API Secret Key will only be displayed at the time it is created. If you lose this key, you will need to delete your API and set up a new one.",
+
+  "Trade": "Trade",
+
+  "Linked_IP_Address": "Linked IP Address",
+
+  "Actions": "Actions",
+
+  "API_Key_generated": "API Key generated",
+
+  "API_Key_for": "API Key for",
+
+  "API_Key": "API Key",
+
+  "API_Secret_Dialog": "Please be sure to mark down your API secret, because it will not be shown after closing this dialog.",
+
+  "OK": "OK",
+
+  "API_Key_to_others": "To avoid asset loss, please do not tell your API Secret or API Key to others;",
+
+  "Secret_Key_pair": "If you forget your API Secret, please delete it and apply for a new Secret Key pair.",
+
+  "Tips": "Tips",
+
+  "API_Key_permissions": "API Key permissions:",
+
+  "rules_1": "After your friends sign up, a portion of the fees from every Futures and Spot trade they make will be pooled together to calculate your commission.",
+
+  "rules_2": "Referral commission will be returned to your main account in FLEX and recorded in your Referral Record.",
+
+  "rules_3": "Referral commission is calculated and credited the following 1 hour.",
+
+  "rules_4": "For spot, futures and spreads: Referral Commission = Notional fees earned by exchange * your invitee's share * 40%",
+
+  "rules_5": "If you have any questions or need help, please contact Affiliate@OPNX.com and please include your account email so that we may expedite your request.",
+
+  "rules_6": "Open Exchange does not allow customers to refer themselves and may halt an account's referral commissions if it is found to have breached our rules.",
+
+  "rules_7": "Please refer to updates on Open Exchange. Open Exchange reserves all the rights of final interpretation",
+
+  "take_1": "Copy and sent your referral link or QR code to your friends",
+
+  "take_2": "Ask your friend to register at Open Exchange via your referral link or QR code",
+
+  "take_3": "Check your Referral Record, make sure account is registered",
+
+  "take_4": "Receive commission when your friend trade at Open Exchange",
+
+  "optins_rules1": "After your friends sign up, 15% of the house profit from your followers will be rewarded to you monthly.",
+
+  "optins_rules2": "Referral commission will be returned to your main account in FLEX and recorded in your Referral Record.",
+
+  "optins_rules3": "Referral commission is calculated and credited by the end of month.",
+
+  "optins_rules4": "For options: Total Referral Commission = House Profit from all your followers for the calendar month x 15%",
+
+  "optins_rules5": " If you have any questions or need help, please contact affiliate@OPNX.com and please include your account email so that we may expedite your request.",
+
+  "optins_rules6": "Please refer to updates on Open Exchange. Open Exchange reserves all the rights of final interpretation.",
+
+  "Steps_to_take": "How to earn commission on OPNX:",
+
+  "Dropdown_referral": "Download referral",
+
+  "Your_Referral_QR_Code": "Your Referral QR Code",
+
+  "Your_referral_link": "Your Referral Link",
+
+  "Copy_referral_link": "Copy referral link",
+
+  "referral_code": "Welcome to the OPNX Affiliate Program",
+
+  "History": "History",
+
+  "Deposit": "Deposit",
+
+  "Withdraw": "Withdraw",
+
+  "Transfer": "Transfer",
+
+  "Delivery": "Delivery",
+
+  "Consolidated": "Consolidated",
+
+  "deposit_BTC": "Sending coins or tokens other than {coin} to this address may result in the loss of your deposit.",
+
+  "deposit_BCH": "Sending coins or tokens other than BCH to this address may result in the loss of your deposit.",
+
+  "deposit_ETH": "Sending coins or tokens other than ETH to this address may result in the loss of your deposit.",
+
+  "deposit_USD": "Sending coins or tokens other than USDC (ERC20) to this address may result in the loss of your deposit.",
+
+  "deposit_USDT": "Sending coins or tokens other than USDT (ERC20) to this address may result in the loss of your deposit.",
+
+  "deposit_FLEX": "Sending coins or tokens other than FLEX (BCH-SLP) to this address may result in the loss of your deposit.",
+
+  "deposit_EOS": "Sending coins or tokens other than EOS to this address may result in the loss of your deposit.",
+
+  "deposit_TRX": "Sending coins or tokens other than TRX to this address may result in the loss of your deposit.",
+
+  "deposit_LTC": "Sending coins or tokens other than LTC to this address may result in the loss of your deposit.",
+
+  "deposit_XRP": "Sending coins or tokens other than XRP to this address may result in the loss of your deposit.",
+
+  "deposit_LINK": "Sending coins or tokens other than LINK (ERC20) to this address may result in the loss of your deposit.",
+
+  "Withdrawal_Limit": "24H Withdrawal Limit",
+
+  "Unlimited": "Unlimited withdrawal",
+
+  "withdraw_Increase": "If you want more than {amount} USD/day, then email {email}",
+
+  "withdraw_message": "USD is treated as USDC on Open Exchange. USDC is pegged 1:1 to USD.",
+
+  "withdraw_position": "You currently have open positions",
+
+  "withdraw_position_information1": "Withdrawing coins increases your risk of liquidation.",
+
+  "withdraw_position_information2": " It is recommended you withdraw only after closing all open positions",
+
+  "Save_address": "Save address",
+
+  "whitelisted_addresses": "You don't have any whitelisted addresses yet.",
+
+  "coin_address": "Destination {coin} Address",
+
+  "Amount": "Amount",
+
+  "address_error": "Please enter Recipient's Address",
+
+  "amount_error": "Please enter Recipient's Amount",
+
+  "Minimum_Withdrawal": "Minimum Withdrawal",
+
+  "avbl": "Avbl",
+
+  "Transaction_Fee": "Estimated Fee",
+
+  "receive": "You will withdraw",
+
+  "Switch_account": "Switch account",
+
+  "Current_account": "Current Sub-account",
+
+  "account_model_message": " Please switch to Main account to withdraw.",
+
+  "model_btn": "Switch to withdraw",
+
+  "tfa_title": "2-Step Verification",
+
+  "tfa_message": "Enter your two-factor authentication (2FA) token",
+
+  "Verify": "Verify",
+
+  "Withdrawal_Request": "Withdrawal Request",
+
+  "requested_withdraw": "You've requested to withdraw",
+
+  "to_address": "To this address",
+
+  "request_message": "Before going further with the withdrawal, please check the target address carefully",
+
+  "request_submit": "Confirm Withdrawal",
+
+  "Create": "Create",
+
+  "value_error": "Please enter non-special characters within 4-20 digits",
+
+  "Saved_successfully": "Saved successfully",
+
+  "Referral_Features": "Unlock{numberValue}Commission today with OPNX",
+
+  "Referral_Features_Options": "Earn commissions up to{numberValue}on options trading",
+
+  "Commission_Rules": "Commission Rules",
+
+  "Commission_Record": "Commission History",
+
+  "Referral_Record": "Referral History",
+
+  "Trade_History": "Trade History",
+
+  "Spot": "Spot",
+
+  "Futures": "Futures",
+
+  "Spread": "Spread",
+
+  "Repo": "Repo",
+
+  "Export_history": "Export {spot} History",
+
+  "Market": "Market",
+
+  "Type": "Type",
+
+  "Date": "Date",
+
+  "Please_select": "Please select",
+
+  "No_Spot_History": "No Spot History",
+
+  "Side": "Side",
+
+  "Price": "Price",
+
+  "Filled": "Filled",
+
+  "Total": "Total",
+
+  "fee": "Fee (Num&Currency)",
+
+  "No_Futures_History": "No Futures History",
+
+  "Funding_Payments": "Funding Payments",
+
+  "No_Data": "No Data",
+
+  "Payment": "Payment",
+
+  "Rate": "Rate",
+
+  "Leg_1_Price": "Leg 1 Price",
+
+  "Leg_2_Price": "Leg 2 Price",
+
+  "Contract": "Contract",
+
+  "No_Spread_History": "No Spread History",
+
+  "No_Repo_History": "No Repo History",
+
+  "AddressManagement": "Address Management",
+
+  "Security": "Security",
+
+  "AddressWhitelist": "When this function is turned on, your account will only be able to withdraw to whitelisted withdrawal addresses. When this function is turned off, your account is able to withdraw to any withdrawal address.",
+
+  "AddAddress": "Add Address",
+
+  "Only_display_whitelisted_addresses": "Only display whitelisted addresses",
+
+  "Add_to_Whitelist": "Add to Whitelist",
+
+  "Remove_from_Whitelist": "Remove from Whitelist",
+
+  "Delete": "Delete",
+
+  "No_Address": "No Address",
+
+  "After_deleting": "After deleting, the data will be removed from the list.",
+
+  "Wallet_Label": "Wallet Label",
+
+  "WhiteList": "WhiteList",
+
+  "Add_Withdrawal_Address": "Add Withdrawal Address",
+
+  "Search_for": "Search for",
+
+  "Balance_Details": "Balance Details",
+
+  "Daily_Savings": "Daily Savings",
+
+  "Estimated_Account_Value": "Estimated Account Value",
+
+  "YubiKey_one": "YubiKey is an easy to use, personal One-Time Password generation device,in the form of a small USB stick offering a high level of security.",
+
+  "There_devices": "There's no need to re-type tokens, you simply insert your YubiKey into your computer’s USB port and touch the metal plate or use NFC with your mobile devices.",
+
+  "Open_Exchange_accepts": "Open Exchange accepts 44 character YubiKey OTP tokens.",
+
+  "You_can": "You can",
+
+  "purchase": "purchase a compatible YubiKey online.",
+
+  "password_below": " Please enter your password below, select the 2FA Code field and initiate the YubiKey by touching the metal plate to complete the registration.",
+
+  "registration": "Please enter your 6-digit 2FA code and password below to complete the registration",
+
+  "IMPORTANT": "IMPORTANT: This is the only time this Key will be displayed. Please copy it and store it securely as a backup. If you lose your device you cannot recover your 2FA without your key.",
+
+  "after_installation": "After installation, open Google Authenticator on your device and scan the QR Code below or enter the key to get a 6-digit 2FA code",
+
+  "Download_from": "Download from",
+
+  "App_Store": "App Store",
+
+  "Google_Play": "Google Play",
+
+  "Download_app": "Download the Google Authenticator app",
+
+  "Download_authy_app": "Download the Authy app",
+
+  "after_installation_authy": " After installation, open Authy on your device and scan the QR Code below to get an 8-digit 2FA code",
+
+  "Dashboard": "Dashboard",
+
+  "Advanced": "Advanced",
+
+  "SubAccount": "Sub-account",
+
+  "Login_Management": "Login Management",
+
+  "API_Management": "API Management",
+
+  "Balance": "Balance",
+
+  "Position": "Position",
+
+  "Wallet": "Wallet",
+
+  "User_Name": "User Name",
+
+  "Trading": "Trading",
+
+  "Active": "Active",
+
+  "Inverse-BTC": "Inverse-BTC",
+
+  "Inverse-ETH": "Inverse-ETH",
+
+  "Linear-USD": "Linear-USD",
+
+  "Trade Banned": "Trade Banned",
+
+  "Withdraw Banned": "Withdraw Banned",
+
+  "Locked": "Locked",
+
+  "Read-Only": "Read-Only",
+
+  "Links": "Links",
+
+  "2FA": "2FA",
+
+  "Link_subaccount": "Link subaccount",
+
+  "UnFreeze": "UnFreeze",
+
+  "Reset_Password": "Reset Password",
+
+  "Login_Management_Title1": "Create extra login credentials to allow others to log into your account with configurable permissions. One Login can have access to and manage multiple sub-accounts with different permissions.",
+
+  "Add_Login": "Add Login",
+
+  "No_Login_Management": "No Login Management",
+
+  "Bind_Subaccount": "Bind Subaccount",
+
+  "Add_Sub_Account": "Add Sub-Account",
+
+  "Create_New_Login": "Create New Login",
+
+  "Create_New_Login_Error1": "Please enter a login name, it will be used as the login account.",
+
+  "Max_32_Error": "Requires 32 characters",
+
+  "Min_8_Max_128_Error": "Requires 8-128 characters, not pure numbers",
+
+  "Login_Name": "Login Name",
+
+  "Password_No_Set": "Please set a password, it will be used as the login password",
+
+  "Withdraws": "Withdraw",
+
+  "Linked_On": "Linked On",
+
+  "Unlink": "Unlink",
+
+  "No_Sub_Account": "No Sub Account",
+
+  "Confirm_freeze": "Confirm freeze",
+
+  "Freeze_Content": "After freezing, the Login will be disabled.",
+
+  "Confirm_Unfreeze": "Confirm Unfreeze",
+
+  "Unfreeze_Content": "After unfreezing, the Login will return to normal",
+
+  "Confirm_Unbind": "Confirm Unbind",
+
+  "Unbind_Content": "After unbinding, the Login can no longer operate this Subaccount",
+
+  "Cancel": "Cancel",
+
+  "Change_Permission": "Change Permission",
+
+  "Password_Set": "Please input your password!",
+
+  "Withdrawal": "Withdrawal",
+
+  "Enter_Password": "Enter Password",
+
+  "dashboradr_twa_content1": "Please enable two-factor authentication (2FA) to better protect your account.",
+
+  "Enable_2FA": " Enable 2FA",
+
+  "Identity_Verification": "Identity Verification",
+
+  "Set_up": "Set up",
+
+  "Linked_Email": "Linked Email",
+
+  "Two_Fa_Modal": "I understand the risks for not enabling 2FA",
+
+  "Skip_for_now": "Skip for now",
+
+  "Name": "Name",
+
+  "Value": "Value",
+
+  "FLEXEarn": "Daily Savings",
+
+  "Search_Coin": "Search Coin",
+
+  "Export_History": "Export {type} History",
+
+  "Yesterday": "Yesterday",
+
+  "Last_2_Weeks": "Last 2 Weeks",
+
+  "Last_1_Month": "Last 1 Month",
+
+  "Last_3_Months": "Last 3 Months",
+
+  "custom": "Custom (max range 3 months)",
+
+  "Recent_History": "Recent {type} History",
+
+  "View_All": "View All",
+
+  "Information": "Information",
+
+  "Fee": "Fee",
+
+  "Recent_Withdrawal_History": "Recent Withdrawal History",
+
+  "One_week": "1 week",
+
+  "From": "From",
+
+  "To": "To",
+
+  "Password_Reset": "Password Reset",
+
+  "Verify_your_email": "Verify your email",
+
+  "MailVerification_content1": "We have sent an email to your registered email address:",
+
+  "MailVerification_content2": "Please click the link in the email we sent you to set thepassword for the V2 account login.",
+
+  "MailVerification_content3": " If you haven't received the email, please try the following",
+
+  "MailVerification_content4": " Make sure the email address you provided is correct.",
+
+  "MailVerification_content5": " Check your Spam or Junk mail folders.",
+
+  "MailVerification_content6": " Did not receive email.",
+
+  "Verification_Code": "Verification Code",
+
+  "Resend_email": "Resend email",
+
+  "Time_UTC": "Time (UTC)",
+
+  "Markets": "Markets",
+
+  "Net_Deliver": "Net Delivered",
+
+  "Auction_Price": "Auction Price",
+
+  "Funding_Rate": "Funding Rate",
+
+  "Annualised_Funding_Rate": "Annualized Funding Rate",
+
+  "Funding_History": "Funding History",
+
+  "No_Funding_History": "No Funding History",
+
+  "*": "Data request failed, please refresh the page or contact customer service.",
+
+  "Disconnect": "Network disconnected, please check and try again",
+
+  "0003": "Server is busy, please try again",
+
+  "0007": "No permission of operation",
+
+  "0004": "Cannot approve uninitialized authorization request.",
+
+  "05001": "Your operation authority is invalid",
+
+  "05006": "Function suspended, please check with customer support via livechat or",
+
+  "05004": "Operation failed, please try again",
+
+  "*Successful": "Successful",
+
+  "00001": "Succeeded",
+
+  "FLEX_level": "OX VIP level",
+
+  "Update_time": "Update at 00:00 AM (UTC) every day",
+
+  "flex_vip_message1": "Your user level is determined by your OX holdings. Your parent and sub account holdings are counted together.",
+
+  "flex_vip_message2": "OX holdings are based on a random snapshot taken on the previous day.",
+
+  "flex_vip_message3": "OX VIP levels and holdings are updated at 0:00 UTC every day.",
+
+  "More_Details": "More Details",
+
+  "flex_vip_message4": "Hold {Balance} more flex to upgrade to VIP {nextLevel}.",
+
+  "flex_vip_message5": "Your user level is determined by your OX holdings. Your parent and sub account holdings are counted together.",
+
+  "flex_vip_message6": "OX holdings are based on a {random_snapshot} taken on the previous day.",
+
+  "flex_vip_message7": "OX VIP level is updated at 0:00 (UTC) every day.",
+
+  "Fee_Schedule": "Fee Schedule",
+
+  "Trading_Fee": "Trading Fee",
+
+  "fee_Maker/Taker": "What does “Maker/Taker” mean?",
+
+  "Fees_loading": "Fees loading",
+
+  "VIP_Level": "VIP Level",
+
+  "FLEX_Balance": "FLEX Balance",
+
+  "Derivatives/Contracts": "Derivatives/Contracts",
+
+  "Maker": "Maker",
+
+  "Taker": "Taker",
+
+  "contractsTaker": "contractsTaker",
+
+  "Spot_Markets": "Spot Markets",
+
+  "Spread_Trading": "Spread Trading",
+
+  "Repo_Trading": "Repo Trading",
+
+  "Fee_Specifications": "Fee Specifications",
+
+  "trad_fee_message1": "Fees are paid in FLEX as default. Toggle to turn off to be implemented later. Use market price of FLEX for calculations.",
+
+  "trad_fee_message2": "A positive fee rate indicates the paying of Taker fee while a negative fee rate indicates the receiving of Maker rebate (The rebate is FLEX).",
+
+  "trad_fee_message3": "If you hold a certain balance of FLEX in your account, you can get better fees (This should be across all subaccounts) These better fees can only be paid in FLEX.",
+
+  "trad_fee_message4": "Spread fees are paid on BOTH sides of the trade.",
+
+  "trad_fee_message5": "i.e. If you traded 1 BTC of spread @ 10, with the Leg1 price at 9000 and the Leg2 price at 9010.",
+
+  "enough_FLEX": "If not enough FLEX",
+
+  "Contracts_Spread": "Derivatives / Contracts、Spread",
+
+  "Linear_accounts": "USD is taken for Linear accounts",
+
+  "Inverse_accounts": "Coin is taken for Inverse accounts",
+
+  "trad_fee_message6": "This is a straight subtraction of their balances, done post trade. USD/coin can be below zero.",
+
+  "trad_fee_message7": "This is a straight subtraction of their balances, done post trade.",
+
+  "trad_fee_message8": "If the USD is not enough, we will reduce your trading volume and have guaranteed your transaction completed.",
+
+  "fee_model_message1": "When you place an order that trades immediately, by filling partially or fully, before going on the order book, those trades will be “taker” trades.",
+
+  "fee_model_message2": "Trades from Market orders are always Takers, as Market orders can never go on the order book. These trades are “taking” volume off of the order book, and therefore called the “taker.”",
+
+  "fee_model_message3": "When you place an order that goes on the order book partially or fully (such as a limit order placed via the trading screen on OPNX.com), any subsequent trades coming from that order will be as a “maker.”",
+
+  "fee_model_message4": "These orders add volume to the order book, helping to ”make the market,“ and are therefore termed the ”maker“ for any subsequent trades.",
+
+  "Got_it": "Got it",
+
+  "random_model-title": "FLEX Balance Methodology",
+
+  "Example": "Example",
+
+  "Available_FLEX": "Available FLEX",
+
+  "random_model_message1": "The system will take a snapshot of your FLEX holdings in your accounts at a random time each day. Your FLEX holdings at the time of snapshot will determine your level and rate on the following date.",
+
+  "random_model_message2": "Real-time available assets in your exchange account",
+
+  "random_model_message3": "【FLEX Holdings Captured by Random Snapshot】",
+
+  "random_model_message4": "The FLEX holdings in all your Open Exchange accounts captured by the random snapshot taken on the previous day. The term is different from “Available FLEX.”, it is used “Total FLEX”.",
+
+  "random_model_message5": "There was 0 FLEX in your account. Today, you bought 1000 FLEX at 10:00 AM.",
+
+  "random_model_message6": "If the system takes a snapshot at 10:30 AM today, your FLEX holdings captured by the snapshot will be 1000 FLEX, which means your rate will be upgraded at 00:00 AM on the following day;",
+
+  "random_model_message7": "If the system takes a snapshot at 09:30 AM today, your FLEX holdings captured by the snapshot will be 0 FLEX, which means your rate will not be upgraded at 00:00 AM on the following day.",
+
+  "Please_Enter": "Please Enter",
+
+  "Please_Select": "Please Select",
+
+  "sub_account": "Sub-account",
+
+  "Mint": "Mint",
+
+  "Redeem": "Redeem",
+
+  "Borrow": "Borrow",
+
+  "Reward": "Reward",
+
+  "MintReddmHistory": "Mint & Redeem",
+
+  "BorrowRepayHistory": "Borrow & Repay History",
+
+  "BorrowRepay": "Borrow & Repay",
+
+  "LiquidationHistory": "Liquidation",
+
+  "OrderHistory": "Order History",
+
+  "InterestPayments": "Interest Payments",
+
+  "FlexAsset_History": "FLEXAsset",
+
+  "FlexAssets_History": "flexAssets History",
+
+  "FLEXAssets": "flexAssets",
+
+  "Mint_tab_Receive": "Receive",
+
+  "Burn": "Burn",
+
+  "Average_APR": "Average APR",
+
+  "Collateralized": "Collateralized",
+
+  "ActualCollateral": "Actual Collateral",
+
+  "Actualborrow": "Actual borrow",
+
+  "No_History": "No History",
+
+  "Hide Small Balances": "Hide Small Balances",
+
+  "05008": "The Copper account is not operational.",
+
+  "CoinBorrowed": "Coin Borrowed",
+
+  "Borrowing": "Borrowing",
+
+  "Collateralize": "Collateralize",
+
+  "ExistingCollatreal": "Existing Collatreal",
+
+  "ExistingBorrow": "Existing Borrow",
+
+  "DailyDate": "Daily Date",
+
+  "ExistingCollateral": "Existing Collateral",
+
+  "DailyRate": "Daily Rate",
+
+  "ActuallyRepaid": "Actually Repaid",
+
+  "ActuallyReceived": "Actually Received",
+
+  "RepayCost": "Repay Cost",
+
+  "Repaid": "Repaid",
+
+  "CollateralReturn": "Collateral Return",
+
+  "CoinRepaid": "Coin Repaid",
+
+  "ALL": "ALL",
+
+  "Get Passive Interest": "Get Passive Interest",
+
+  "deposit_account": "From Copper account {account}",
+
+  "copy_success": "Copy Address",
+
+  "copy_error": "Copied to clipboard",
+
+  "address_empty_error": "Please enter Recipient's Address",
+
+  "min_balance": "The amount is less than the minimum withdrawal requirement",
+
+  "max_balance": "The amount exceeds the Est.max withdraw",
+
+  "vote_bottom_message1": "The winning project will be listed in 24 hours on Open Exchange markets after voting ends.",
+
+  "vote_bottom_message2": "Rewards will be distributed to all participants in their main account immediately after voting ends.",
+
+  "vote_bottom_message3": "Users are only allowed to vote for either project with their main account. Once they cast their vote(s), all votes will be contributed to that project.",
+
+  "vote_bottom_message4": "Open Exchange reserves all rights to change the rules of voting without notification and revoke the results of suspected manipulation.",
+
+  "Order": "Order",
+
+  "SettlementHistory": "Settlement History",
+
+  "SettlementContract": "Settlement Contract",
+
+  "Qty": "Qty",
+
+  "ToContract": "To Contract",
+
+  "WalletHistory": "Wallet History",
+
+  "Vote_for_coin": "Vote for {coin}",
+
+  "votesA": "Your eligible votes: {quantity}",
+
+  "votesB": "Your eligible votes: based on FLEX balance snapshot from {timeA} to {timeB}",
+
+  "quntity_vote": "{quantity} votes",
+
+  "win_coin": "It’s a draw! There will be a rematch on another day.",
+
+  "win_coinA": "The winner of this round of voting goes to {coin}",
+
+  "flex_vote": "FLEX for Coin Vote",
+
+  "Round": "Round",
+
+  "will_share": "All participants will share a pool of",
+
+  "vote_ended": "Voting section has ended. Thank you for your participation!",
+
+  "vote_end": "Time remaining until the end of voting",
+
+  "vote_start": "Time remaining until the start of voting",
+
+  "vote_calculation": "Vote Calculation",
+
+  "snapshot_time": "FLEX holdings at the Snapshot Time",
+
+  "nunmber_votes": "Number of votes",
+
+  "flex_hoid": "FLEX Holdings",
+
+  "date": "Date",
+
+  "felx_history": "FLEX snapshot history",
+
+  "no_data": "No snapshot record during the event period",
+
+  "login_now": "Login now",
+
+  "terms": "Terms & conditions",
+
+  "vote_email": "For projects that are interested in applying FLEX for Coin Vote,please email:",
+
+  "vote_goes_to": "The winner of this round of voting goes to",
+
+  "kycTitle": "Individual Verification",
+
+  "kycSubtitle": "Please note that your information cannot be changed after the verification. Please provide complete and accurate information. Open Exchange {url}  Please {url1}",
+
+  "kycLever": "Level {num}",
+
+  "Verification": "Verification",
+
+  "goto_lv2": "Continue Lv2 Verification >",
+
+  "details_1": "Referral commissions are applicable for spot and futures trading fees generated on OPNX.",
+
+  "details_2": "Referral commissions are calculated in real-time and transferred to the referrer's OPNX account every hour.",
+
+  "details_3": "Referral rates are updated daily at 0:00 AM (UTC).",
+
+  "details_4": "There is no limit on the number of friends a single OPNX account holder can invite.",
+
+  "details_5": "OPNX strictly prohibits users from self-inviting through multiple accounts. If such activity is detected, all referrals will be canceled, and all referral commission kickbacks for the invitee's accounts will be canceled.",
+
+  "details_6": "OPNX reserves the right to modify the terms of the referral program at any time, based on market conditions, the risk of fraud, or any other factors deemed relevant by the company.",
+
+  "Lifetime": "Lifetime",
+
+  "level1": "Withdrawal limit: 10,000 USD lifetime",
+
+  "level2": "Withdrawal limit: 10,000 USD/24h",
+
+  "Basic_Info": "Basic Info",
+
+  "with_id": "Need to be consistent with ID",
+
+  "Continue_Lv3": "Continue Lv3 Verification",
+
+  "Individual": "Individual",
+
+  "Salutation": "Salutation",
+
+  "birth_date": "Date of Birth",
+
+  "Nationality": "Nationality",
+
+  "Country": "Country of Residence",
+
+  "id_type": "ID Type",
+
+  "id_number": "ID Serial Number",
+
+  "id_date": "ID Expiry Date",
+
+  "Corporate": "Corporate",
+
+  "Company_name": "Company name",
+
+  "Incorporation_date": "Incorporation date",
+
+  "Incorporation_Country": "Incorporation Country",
+
+  "Incorporation_number": "Incorporation number",
+
+  "First_Name": "First Name",
+
+  "Middle_Name": "Middle Name",
+
+  "Last_Name": "Last Name",
+
+  "id_kyc_number": "ID number",
+
+  "miss": "Miss",
+
+  "mr": "Mr",
+
+  "Manual_review": "Manual review",
+
+  "sendEmail": "If you want to continue, please send an email to {email}",
+
+  "Rejected": "Rejected",
+
+  "Additional": "Additional",
+
+  "Approved": "Approved",
+
+  "level3": "Increased lifetime withdrawal unlimit",
+
+  "kyc_level3_limit": "Unlimited withdrawal",
+
+  "verify_user": "After completing identity verification, you can get a higher withdrawal amount.",
+
+  "then_email": "If you would like more than 10,000 USD/24h, please email {email}",
+
+  "kyc_error": "You have failed twice and cannot submit for KYC 2 verification. If you want to continue, please send an email to {email}",
+
+  "old_level2": "You have completed your KYC verification before the new feature is released.",
+
+  "Index": "Index",
+
+  "Classic": "Classic",
+
+  "spot_futures": "Spot & Futures & Deliverable Perpetuals",
+
+  "spread_trading": "250X Leverage, Professional Spread Trading",
+
+  "Spreads": "Spreads",
+
+  "Play": "Play",
+
+  "Options": "Options",
+
+  "Competitions": "Competitions",
+
+  "FLEX": "FLEX",
+
+  "Vote": "Vote",
+
+  "Wallet_Order": "Wallet & Order",
+
+  "Wallet_History": "Wallet History",
+
+  "Settlement_History": "Settlement History",
+
+  "mint_redeem": "Mint & Redeem History",
+
+  "borrow_repay": "Borrow & Repay History",
+
+  "Referral": "Referral",
+
+  "Referral_Open_Exchange": "Referral for Open Exchange",
+
+  "Referral_Options": "Referral for Open Exchange Options",
+
+  "KYC": "KYC",
+
+  "log_out": "Log out",
+
+  "DownLoad": "DownLoad",
+
+  "Legacy": "Legacy",
+
+  "SegWit": "SegWit",
+
+  "CashAddr": "CashAddr",
+
+  "memo_warn": "Please enter both MEMO and Address data, which are required to deposit {coin} tokens to your Open Exchange account.",
+
+  "memo": "MEMO",
+
+  "memo_message": "You must fill in the Tag/MEMO value for Open Exchange to send your funds to the correct account. Failure to include the correct value may result in asset loss. Exchanges and wallets can label this value as Destination Tag, Memo or digital ID.",
+
+  "memo_lowercase": "memo",
+
+  "invite_earn": "Invite friends to earn commission",
+
+  "up_to": "Up to {rate}%",
+
+  "spot_trading": "Spot and Futures trading",
+
+  "Invite": "Invite",
+
+  "Permissions": "Permissions",
+
+  "Add": "Add",
+
+  "Total_including_Fee": "Total (including Fee)",
+
+  "Txid": "Txid",
+
+  "Delivered_Position": "Delivered Position",
+
+  "Delivered_Assets": "Delivered Assets",
+
+  "Received_Assets": "Received Assets",
+
+  "No_account_available": "No account available",
+
+  "exceeds_balance": "Amount exceeds available balance",
+
+  "transferring": "Transferring coins increases your risk of liquidation.",
+
+  "tran_position": " It is recommended you transfer only after closing all open positions",
+
+  "select_account": "Please select Account first",
+
+  "Contracts": "Contracts",
+
+  "Size": "Size",
+
+  "Entry_Price": "Entry Price(USD)",
+
+  "Market_Price": "Market Price",
+
+  "PNL": "PNL",
+
+  "Liquidation_Price": "Liquidation Price",
+
+  "No_Position": "No Position",
+
+  "Repayment": "Repayment",
+
+  "To_borrow": "To borrow",
+
+  "User Name": "User Name",
+
+  "supercharged_index": "supercharged index contracts with funding",
+
+  "tfaModal": "To increase your account SECURITY, please enable 2FA.",
+
+  "EnterTwoFactor": "Enter your two-factor authentication (2FA) token",
+
+  "supercharged index contracts with funding": "supercharged index contracts with funding",
+
+  "take_1_f": "Share your unique referral link with friends",
+
+  "take_2_f": "Become a referrer as soon as your friend registers on OPNX by clicking on your referral link",
+
+  "take_3_f": "Verify your Referral History to confirm your friends have successfully registered for an OPNX account",
+
+  "take_4_f": "Get rewarded with 30% commission when your friends trade on OPNX",
+
+  "EnterEmailAccount": "Enter email account",
+
+  "APIRemoved": "The API will be removed from the list after deletion",
+
+  "pleaseEnterIPAddress": "please enter IP address",
+
+  "pleaseEnterUp": "please enter label Enter up to 32 characters",
+
+  "EditAPI": "Edit API",
+
+  "current_city": "currently only serves customers in the following countries/ regions.",
+
+  "see_trading": "see countries that are restricted from trading.",
+
+  "Today PNL": "Today's PNL",
+
+  "PNL Analysis": "PNL Analysis",
+
+  "Export": "Export",
+
+  "Passport": "Passport",
+
+  "ID card": "ID card",
+
+  "Days": "Days",
+
+  "Hours": "Hours",
+
+  "Minutes": "Minutes",
+
+  "Seconds": "Seconds",
+
+  "accountStatus": "The account has been set to {status} and cannot be unfrozen. If you have any questions, please contact customer service",
+
+  "flex_holding": "OX Holding:",
+
+  "flex_vip_message_4": "OX holding includes holding OX and OX tokens.",
+
+  "SetUpAuthyYubiKey": "Set up 2FA with a YubiKey",
+
+  "NoRecordsYet": "No records yet",
+
+  "Commission": "Commission",
+
+  "FromAccount": "Referral Account",
+
+  "InvitedAccount": "Referral Account",
+
+  "RegisterTime": "Register Date",
+
+  "Invalid": "Invalid",
+
+  "VerificationFailed": "Verification failed, please try again",
+
+  "PleaseCompleteVerification": "Please complete verification",
+
+  "Valid": "Valid",
+
+  "WARNING": "WARNING",
+
+  "warn_text": "Please be aware that if your spot USD balances are currently negative, this action could potentially trigger a collateral liquidation of one of your other spot assets to partially or fully pay off this negative balance.",
+
+  "Begin work on whitelisting function": "Begin work on whitelisting function",
+
+  "Turn on": "Turn on",
+
+  "After turning on this function, you will only be able to withdraw to whitelisted withdrawal addresses. Are you sure you want to turn it on?": "After turning on this function, you will only be able to withdraw to whitelisted withdrawal addresses. Are you sure you want to turn it on?",
+
+  "Are you sure you want to turn on whitelist?": "Are you sure you want to turn on whitelist?",
+
+  "Are you sure you want to turn off whitelist?": "Are you sure you want to turn off whitelist?",
+
+  "Turn Off": "Turn Off",
+
+  "After turning off this function, you can begin to withdraw to any withdrawal address, which may lead to greater risk. Are you sure you want to turn it off?": "After turning off this function, you can begin to withdraw to any withdrawal address, which may lead to greater risk. Are you sure you want to turn it off?",
+
+  "Remove from whitelist": "Remove from whitelist",
+
+  "Remove": "Remove",
+
+  "Are you sure you want to remove it?": "Are you sure you want to remove it?",
+
+  "logOut": "Login expired, please log in again",
+
+  "PleaseAddress": "Please enter your address",
+
+  "USDWillbeWithdraw": "USD will be withdraw as USDC. 1:1 to withdraw USDC.",
+
+  "USDWillbeWithdrawRatio": "USD will be withdrawn as USDC. 1:1 to USD:USDC ratio.",
+
+  "PleaseMemo": "Please enter your Memo",
+
+  "PleaseNumber": "Please enter number",
+
+  "SetUpAuthyGoogle": "Set up Authy Google",
+
+  "TurnOff": "Turn off",
+
+  "protection": "protection",
+
+  "GoogleAuth": "GoogleAuth",
+
+  "tfaCode": "2FA Code",
+
+  "Completed": "Completed",
+
+  "Failed": "Failed",
+
+  "CopiedSuccessfully": "Copied Successfully!",
+
+  "PleaseClickVIP": "Please click here for the VIP level rules:",
+
+  "Rebate": "Rebate",
+
+  "maxFeeShareRate": "Open Exchange has upgraded the rebate rules. Starting from today, invite friends to register and trade with Open Exchange. The inviter can share up to {maxFeeShareRate}% of the rebate.",
+
+  "here": "here",
+
+  "Details": "Details",
+
+  "RulesCommission": "The higher the VIP level of the inviter, the higher the commission rate of the invitation will be.",
+
+  "Rules": "Rules",
+
+  "CryptocurrencyFuturesExchange": "Cryptocurrency Futures Exchange.",
+
+  "AllRightsReserved": "All Rights Reserved ©",
+
+  "OnNomics": "On Nomics",
+
+  "ExchangeIndex": "Exchange Index",
+
+  "OVERVIEW": "OVERVIEW",
+
+  "POLICIES": "POLICIES",
+
+  "REFERENCES": "REFERENCES",
+
+  "PROGRAMS": "PROGRAMS",
+
+  "Company": "Company",
+
+  "Blog": "Blog",
+
+  "Careers": "Careers",
+
+  "TermsOfService": "Terms of Service",
+
+  "CookiesPolicy": "Cookies Policy",
+
+  "PrivacyPolicy": "Privacy Policy",
+
+  "Risk": "Risk",
+
+  "AffiliateTerms": "Affiliate Terms",
+
+  "API": "API",
+
+  "Fees": "Fees",
+
+  "SupportCenter": "Support Center",
+
+  "Spectifications": "Spectifications",
+
+  "ReferralForOpenExchange": "Referral for Open Exchange",
+
+  "ReferralforOptions": "Referral for Options",
+
+  "Earn": "Earn",
+
+  "error_2FACode": "Please input your 2FA Code!",
+
+  "random_snapshot": "random snapshot",
+
+  "registration_authy": "Please enter your 8-digit 2FA code and password below to complete the registration",
+
+  "Enable": "Enable",
+
+  "pleaseEnterLabel": "Please Enter Label",
+
+  "Change": "Change",
+
+  "name": "name",
+
+  "first_name": "Please input your First Name",
+
+  "last_name": "Please input your Last Name",
+
+  "Please_Choose": "Please Choose",
+
+  "idSerialNumber": "idSerialNumber",
+
+  "select_data": "Please select a date",
+
+  "Company_Name": "Company Name",
+
+  "incorporation_date": "Please input incorporation date",
+
+  "incorporation_Country": "Please input incorporation Country",
+
+  "incorporation_number": "Please input incorporation number",
+
+  "kyc_salutation": "Please select salutation",
+
+  "PleaseAgreeTo": "Please agree to the terms of service",
+
+  "DontUsePart": "Don't use part of your login Email/name in your password.",
+
+  "PleaseConfirm": "Please confirm password",
+
+  "disabling2fa": "We strongly recommend activating 2FA. It is an important security measure to protect your account. After disabling 2FA, withdrawal capabilities may be suspended for up to 24 hours if our risk system detects suspicious activity.",
+
+  "memoTag": "MemoTag",
+
+  "ItSeemsThat": "It seems that your confirmation link didn’t work. Perhaps you have already confirmed your address? Try logging in to verify.",
+
+  "requestVerification": "If you can't log in, you can try to request a new verification email",
+
+  "Processing": "Processing",
+
+  "Onhold": "On hold",
+
+  "Pending": "Pending",
+
+  "CANCEL_DELIVERY": "Cancel Delivery",
+
+  "DELIVER": "Deliver",
+
+  "DEPOSIT": "Deposit",
+
+  "FUNDING": "Funding Fee",
+
+  "INTERNAL": "Transfer",
+
+  "LENDING_EARN": "Lending Earn",
+
+  "LIQUIDATION": "Liquidation",
+
+  "PNL_DELIVERY": "Pnl Delivery",
+
+  "STAKING_REWARD": "Staking Reward",
+
+  "SUBMIT_DELIVERY": "Submit Delivery",
+
+  "TRADE_FEE": "Fee",
+
+  "WITHDRAW": "Withdraw",
+
+  "ZRT": "ZRT",
+
+  "TRADE": "Trade",
+
+  "CanWithdraw": "Can Withdraw",
+
+  "TheSubAccountHas": "The sub-account has no history of withdrawal. Currently only the main account can withdraw.",
+
+  "Web": "Web",
+
+  "ComingSoon": "Coming Soon",
+
+  "SubAccountEmail": "Sub account Email",
+
+  "Key": "Key",
+
+  "PleaseEnterTheRegistered": "Please enter the registered email to receive the verification code!",
+
+  "TRADEFEE": "Fee",
+
+  "MainAccount": "Main Account",
+
+  "No_Index_History": "No Index History",
+
+  "Liquidation": "Liquidation",
+
+  "specialVipLevel1": "Dear Customer:",
+
+  "specialVipLevel2": "Your current special VIP level",
+
+  "specialVipLevel3": "You don’t need to care about your original level anymore, the special level is your real level.",
+
+  "specialVipLevel4": "This special level will be used as the level for you to collect Trade Fee and calculate the commission reward.",
+
+  "FLEX_special_level": "Your current special VIP level",
+
+  "switch_main": "Please switch to Main account to vote.",
+
+  "Switch to vote": "Switch to vote",
+
+  "success": "success",
+
+  "LoanDays": "LoanDays",
+
+  "REPO": "Repo",
+
+  "profit_1": "• This profit and loss analysis mainly calculates the changes in the funds of the account denominated in USD. Open Exchange is a unified account system, so the account profit and loss includes the overall profit and loss of various businesses such as spot profit and loss, contract profit and loss, and flexAssets.",
+
+  "profit_2": "• Data update time refers to UTC + 0 time zone. The data maintenance time is 0am - 1am (UTC+0) every day. During this period, the calculation of today's data is based on the assets of previous day. After maintenance, all data will be displayed properly",
+
+  "profit_3": "• Statement: due to the complexity of financial data, there might be nuances and delay. Data displayed above is for reference only. We sincerely apologize for any inconvenience.",
+
+  "Last7days": "Last 7 days",
+
+  "EstimatedBalance": "Estimated Balance",
+
+  "HideBalance": "Hide Balance",
+
+  "ProfitLossAnalysis": "Profit & Loss Analysis",
+
+  "DailyPNL": "Daily PNL",
+
+  "AssetNetWorth": "Asset Net Worth",
+
+  "AssetNetWorth_day": "Asset Net Worth = The total net value of all the assets in account from day 1 to day N. (Snapshot of UTC 0:00)",
+
+  "AssetAllocation": "Asset Allocation",
+
+  "TodayPnl": "Today's PNL = Current asset total in spot account - Today's initial asset total - Today's net transfer and deposit",
+
+  "ServiceAreas": "Service Areas",
+
+  "EmailUs": "Email Us",
+
+  "BugBountyProgram": "Bug Bounty Program",
+
+  "SelfRepayment": "Self repayment",
+
+  "Repay": "Repay",
+
+  "ToBeRepaid": "To Be Repaid",
+
+  "NotExpired": "Not Expired",
+
+  "FixedRate": "Fixed Rate",
+
+  "FloatingRate": "Floating Rate",
+
+  "Long": "Long",
+
+  "Short": "Short",
+
+  "Buy": "Buy",
+
+  "Sell": "Sell",
+
+  "Future": "Future",
+
+  "Floating": "Floating",
+
+  "Fixed": "Fixed",
+
+  "transfer": "Transfer",
+
+  "account": "Account",
+
+  "No account available": "No account available",
+
+  "Amount exceeds available balance": "Amount exceeds available balance",
+
+  "Avbl": "Avbl",
+
+  "You currently have open positions": "You currently have open positions",
+
+  "Transferring coins increases your risk of liquidation.": "Transferring coins increases your risk of liquidation.",
+
+  "It is recommended you transfer only after closing all open positions": "It is recommended you transfer only after closing all open positions",
+
+  "CLIENT": "Client",
+
+  "note swaps": "Note Swaps",
+
+  "withdrawal_limit2": "Withdrawal limit:{value}",
+
+  "Highest-level": "Highest-level",
+
+  "random_model": "Random Model",
+
+  "WrongAddress": "Wrong Address",
+
+  "WITHDRAWAL": "Withdrawal",
+
+  "PRIZE": "Prize",
+
+  "Trade repayment": "Trade repayment",
+
+  "I'm sure": "I'm sure",
+
+  "Please confirm if you have closed your swap position and get your BTC back.": "Please confirm if you have closed your swap position and get your BTC back.",
+
+  "Trade repayment failed": "Trade repayment failed",
+
+  "I Know": "I Know",
+
+  "Found that you have a long position that has not been closed. Please choose to repay or close the position manually.": "Found that you have a long position that has not been closed. Please choose to repay or close the position manually.",
+
+  "Not Whitelisted": "Not Whitelisted",
+
+  "Whitelisted": "Whitelisted",
+
+  "NewPassword": "New Password",
+
+  "ConfirmPassword": "Confirm Password",
+
+  "PleaseConfirmPassword": "Please Enter ConfirmPassword",
+
+  "Passwords do not match, please re-enter": "Passwords do not match, please re-enter",
+
+  "Offline notification": "Offline notification",
+
+  "The account has been logged in on another device. If it is not operated by yourself, please change the password as soon as possible.": "The account has been logged in on another device. If it is not operated by yourself, please change the password as soon as possible.",
+
+  "Close": "Close",
+
+  "Cancelled": "Cancelled",
+
+  "OTHER": "Other",
+
+  "SWAP": "SWAP",
+
+  "ThinkAbout": "Think about",
+
+  "Miss": "Miss",
+
+  "Mr": "Mr",
+
+  "ID Card": "ID Card",
+
+  "flex-info": "FLEX Info",
+
+  "chart": "Chart",
+
+  "ERC20 Token": "ERC20 Token",
+
+  "SLP Token": "SLP Token",
+
+  "FLEX Price": "FLEX Price",
+
+  "Market Cap": "Market Cap",
+
+  "Volume 24H": "Volume 24H",
+
+  "Supply": "Supply",
+
+  "Last 7 Days": "Last 7 Days",
+
+  "Last 1 Month": "Last 1 Month",
+
+  "Last 1 Year": "Last 1 Year",
+
+  "Circulating Supply": "Circulating Supply",
+
+  "Max Supply": "Max Supply",
+
+  "Burrned": "Burned",
+
+  "SLP": "SLP",
+
+  "MarketCap": "Market Cap",
+
+  "Note": "Note",
+
+  "The volume of transactions in the spot market in the past 24 hours.": "The volume of transactions in the spot market in the past 24 hours.",
+
+  "Market price*Circulating Supply": "Market price*Circulating Supply",
+
+  "Last30days": "Last 30 days",
+
+  "Customize": "Customize",
+
+  "Mortgage position": "Mortgage position",
+
+  "Est. Interest": "Est. Interest",
+
+  "Margin Ration": "Margin Ration",
+
+  "Est.max withdraw": "Est.max withdraw",
+
+  "When LTV is equal to 0, Max withdraw=a=Available balance": "When LTV is equal to 0, Max withdraw=a=Available balance",
+
+  "When LTV is not equal to 0, Max withdraw=MIN((Collateral-Portflio margin) /Mark price * LTV, Available)": "When LTV is not equal to 0, Max withdraw=MIN((Collateral-Portflio margin) /Mark price * LTV, Available)",
+
+  "E-mail verification code": "E-mail verification code",
+
+  "Click to get code": "Click to get code",
+
+  "Enter the 6 digit code received by": "Enter the 6 digit code received by",
+
+  "At least": "At least",
+
+  "characters": "characters",
+
+  "uppercase": "uppercase",
+
+  "lowercase": "lowercase",
+
+  "number": "number",
+
+  "special character": "special character",
+
+  "Anti-Phishing Code": "Anti-Phishing Code",
+
+  "What is an Anti-Phishing Code?": "What is an Anti-Phishing Code?",
+
+  "An Anti-Phishing Code is a code that helps to prevent phishing attempts from fake Binance websites or email addresses.": "An Anti-Phishing Code is a code that helps to prevent phishing attempts from fake Open Exchange websites or email addresses.",
+
+  "How does it work?": "How does it work?",
+
+  "Once you've set your unique Anti-Phishing Code, it will be included in all genuine Open Exchange emails.": "Once you've set your unique Anti-Phishing Code, it will be included in all genuine Open Exchange emails.",
+
+  "Create Anti-Phishing Code": "Create Anti-Phishing Code",
+
+  "Please input Anti-phishing Code": "Please input Anti-phishing Code",
+
+  "Please enter 4-20 non-special characters": "Please enter 4-20 non-special characters",
+
+  "Change code": "Change code",
+
+  "Old Anti-Phishing Code": "Old Anti-Phishing Code",
+
+  "Open Exchange recommends you to change your Anti-Phishing Code from time to time in order to improve your account security.": "Open Exchange recommends you to change your Anti-Phishing Code from time to time in order to improve your account security.",
+
+  "Protect your account from phishing attempts and ensure that your notification emails are from Open Exchange only.": "Protect your account from phishing attempts and ensure that your notification emails are from Open Exchange only.",
+
+  "Other Trading Names": "Other Trading Names",
+
+  "Please enter content": "Please enter content",
+
+  "Corporate Application Entity Details": "Corporate Application Entity Details",
+
+  "Comepany Number": "Company Number",
+
+  "Entity Type": "Entity Type",
+
+  "Regulated Corporation": "Regulated Corporation",
+
+  "Unregulated Corporation": "Unregulated Corporation",
+
+  "Partnership": "Partnership",
+
+  "Fund": "Fund",
+
+  "Trust": "Trust",
+
+  "Other": "Other",
+
+  "Regulator Status": "Regulator Status",
+
+  "Regulator (if applicable)": "Regulator (if applicable)",
+
+  "Listed on a Stock Exchange": "Listed on a Stock Exchange",
+
+  "Save": "Save",
+
+  "Contact Details": "Contact Details",
+
+  "Company Telephone Number": "Company Telephone Number",
+
+  "Company Email Address": "Company Email Address",
+
+  "Company Website Address": "Company Website Address",
+
+  "Registered Company Address Street": "Registered Company Address Street",
+
+  "Registered Address City": "Registered Address City",
+
+  "Registered Address Country": "Registered Address Country",
+
+  "Registered Address Postal Code": "Registered Address Postal Code",
+
+  "Registered Address same as Trading Address? ": "Registered Address same as Trading Address?",
+
+  "* If ‘No’ please provide your trading address": "* If ‘No’ please provide your trading address",
+
+  "Trading Address": "Trading Address",
+
+  "Trading Address Street": "Trading Address Street",
+
+  "Trading Address City": "Trading Address City",
+
+  "Trading Address Country": "Trading Address Country",
+
+  "Trading Address Postal Code": "Trading Address Postal Code",
+
+  "Previous": "Previous",
+
+  "Shareholders/Beneficial Owners (please list everyone with a holding of 25% or above).": "Shareholders/Beneficial Owners (please list everyone with a holding of 25% or above).",
+
+  "Corporate Structure": "Corporate Structure",
+
+  "Residential Address": "Residential Address",
+
+  "Directors (please list all active Directors below).": "Directors (please list all active Directors below).",
+
+  "Estimated Activity": "Estimated Activity",
+
+  "Please state your estimated monthly activity": "Please state your estimated monthly activity",
+
+  "Currency": "Currency",
+
+  "Amount is not a valid number": "Amount is not a valid number",
+
+  "Trading Volume": "Trading Volume",
+
+  "Business & Financial Details": "Business & Financial Details",
+
+  "Nature of Business": "Nature of Business",
+
+  "Sector": "Sector",
+
+  "Financial Services": "Financial Services",
+
+  "Money Service Business": "Money Service Business",
+
+  "Consumer Goods": "Consumer Goods",
+
+  "Export-Import": "Export-Import",
+
+  "Property-Construction": "Property-Construction",
+
+  "Pharmaceuticals": "Pharmaceuticals",
+
+  "Legal": "Legal",
+
+  "IT": "IT",
+
+  "Marketing": "Marketing",
+
+  "Manufacturing": "Manufacturing",
+
+  "Education": "Education",
+
+  "Gambling": "Gambling",
+
+  "What is the company’s source of funds?": "What is the company’s source of funds?",
+
+  "Earnings in Fiat": "Earnings in Fiat",
+
+  "Third Party Funds": "Third Party Funds",
+
+  "Commerical Activities": "Commerical Activities",
+
+  "Reason for Opening an Account": "Reason for Opening an Account",
+
+  "Mining": "Mining",
+
+  "Investing (storing value)": "Investing (storing value)",
+
+  "Brokering": "Brokering",
+
+  "Divesting (selling earned crypto)": "Divesting (selling earned crypto)",
+
+  "Remittance": "Remittance",
+
+  "Retail (spending crypto)": "Retail (spending crypto)",
+
+  "OTC Trading": "OTC Trading",
+
+  "Payments Processing Other": "Payments Processing Other",
+
+  "Upload information": "Upload information",
+
+  "Corporation": "Corporation",
+
+  "Sole Trader": "Sole Trader",
+
+  "Initial Coin Offerings (ICOs)": "Initial Coin Offerings (ICOs)",
+
+  "We consider corporations to be the following entity types:": "We consider corporations to be the following entity types:",
+
+  "Limited": "Limited",
+
+  "Limited Liability Companies": "Limited Liability Companies",
+
+  "Sp. z.o.o.": "Sp. z.o.o.",
+
+  "S.A.": "S.A.",
+
+  "S.A.R.L.": "S.A.R.L.",
+
+  "Privaat maatskappy, etc.": "Privaat maatskappy, etc.",
+
+  "Please provide the documentation listed below:": "Please provide the documentation listed below:",
+
+  "1、Certificate of Incorporation": "1、Certificate of Incorporation",
+
+  "2、Memorandum / Articles of Association of Association (also known as Statutes or Bylaws)": "2、Memorandum / Articles of Association of Association (also known as Statutes or Bylaws)",
+
+  "3、Shareholders Register (also known as a Members Register)": "3、Shareholders Register (also known as a Members Register)",
+
+  "4、Directors Register (also known as a Managers Register)": "4、Directors Register (also known as a Managers Register)",
+
+  "5、Anti-Money Laundering Policy – (only needs to be provided if the company is brokering or accepting crypto as payment for services)": "5、Anti-Money Laundering Policy – (only needs to be provided if the company is brokering or accepting crypto as payment for services)",
+
+  "6、Signed Certified Board Resolution as provided by Open Exchange;": "6、Signed Certified Board Resolution as provided by Open Exchange;",
+
+  "Shareholders Register & Directors Register may be replaced by Certificate of Incumbency that lists the current Directors and Shareholders. Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:": "Shareholders Register & Directors Register may be replaced by Certificate of Incumbency that lists the current Directors and Shareholders. Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:",
+
+  "1、Colour copy of Passport(s)": "1、Colour copy of Passport(s)",
+
+  "2、Proof of Address (dated within the last 3 months) (The proof of address can be a posted utility bill (e.g. gas, electricity, water, broadband, television); a letter from a Government body; a personal bank statement; or an ID with address.)": "2、Proof of Address (dated within the last 3 months) (The proof of address can be a posted utility bill (e.g. gas, electricity, water, broadband, television); a letter from a Government body; a personal bank statement; or an ID with address.)",
+
+  "If the Director is an entity, please provide the entity’s:": "If the Director is an entity, please provide the entity’s:",
+
+  "2、Directors Register (also known as a Managers Register)": "2、Directors Register (also known as a Managers Register)",
+
+  "3、ID & Proof of Address of the Directors": "3、ID & Proof of Address of the Directors",
+
+  "If the Shareholder is an entity, please provide the entity’s:": "If the Shareholder is an entity, please provide the entity’s:",
+
+  "2、Shareholders Register (also known as a Members Register)": "2、Shareholders Register (also known as a Members Register)",
+
+  "3、ID & Proof of Address of Shareholders with a holding of 25% or more": "3、ID & Proof of Address of Shareholders with a holding of 25% or more",
+
+  "Download Document here": "Download Document here",
+
+  "1、Certificate of Registration / Incorporation": "1、Certificate of Registration / Incorporation",
+
+  "2、Partnership Agreement": "2、Partnership Agreement",
+
+  "3、Proof of Company’s Registered Address (dated within the last 3 months)": "3、Proof of Company’s Registered Address (dated within the last 3 months)",
+
+  "4、Proof of Company’s Operational Address – if applicable (dated within the last 3 months)": "4、Proof of Company’s Operational Address – if applicable (dated within the last 3 months)",
+
+  "5、Signed Certified Board Resolution as provided by Open Exchange;": "5、Signed Certified Board Resolution as provided by Open Exchange;",
+
+  "Please also provide the following documentation for all General Partners, Designated Members, etc:": "Please also provide the following documentation for all General Partners, Designated Members, etc:",
+
+  "2、Members Register": "2、Members Register",
+
+  "3、ID & Proof of Address of Members": "3、ID & Proof of Address of Members",
+
+  "Please provide only one of the following documents to prove your Sole Trader Status. The document should be current (dated within the last three months, quarter or year):": "Please provide only one of the following documents to prove your Sole Trader Status. The document should be current (dated within the last three months, quarter or year):",
+
+  "1、Self-Assessment Welcome letter": "1、Self-Assessment Welcome letter",
+
+  "2、Class 2 National Insurance Contributions bill": "2、Class 2 National Insurance Contributions bill",
+
+  "3、Certificate of registration for Value Added Tax (VAT)": "3、Certificate of registration for Value Added Tax (VAT)",
+
+  "4、Correspondence from HMRC acknowledging UTR number": "4、Correspondence from HMRC acknowledging UTR number",
+
+  "5、Notice to complete Self-Assessment Tax Return": "5、Notice to complete Self-Assessment Tax Return",
+
+  "You must also provide both of the documents stated below:": "You must also provide both of the documents stated below:",
+
+  "1、Trust Deed and all Supplementary Deeds": "1、Trust Deed and all Supplementary Deeds",
+
+  "2、Copy of Schedule(s)": "2、Copy of Schedule(s)",
+
+  "3、Verification of the Trustee(s) (ID for individual, certificate of incorporation for entity)": "3、Verification of the Trustee(s) (ID for individual, certificate of incorporation for entity)",
+
+  "4、Verification of the Settlor (ID for individual, certificate of incorporation for entity)": "4、Verification of the Settlor (ID for individual, certificate of incorporation for entity)",
+
+  "5、Verification of the Beneficiaries (ID for individual, certificate of incorporation for entity)": "5、Verification of the Beneficiaries (ID for individual, certificate of incorporation for entity)",
+
+  "6、Signed Certified Board Resolution as provided by Open Exchange": "6、Signed Certified Board Resolution as provided by Open Exchange",
+
+  "We require all of the documentation listed below for Funds.If you are a UK regulated or equivalent status Fund, please refer to the Account Management team for documentation requirements.": "We require all of the documentation listed below for Funds.If you are a UK regulated or equivalent status Fund, please refer to the Account Management team for documentation requirements.",
+
+  "1、Most up to date Prospectus/Offering Memorandum & Supplements": "1、Most up to date Prospectus/Offering Memorandum & Supplements",
+
+  "2、Certificate of Incorporation": "2、Certificate of Incorporation",
+
+  "3、Memorandum / Articles of Association of Association (also known as Statutes or Bylaws)": "3、Memorandum / Articles of Association of Association (also known as Statutes or Bylaws)",
+
+  "5、Signed Certified Board Resolution as provided by Open Exchange": "5、Signed Certified Board Resolution as provided by Open Exchange",
+
+  "1、Copy of Passport(s)": "1、Copy of Passport(s)",
+
+  "Please also provide the following documentation for each active Director and Shareholder (with Management Shares or Common Shares):": "Please also provide the following documentation for each active Director and Shareholder (with Management Shares or Common Shares):",
+
+  "For the Fund Investment Manager Please provide the documentation listed below:": "For the Fund Investment Manager Please provide the documentation listed below:",
+
+  "6、Proof of Address (dated within the last 3 months) (The proof of address can be a posted utility bill (e.g. gas, electricity, water, broadband, television); a letter from a Government body; a personal bank statement; or an ID with address.)": "6、Proof of Address (dated within the last 3 months) (The proof of address can be a posted utility bill (e.g. gas, electricity, water, broadband, television); a letter from a Government body; a personal bank statement; or an ID with address.)",
+
+  "4、Directors Register (also known as a Managers Register) Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:": "4、Directors Register (also known as a Managers Register) Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:",
+
+  "For The Fund Administrator Please provide the documentation listed below:": "For The Fund Administrator Please provide the documentation listed below:",
+
+  "4、Admin Comfort Letter": "4、Admin Comfort Letter",
+
+  "5、Anti-Money Laundering Policy Please also provide the following documentation for each active Director:": "5、Anti-Money Laundering Policy Please also provide the following documentation for each active Director:",
+
+  "Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:": "Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:",
+
+  "Select entity types": "Select entity types",
+
+  "MetaMask": "MetaMask",
+
+  "Connect": "Connect",
+
+  "Bind": "Bind",
+
+  "MetamMask": "MetaMask",
+
+  "Quick-Deposit": "Quick Deposit",
+
+  "MetamaskQuick-Deposit": "MetamaskQuick Deposit",
+
+  "Transfer-in-address": "Transfer in address",
+
+  "Current-account": "Current account",
+
+  "Outgoing-address": "Outgoing address",
+
+  "transation": "transaction",
+
+  "files": "Files",
+
+  "remark": "remark",
+
+  "bindMetaMask": "bindMetaMask",
+
+  "Bind existing account": "Bind existing account",
+
+  "Jump to the login page": "Jump to the login page",
+
+  "you need to log in to the original account first": "you need to log in to the original account first",
+
+  "I agree to": "I agree to",
+
+  "Already have an account": "Already have an account",
+
+  "Bind you email": "Bind you email",
+
+  "Bind Success": "Bind Success",
+
+  "Bind Failed": "Bind Failed",
+
+  "The current MetaMask Account has been bound to Open Exchange，place change to another MetaMask Account": "The current MetaMask Account has been bound to OPNX,place change to another MetaMask Account",
+
+  "not found Matemask Account": "not found Metamask Account",
+
+  "MetaMask create failed, place try again": "MetaMask create failed, place try again",
+
+  "MetaMask Connect failed, place try again": "MetaMask Connect failed, place try again",
+
+  "MetaMask Login failed, place try again": "MetaMask Login failed, place try again",
+
+  "MetaMask send email validation failed": "MetaMask send email validation failed",
+
+  "Use MetaMask address": "Use MetaMask address",
+
+  "MetamaskQuick Deposit": "MetamaskQuick Deposit",
+
+  "Estimated handling fee {coin}": "Estimated handling fee {coin}",
+
+  "Deposit {coin} to Open Exchange": "Deposit {coin} to Open Exchange",
+
+  "Note: Minimum deposit is {value} {coin}（Metamask）": "Note: Minimum deposit is {value} {coin}（Metamask）",
+
+  "Gas price: {coin} wei": "Gas price: {coin}",
+
+  "slow": "slow",
+
+  "average": "average",
+
+  "fast": "fast",
+
+  "Disposit Submit Success": "Deposit Submit Success",
+
+  "Disposit Success": "Deposit Success",
+
+  "Disposit Submit Failed": "Deposit Submit Failed",
+
+  "Invalid Disposit to address": "Invalid Deposit to address",
+
+  "Invalid Disposit amount": "Invalid Deposit amount",
+
+  "Minimum deposit is {value} {coin}（Metamask）": "Minimum deposit is {value} {coin}（Metamask）",
+
+  "Submit apply for NON-US users": "Submit apply for NON-US users",
+
+  "The system automatically determines that you are currently a US user. According to US policy, there are the following restrictions:": "The system automatically determines that you are currently a US user. According to US policy, there are the following restrictions:",
+
+  "All positions cannot be greater than 25 days, otherwise the system will force liquidation ": "All positions cannot be greater than 25 days, otherwise the system will force liquidation",
+
+  "Cannot use SLP network deposit": "Cannot use SLP network deposit",
+
+  "Can't use Copper": "Can't use Copper",
+
+  "If you are not a U.S. user, please send an email to": "If you are not a U.S. user, please send an email to",
+
+  "You are current a U.S. user. According to U.S. policy, SLP network is temporarily not supported": "You are current a U.S. user. According to U.S. policy, SLP network is temporarily not supported",
+
+  "Please upload an address proof image": "Please upload an address proof image",
+
+  "Please upload file proof is valid": "Please upload file proof is valid",
+
+  "File must smaller than 5MB": "File must smaller than 5MB",
+
+  "Please upload document or image is valid": "Please upload document or image is valid",
+
+  "Click to Upload": "Click to Upload",
+
+  "Open Exchange Corporate KYC Form": "Open Exchange Corporate KYC Form",
+
+  "List of KYC documents can be found here": "List of KYC documents can be found here",
+
+  "Complete it and upload it together with the corporate onboarding documents.": "Complete it and upload it together with the corporate onboarding documents.",
+
+  "Address proof (dated within the last 3 months) can be:": "Address proof (dated within the last 3 months) can be:",
+
+  "a utility bill (e.g. gas, electricity, water, broadband, television);": "a utility bill (e.g. gas, electricity, water, broadband, television);",
+
+  "a letter from a Government body;": "a letter from a Government body;",
+
+  "a personal bank statement; or": "a personal bank statement;",
+
+  "a government-issued ID with address.": "a government-issued ID with address.",
+
+  "Information required for institutional account：": "Information required for institutional account：",
+
+  "Address Proof": "Address Proof",
+
+  "You are currently trading inside the US region. According to the regulations, the maximum duration for holding a position is 25 days, and it will be closed automatically thereafter": "You are currently trading inside the US region. According to the regulations, the maximum duration for holding a position is 25 days, and it will be closed automatically thereafter",
+
+  "You will need to change your software wallet account to use": "You will need to change your software wallet account to use",
+
+  "You can quickly withdraw funds to the current MetamMask Wallet address. If you need to withdraw funds to other addresses, please bind your email and activate two-step verification (2FA) ": "You can quickly withdraw funds to the current MetaMask Wallet address. If you need to withdraw funds to other addresses, please bind your email and activate two-step verification (2FA)",
+
+  "Metamask wallet network Worth, place change to mainnet": "Metamask wallet network wrong, please change to mainnet\n",
+
+  "MetaMask open failed, place try again": "MetaMask open failed, place try again",
+
+  "MetaMask Signature: User denied transaction signature.": "MetaMask Signature: User denied transaction signature.",
+
+  "Transaction rejected:": "Transaction rejected:",
+
+  "MetaMask is not on mainnet, please switch MetaMask to Ethereum mainnet": "MetaMask is not on mainnet, please switch MetaMask to Ethereum mainnet",
+
+  "Not found Matemask, Place Install Matemask": "Not found Matemask, Place Install Matemask",
+
+  "Matemask not unlocked, Place first unlocked": "Metamask not unlocked, Please first unlocked",
+
+  "The address is already registered, please login": "The address is already registered, please login",
+
+  "MetaMask open failed, place try again-refresh": "MetaMask open failed, place try again-refresh",
+
+  "MetaMask open failed, Please refresh the page or change MetaMask": "MetaMask open failed, Please refresh the page or change MetaMask",
+
+  "The current Email has been registered or bounded, Please change to another Email account": "The current Email has been registered or bounded, Please change to another Email account",
+
+  "Cannot connect to MetaMask": "Cannot connect to MetaMask",
+
+  "If MetaMask fails to open, it may be locked or MetaMask is not installed": "If MetaMask fails to open, it may be locked or MetaMask is not installed",
+
+  "Convert Small Coins to FLEX": "Convert Small Coins to FLEX",
+
+  "You can convert small balances with total value below 100 FLEX into FLEX once every 24 hours.": "You can convert small balances with total value below 100 USD into FLEX once every 24 hours.",
+
+  "selected coin converted to": "selected coin converted to",
+
+  "net of": "net of",
+
+  "Transaction Fee": "Transaction Fee",
+
+  "Conversion History >": "Conversion History >",
+
+  "Appro x FLEX": "Appro x FLEX",
+
+  "Conversion Successful": "Conversion Successful",
+
+  "FLEX Convert": "FLEX Convert",
+
+  "Converted FLEX": "Converted FLEX",
+
+  "registration-auth": "registration-auth",
+
+  "registrationAuthTwa": "Please enter your 8-digit 2FA code and password below to complete the registration",
+
+  "Convert Small Balance to FLEX": "Convert Small Balance to FLEX",
+  "25027": "The password is same as the previous one you had, please use a new password"
+}

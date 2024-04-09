@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/google play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/google-play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-3">
+            <rect id="矩形" x="0" y="0" width="48" height="48"></rect>
+            <g id="google-play" transform="translate(6.000000, 4.000000)" fill="#318BF5" fill-rule="nonzero">
+                <path d="M24.0544213,18.3082633 L6.35838535,1.0158234 L28.8733237,13.6120336 L24.0544213,18.3082633 L24.0544213,18.3082633 Z M1.73993647,0 C0.697578217,0.53135378 0,1.50029303 0,2.75835124 L0,37.2416488 C0,38.499707 0.697578217,39.4686462 1.73993647,40 L22.3144848,19.996093 L1.73993647,0 Z M35.8330695,17.6284431 L31.1103848,14.9638601 L25.8424666,20.003907 L31.1103848,25.0439539 L35.9292872,22.379371 C37.3725525,21.2619652 37.3725525,18.7458488 35.8330695,17.6284431 L35.8330695,17.6284431 Z M6.35838535,38.9919906 L28.8733237,26.3957804 L24.0544213,21.6995507 L6.35838535,38.9919906 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

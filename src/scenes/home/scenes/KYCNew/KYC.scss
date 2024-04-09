@@ -1,0 +1,44 @@
+.kyc-new {
+  width: 100%;
+  height: 100%;
+  padding: 16px 0px 24px 16px;
+  margin: 0px;
+  min-height: 280px;
+  background: rgba(20,22,25,1);
+  .kyc-content {
+    padding-left: 30px;
+    .kyc-new-title {
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .kyc-new-top {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 5px;
+    }
+    .kyc-new-list {
+      font-size: 14px;
+      margin-bottom: 30px;
+      li {
+        position: relative;
+        line-height: 20px;
+        padding-left: 16px;
+        &:after {
+          position: absolute;
+          background-color: #ffffff;
+          content: "";
+          width: 4px;
+          height: 4px;
+          border-radius: 6px;
+          left: 6px;
+          top: 8px;
+        }
+      }
+    }
+    .kyc-new-bottom {
+      font-size: 16px;
+    }
+  }
+}

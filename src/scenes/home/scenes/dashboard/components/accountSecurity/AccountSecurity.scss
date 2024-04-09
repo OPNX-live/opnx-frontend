@@ -1,0 +1,142 @@
+.dashboardSecurity {
+    width: 100%;
+    position: relative;
+    .ena-2fa {
+        margin-left: 32px;
+    }
+    .account-bind-email {
+        padding-left: 11px;
+        margin-top: 5px;
+        width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .dashboardSecurity-right {
+        width: 100%;
+        padding: 0 14px;
+        display: inline-block;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        // height: 212px;
+        background-color: rgba(20,22,25,1);
+        .dashboardSecurity-left-top-content {
+            position: relative;
+            //   margin: 12px 20px 24px 20px;
+            font-size: 16px;
+            //   font-weight: bold;
+            font-weight: 400;
+            color: #e5dff5;
+            border-bottom: 1px solid #31353D;
+            padding: 10px 0;
+            span {
+                margin-left: 16px;
+                cursor: pointer;
+            }
+            svg {
+                position: absolute;
+                right: 0;
+                top: 15px;
+                width: 8px;
+                height: 13px;
+                cursor: pointer;
+            }
+        }
+        .dashboardSecurity-right-content {
+            margin: 20px;
+            margin-bottom: 12px;
+            margin-top: 10px;
+            overflow: auto;
+            .dashboardSecurity-right-content-item {
+                height: 72px;
+                width: 50%;
+                display: inline-block;
+                vertical-align: top;
+                border-right: 1px solid rgba(75, 66, 121, 0.2);
+                border-bottom: 1px solid rgba(75, 66, 121, 0.2);
+                .dashboardSecurity-right-content-item-top {
+                    font-size: 12px;
+                    font-weight: 400;
+                    padding-top: 20px;
+                    padding-left: 0;
+                    color: #e5dff5;
+                    .dashboardSecurity-right-content-item-top-raidus {
+                        display: inline-block;
+                        width: 5px;
+                        height: 5px;
+                        background: #09bb07;
+                        border-radius: 50px;
+                        vertical-align: 16%;
+                        margin-right: 7px;
+                    }
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #318BF5;
+                    margin-left: 11px;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    svg {
+                        width: 6px;
+                        color: #318BF5;
+                        margin-left: 4px;
+                        height: 11px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .dashboardSecurity-right-content-item:nth-child(4) {
+                padding-left: 42px;
+                border-right: 0;
+            }
+            .dashboardSecurity-right-content-item:nth-child(3),
+            .dashboardSecurity-right-content-item:nth-child(4) {
+                border-bottom: 0;
+            }
+            .dashboardSecurity-right-content-item:nth-child(2) {
+                border-right: 0;
+                padding-left: 42px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .dashboardSecurity {
+        .account-bind-email {
+            padding-left: 10px;
+        }
+        .dashboardSecurity-right {
+            width: 100%;
+            margin-top: 12px;
+            .dashboardSecurity-right-content {
+                margin: 0;
+                .dashboardSecurity-right-content-item {
+                    padding-left: 15px;
+                }
+            }
+            .dashboardSecurity-right-content {
+                .dashboardSecurity-right-content-item:nth-child(1) {
+                    .dashboardSecurity-right-content-item-top {
+                        padding-left: 0;
+                    }
+                }
+                .dashboardSecurity-right-content-item:nth-child(2),
+                .dashboardSecurity-right-content-item:nth-child(4) {
+                    border-right: 0;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+    .dashboardSecurity .dashboardSecurity-right .dashboardSecurity-right-content .dashboardSecurity-right-content-item p {
+        margin-left: 13px;
+        overflow: hidden;
+    }
+    .dashboardSecurity .dashboardSecurity-right .dashboardSecurity-right-content .dashboardSecurity-right-content-item .dashboardSecurity-right-content-item-top {
+        padding-left: 0;
+    }
+}

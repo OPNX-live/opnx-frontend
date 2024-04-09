@@ -1,0 +1,299 @@
+.fee-schedule {
+  background-color: rgb(0, 21, 41);
+  // padding-top: 8px;
+
+  .fee-top {
+    height: 86px;
+    background-color: rgba(20,22,25,1);
+    line-height: 86px;
+    padding: 0 120px;
+
+    & > div {
+      height: 86px;
+      &[role="line"] {
+        border-bottom: 1px solid rgba(49, 53, 61, 1);
+      }
+      font-size: 38px;
+      font-weight: 600;
+      font-weight: bold;
+      color: rgba(229, 223, 245, 1);
+    }
+  }
+  .fee-specialVipLevel {
+    padding: 25px 120px;
+    background-color: rgba(20,22,25,1);
+    .fee-specialVipLevel-bold,
+    .fee-specialVipLevel-bold-latest {
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 8px;
+      .fee-specialVipLevel-vip {
+        font-size: 20px;
+        color: rgba(255, 190, 0, 1);
+      }
+    }
+    .fee-specialVipLevel-bold-latest {
+      margin-bottom: 24px;
+    }
+    .fee-specialVipLevel-text {
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(229, 223, 245, 0.45);
+    }
+  }
+  .fee-progress {
+    padding: 0 100px;
+    background-color: rgb(0, 21, 41);
+    .cf-progress,
+    .progress-card {
+      background-color: rgb(0, 21, 41);
+    }
+  }
+
+  .fee-table {
+    padding: 0 120px;
+    background-color: rgb(0, 21, 41);
+
+    .fee-table-tading {
+      height: 52px;
+      line-height: 52px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(49, 53, 61, 1);
+
+      span:first-child {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(229, 223, 245, 1);
+      }
+
+      span:last-child {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(229, 223, 245, 0.6);
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+
+    .fee-message {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+      max-width: 851px;
+      padding-bottom: 24px;
+
+      .message-title {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(229, 223, 245, 1);
+        margin-top: 24px;
+        margin-bottom: 18px;
+      }
+
+      .fee-tag {
+        width: 3px;
+        height: 3px;
+        background-color: rgba(229, 223, 245, 0.6);
+        border-radius: 50%;
+        margin-right: 6px;
+      }
+
+      .fee-message-first {
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+      }
+
+      .fee-message-first-two {
+        display: flex;
+        margin-top: 6px;
+
+        .fee-tags {
+          width: 3px;
+          height: 3px;
+          background-color: rgba(229, 223, 245, 0.6);
+          border-radius: 50%;
+          margin-right: 6px;
+          margin-top: 6px;
+        }
+
+        &:span {
+          text-align: left;
+        }
+      }
+
+      .fee-notes {
+        .fee-notes-div1 {
+          display: flex;
+          align-items: center;
+          margin-top: 12px;
+        }
+
+        .fee-notes-div2 {
+          margin-left: 8px;
+          margin-top: 6px;
+        }
+      }
+    }
+
+    .ant-table-container {
+      border: none;
+      .any-of{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .market-span-color {
+          color: #22b69c;
+        }
+        span {
+          flex: 1;
+          // height: 56px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .maker-div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        white-space: nowrap;
+        justify-content: space-around;
+
+        span {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .market-span {
+          border-right: 2px solid rgba(20,22,25,1);
+        }
+        .market-span-color {
+          color: #22b69c;
+        }
+      }
+
+      .currentlevel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & > img {
+          width: 15px;
+          height: 15px;
+          margin-right: 6px;
+          margin-top: -4px;
+        }
+      }
+      .bgColor {
+        td {
+          border-bottom: 1px solid #318BF5 !important;
+          border-top: 1px solid #318BF5 !important;
+          border: none;
+        }
+        td:first-child {
+          border-left: 1px solid #318BF5 !important;
+        }
+        td:last-child {
+          border-right: 1px solid #318BF5 !important;
+        }
+      }
+      .ant-table-content {
+        margin-top: 16px;
+
+        .ant-table-cell {
+          padding: 0;
+          // width: 184px;
+          height: 56px;
+        }
+
+        .ant-table-thead {
+          tr:nth-child(1) {
+            th {
+              background-color: #31353D;
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 0.6);
+              border-color: rgba(20,22,25,1);
+              line-height: 56px;
+              text-align: center;
+              border-width: 2px;
+            }
+          }
+
+          tr:nth-child(2) {
+            th {
+              background-color: rgba(18, 35, 58, 0.3);
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 0.6);
+              border-color: rgba(20,22,25,1);
+              text-align: center;
+              border-width: 2px;
+            }
+          }
+        }
+
+        .ant-table-tbody > tr:hover > td {
+          background-color: rgba(18, 35, 58, 0.1) !important;
+        }
+
+        .ant-table-tbody > tr:hover {
+          border: 1px solid #318BF5 !important;
+        }
+
+        .ant-table-placeholder {
+          .ant-empty {
+            height: 140px;
+            background-color: rgb(0, 21, 41);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+
+          td {
+            border: none;
+          }
+        }
+
+        .ant-table-tbody {
+          .ant-table-row-level-0 {
+            td {
+              background-color: rgba(18, 35, 58, 0.3);
+              border-color: rgba(18, 35, 58, 0.3);
+              border-width: 2px;
+              font-size: 14px;
+              text-align: center;
+              font-weight: 500;
+              color: rgba(229, 223, 245, 1);
+              line-height: 56px;
+            }
+          }
+        }
+      }
+    }
+
+    .empty-table {
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      & > img {
+        width: 48px;
+        height: 60px;
+      }
+
+      & > span {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(229, 223, 245, 0.6);
+      }
+    }
+  }
+}

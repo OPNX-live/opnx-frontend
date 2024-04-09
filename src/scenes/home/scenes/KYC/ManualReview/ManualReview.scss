@@ -1,0 +1,64 @@
+.manual {
+  .ant-modal-content {
+    width: 424px;
+
+    .ant-modal-header {
+      border: none;
+      border-radius: 12px;
+      padding-bottom: 0;
+      .ant-modal-title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        font-size: 28px;
+        color: #333333;
+      }
+    }
+
+    .ant-modal-body {
+      padding-top: 0;
+      .idebtity-bottom {
+        font-size: 14px;
+        line-height: 22px;
+        color: #333333;
+        font-weight: 400;
+        margin-top: 22px;
+
+        span {
+          color: rgba(51, 51, 51, 1);
+          font-weight: bold;
+        }
+
+        a {
+          color: #318BF5;
+          margin-left: 4px;
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
+
+      .goit {
+        margin-top: 24px;
+        div {
+          width: 100%;
+          height: 48px;
+          background: #318BF5;
+          border-radius: 4px;
+          text-align: center;
+          line-height: 48px;
+          cursor: pointer;
+          &>a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            font-weight: 600;
+            font-weight: bold;
+            font-size: 18px;
+            color: #E5DFF5;
+          }
+        }
+      }
+    }
+  }
+}

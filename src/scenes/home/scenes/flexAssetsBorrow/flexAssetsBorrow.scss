@@ -1,0 +1,147 @@
+@import "src/style/globalStyle.scss";
+.flexAssets {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  .export-title {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-self: center;
+    font-weight: 400;
+    color: rgba(229, 223, 245, 0.6);
+    font-size: 14px;
+    img {
+      margin-left: 4px;
+    }
+  }
+  .t-h-header {
+    background-color: rgba(20,22,25,1);
+    width: 100%;
+    height: 114px;
+    font-size: 36px;
+
+    font-weight: 600;
+    color: rgba(229, 223, 245, 1);
+    padding: 16px 24px 0 24px;
+    // border-bottom: 2px solid rgba(49, 53, 61, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .borrow-tabs {
+      display: flex;
+      font-size: 18px;
+      color: rgba(229, 223, 245, 0.6);
+      // border-bottom: 1px solid #000000;
+      line-height: 45px;
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s;
+      .borrow-tabs-item {
+        margin-right: 32px;
+      }
+      .active-item {
+        font-weight: 600;
+        color: #d5d2f3;
+        // border-bottom: 2px solid #318BF5;
+      }
+      .flex-tabs-ink-bar {
+        height: 2px;
+        background: #318BF5;
+        bottom: 0;
+      }
+      .flex-tabs-ink-bar-animated {
+        -webkit-transition: width 0.3s, left 0.3s, right 0.3s;
+        transition: width 0.3s, left 0.3s, right 0.3s;
+      }
+    }
+    .flex-tabs-nav-wrap {
+      position: relative;
+      display: inline-block;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: auto;
+      flex: auto;
+      -ms-flex-item-align: stretch;
+      align-self: stretch;
+      overflow: hidden;
+      white-space: nowrap;
+      -webkit-transform: translate(0);
+      transform: translate(0);
+      border-bottom: 1px solid rgba(49, 53, 61, 1) !important;
+      .flex-tabs-nav-list {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: -webkit-transform 0.3s;
+        transition: transform 0.3s;
+        transition: transform 0.3s, -webkit-transform 0.3s;
+        .flex-tabs-ink-bar {
+          height: 2px;
+          background: #318BF5;
+          bottom: 0;
+          position: absolute;
+        }
+        .flex-tabs-tab {
+          position: relative;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -ms-flex-align: center;
+          align-items: center;
+          margin: 0 32px 0 0;
+          padding: 12px 0;
+          font-size: 18px;
+          font-weight: 400;
+          color: rgba(229, 223, 245, 0.6);
+          background: transparent;
+          border: 0;
+          outline: none;
+          cursor: pointer;
+        }
+        .flex-tabs-tab-active {
+          font-weight: 600;
+          color: #d5d2f3;
+        }
+        .flex-tabs-ink-bar-animated {
+          -webkit-transition: width 0.3s, left 0.3s, right 0.3s;
+          transition: width 0.3s, left 0.3s, right 0.3s;
+        }
+      }
+    }
+    .flex-tabs-nav-wrap::after {
+      position: absolute;
+      z-index: 1;
+      opacity: 0;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+      content: "";
+      pointer-events: none;
+    }
+  }
+  .t-h-container {
+    background-color: rgba(20,22,25,1);
+    width: 100%;
+    // padding: 12px 0 0 27px;
+    @include ant-tab(100%, 18px);
+    .ant-tabs-extra-content {
+      margin-right: 42px;
+      font-size: 14px;
+
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+      cursor: pointer;
+      img {
+        margin-left: 4px;
+      }
+    }
+    .ant-tabs-top > .ant-tabs-nav {
+      // margin-bottom: 33px;
+    }
+  }
+}

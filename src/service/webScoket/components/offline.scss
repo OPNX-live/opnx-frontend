@@ -1,0 +1,19 @@
+.offine {
+  .ant-modal-content .ant-modal-footer .icyModal-btn-primay {
+    width: 376px;
+    height: 48px;
+  }
+  .ant-modal-content .ant-modal-header {
+    padding-top: 26px;
+  }
+  .ant-modal-content .ant-modal-body {
+    padding: 26px;
+  }
+}
+@media (max-width: 480px) {
+  .offine {
+    .ant-modal-content .ant-modal-footer .icyModal-btn-primay {
+      width: 100%;
+    }
+  }
+}

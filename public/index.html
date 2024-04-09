@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="google" content="notranslate" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="OPNX User Console" />
+    <link rel="icon" type="image/x-icon" href="https://cdn.opnx.com/static/images/favicon.ico" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    /> -->
+    <meta
+      name="viewport"
+      content="width=device-width, 
+    initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="full-screen" content="yes" />
+    <meta name="browsermode" content="application" />
+    <meta name="x5-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="x5-page-mode" content="app" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>OPNX</title>
+    <script>
+      const setting = window.location.search;
+      if (setting.includes("iOS")) {
+        window.webkit.messageHandlers.getUser.postMessage(null);
+      }
+      if (setting.includes("android")) {
+        AndroidWebView.getUser();
+      }
+
+      function setUser(user) {
+        window.localStorage.setItem("user", JSON.stringify(JSON.parse(user)));
+      }
+
+      function tokenError() {
+        window.webkit.messageHandlers.tokenFailurelogout.postMessage(null);
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HFH8VY0RXT"
+    ></script>
+    <script id="ga4" async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-HFH8VY0RXT");
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="offline"></div>
+    <!-- <script defer>
+      !(function (e, t) {
+        function n() {
+          t.body
+            ? (t.body.style.fontSize = 12 * o + "px")
+            : t.addEventListener("DOMContentLoaded", n);
+        }
+
+        function d() {
+          var e = i.clientWidth / 10;
+          i.style.fontSize = e + "px";
+        }
+        var i = t.documentElement,
+          o = e.devicePixelRatio || 1;
+        if (
+          (n(),
+          d(),
+          e.addEventListener("resize", d),
+          e.addEventListener("pageshow", function (e) {
+            e.persisted && d();
+          }),
+          o >= 2)
+        ) {
+          var a = t.createElement("body"),
+            s = t.createElement("div");
+          (s.style.border = ".5px solid transparent"),
+            a.appendChild(s),
+            i.appendChild(a),
+            1 === s.offsetHeight && i.classList.add("hairlines"),
+            i.removeChild(a);
+        }
+      })(window, document);
+    </script> -->
+  </body>
+</html>

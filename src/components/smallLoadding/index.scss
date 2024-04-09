@@ -1,0 +1,70 @@
+.samll-loadding {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: inherit;
+  z-index: 4;
+  .samll-loadding-blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: inherit;
+    background: white;
+  }
+  .loadding-img {
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -6px;
+    margin-left: -6px;
+    opacity: 1;
+  }
+  .circle-border {
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(49, 139, 245, 0.16);
+    background: linear-gradient(
+      0deg,
+      #318BF5 33%,
+      rgba(49, 139, 245, 0.16) 100%
+    );
+    animation: spin 0.5s linear 0s infinite;
+  }
+
+  .circle-core {
+    width: 100%;
+    height: 100%;
+    background-color: #151414;
+    border-radius: 50%;
+  }
+  .spinner-box {
+    // background-color: #001529;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -8px;
+    opacity: .8;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+}

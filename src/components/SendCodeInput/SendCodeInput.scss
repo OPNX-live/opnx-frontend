@@ -1,0 +1,24 @@
+.SendCodeInput {
+  height: 48px !important;
+  margin-top: 24px;
+  border-radius: 4px !important;
+  .ant-input {
+    height: auto !important;
+  }
+  &:focus,
+  &:hover {
+    box-shadow: none;
+    border: 1px solid #adb1bb;
+    border-color: #adb1bb;
+  }
+  .ant-input-suffix {
+    color: #318BF5;
+    cursor: pointer;
+  }
+}
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none;
+  border: 1px solid #adb1bb;
+  border-color: #adb1bb;
+}

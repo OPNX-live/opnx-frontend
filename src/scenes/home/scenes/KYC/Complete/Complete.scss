@@ -1,0 +1,72 @@
+.kyc-complete {
+  min-height: 100%;
+  .complete-content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 78px 0;
+    img {
+      width: 102px;
+      height: 98px;
+    }
+    .text {
+      max-width: 600px;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+      margin-top: 26px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    .ipBlockTip {
+      max-width: 600px;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: left;
+      margin-top: 26px;
+      font-weight: 600;
+      color: #ffffff;
+      a {
+        color: #318bf5;
+        margin-left: 4px;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    p {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      color: rgba(243, 239, 255, 0.7);
+    }
+    .btn {
+      width: 160px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #318bf5;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 18px;
+      margin-top: 32px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .ant-btn {
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #318bf5;
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 32px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}

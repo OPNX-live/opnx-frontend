@@ -1,0 +1,54 @@
+.metamask-wrapper {
+  margin-bottom: 25px;
+  #logo-container {
+    text-align: center;
+    margin: 8px 0;
+  }
+  .terms-select-radio {
+    width: 100%;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 12px;
+    color: #318BF5;
+    cursor: pointer;
+    margin-bottom: 15px;
+    .terms-select-item {
+      color: rgba(55, 52, 78, 0.45);
+      position: relative;
+      display: inline-block;
+      margin-right: 4px;
+      user-select: none;
+      &:after {
+        position: absolute;
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        content: "";
+        left: -28px;
+        top: -5px;
+        transform: scale(0.5);
+      }
+    }
+    .terms-select {
+      &:after {
+        background: url("../../assets/image/register-select.png") 0 0 no-repeat;
+      }
+      
+    }
+    .terms-no-select {
+      &:after {
+        background: url("../../assets/image/register-not-selet.png") 0 0 no-repeat;
+      }
+    }
+}
+  .have-account-to-login {
+    text-align: center;
+    margin-top: 15px;
+    .to-login-link {
+      margin-left: 4px;
+      color: #318BF5;
+      cursor: pointer;
+    }
+  }
+}
+

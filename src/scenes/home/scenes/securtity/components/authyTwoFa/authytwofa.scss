@@ -1,0 +1,242 @@
+@import "src/style/globalStyle.scss";
+
+.authyTwoFa {
+  background-color: rgba(20, 22, 25,1) !important;
+  min-height: 100%;
+  .ant-card-head {
+    font-size: 20px;
+    color: #e5dff5;
+    border-bottom-color: #31353d;
+    font-weight: bold;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .ant-card-body {
+    padding: 44px 0 0 61px;
+
+    .authyTwoFa-container {
+      width: 100%;
+      display: flex;
+      margin-bottom: 50px;
+
+      .authyTwoFa-count {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #318bf5;
+        border-radius: 50%;
+        font-weight: bold;
+        font-size: 16px;
+        color: #e5dff5;
+        margin-right: 24px;
+      }
+
+      .authyTwoFa-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7px;
+
+        .authyTwoFa-content-title {
+          font-size: 16px;
+          font-weight: bold;
+          font-weight: 600;
+          color: rgba(229, 223, 245, 1);
+          line-height: 19px;
+          margin-bottom: 39px;
+        }
+
+        .authyTwoFa-content-warn {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 32px;
+
+          img {
+            width: 16px;
+            margin-right: 10px;
+          }
+
+          div {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(255, 190, 0, 1);
+            line-height: 17px;
+          }
+        }
+
+        .authyTwoFa-content-block {
+          display: flex;
+
+          .authyTwoFa-content-block-down {
+            width: 243px;
+            height: 96px;
+            border: 1px solid #31353d;
+            border-radius: 4px;
+            margin-right: 40px;
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            &:last-child {
+              margin: 0;
+            }
+
+            img {
+              margin-right: 24px;
+            }
+
+            .authyTwoFa-contnet-block-text {
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: space-between;
+
+              span:first-child {
+                font-size: 14px;
+                font-weight: 400;
+                color: rgba(229, 223, 245, 1);
+                line-height: 17px;
+              }
+
+              span:last-child {
+                font-size: 20px;
+                font-weight: bold;
+                color: rgba(229, 223, 245, 1);
+                line-height: 24px;
+              }
+            }
+          }
+        }
+
+        .authyTwoFa-content-block-qrCode {
+          display: flex;
+
+          .authyTwoFa-content-block-qrCode-img {
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 4px;
+            padding: 7px;
+            margin-right: 26px;
+          }
+
+          .authyTwoFa-content-block-qrCode-inputs {
+            & > div:first-child {
+              font-size: 16px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 1);
+              line-height: 19px;
+              margin-bottom: 17px;
+            }
+
+            .authyTwoFa-content-block-qrCode-input {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              min-width: 254px;
+              height: 40px;
+              border-radius: 4px;
+              border: 1px solid rgba(75, 66, 121, 1);
+              padding: 0 14px;
+
+              div {
+                width: 182px;
+                font-size: 16px;
+                font-weight: 400;
+                color: rgba(170, 166, 192, 1);
+                line-height: 22px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+
+              img {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+
+        .authyTwoFa-content-form {
+          width: 528px;
+          .authyTwoFa-content-form-icon {
+            display: flex;
+            justify-content: flex-end;
+            span {
+              color: #e5dff5;
+              font-size: 14px;
+              font-weight: 700;
+              cursor: pointer;
+              margin-left: 8px;
+            }
+          }
+          input:-webkit-autofill {
+            box-shadow: none !important;
+            -webkit-text-fill-color: #e5dff5;
+          }
+          .ant-input,
+          .SendCodeInput {
+            background-color: rgba(20, 22, 25, 0);
+            border: 0;
+            border-bottom: 1px solid #31353d;
+            caret-color: #e5dff5;
+            color: #e5dff5;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 48px;
+            &::-webkit-input-placeholder {
+              color: rgba(255, 255, 255, 0.3);
+            }
+            &:focus {
+              box-shadow: none;
+            }
+          }
+          .SendCodeInput {
+            margin: 0;
+            .ant-input {
+              border: none;
+              padding: 0;
+              line-height: 0;
+              margin-bottom: 0;
+            }
+          }
+          @include ant-btn-primary(100%, 48px, 18px);
+          @include ant-btn-disabled(100%, 48px, 18px);
+        }
+      }
+    }
+  }
+}
+@media all and (max-width: 480px) {
+  .authyTwoFa {
+    .ant-card-body {
+      padding: 20px;
+      .authyTwoFa-container {
+        .authyTwoFa-content {
+          .authyTwoFa-content-form {
+            width: 100%;
+          }
+          .authyTwoFa-content-title {
+            & div {
+              max-width: 100% !important;
+            }
+          }
+
+          .authyTwoFa-content-block {
+            flex-direction: column;
+            .authyTwoFa-content-block-down:nth-child(1) {
+              margin-bottom: 12px;
+            }
+          }
+        }
+        .authyTwoFa-count {
+          margin-right: 12px;
+          width: 90px;
+        }
+      }
+    }
+  }
+}

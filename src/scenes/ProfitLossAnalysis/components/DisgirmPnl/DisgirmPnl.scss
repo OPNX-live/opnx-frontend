@@ -1,0 +1,40 @@
+.disgiram-pnl {
+    background: #ffffff;
+    height: 215px;
+    #disgiram {
+        div {
+            // top: -39px;
+        }
+    }
+    .top {
+        color: rgba(55, 52, 78, 0.85);
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        padding-top: 18px;
+        padding-left: 24px;
+        .ant-tooltip-inner {
+            color: rgba(55, 52, 78, 0.85);
+            font-size: 12px;
+        }
+        svg {
+            height: 16px;
+            width: 16px;
+            margin-left: 4px;
+        }
+        .avbl-hide {
+            margin-left: 12px;
+            
+        }
+        .avbl {
+            margin-left: 12px;
+            
+            color: #2ebd85;
+        }
+        .avbl-rose {
+            margin-left: 12px;
+            
+            color: #f73461;
+        }
+    }
+}

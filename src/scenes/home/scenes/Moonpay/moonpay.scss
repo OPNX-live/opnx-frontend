@@ -1,0 +1,272 @@
+@import "src/style/globalStyle.scss";
+.moonpay {
+  background: #fff;
+  width: 100%;
+  position: relative;
+  .moonpay-support {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    height: 80px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    > div {
+      margin-right: 40px;
+      cursor: pointer;
+      z-index: 1;
+    }
+    div:hover {
+      color: #000;
+    }
+  }
+  .moonpay-iframe {
+    margin-top: -80px;
+    height: 1000px;
+    width: 100%;
+  }
+  .moonpay-advantages {
+    padding: 80px 353px 80px 367px;
+    background: #fff;
+    h2 {
+      font-size: 40px;
+      margin-bottom: 40px;
+      line-height: 52px;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+    .moonpay-advantages-item {
+      background: #f7f7f7;
+      width: 390px;
+      padding: 32px;
+      h3 {
+        margin: 20px 0 12px;
+        font-size: 24px;
+        line-height: 32px;
+      }
+      p {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+        line-height: 18px;
+      }
+    }
+  }
+  @media (max-width: 420px) {
+    .moonpay-support {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 16px;
+      height: 44px;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.6);
+      background: #f7f7f7;
+      > div {
+        margin-right: 20px;
+      }
+    }
+    .moonpay-iframe {
+      margin-top: 0px;
+      width: 100%;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+      height: 660px;
+    }
+    .moonpay-advantages {
+      background: transparent;
+      padding: 60px 16px 34px;
+      h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+        line-height: 36px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+      .moonpay-advantages-item {
+        background: #f7f7f7;
+        width: 100%;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        padding: 32px 28px;
+        h3 {
+          margin: 20px 0 12px;
+          font-size: 24px;
+          line-height: 32px;
+        }
+        p {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.6);
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+.moonpay-modal-disclaimer {
+  text-align: center;
+  color: #000;
+}
+.moonpay-modal-disclaimer-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 46px 0 40px;
+}
+.moonpay-modal-disclaimer-text {
+  padding: 0 63px;
+  text-align: justify;
+  margin-bottom: 70px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 24px;
+}
+.moonpay-modal-disclaimer-checkbox {
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  font-size: 16px;
+}
+@include ant-checkbox(rgba(20,22,25,1), rgba(229, 223, 245, 0.2));
+.ant-checkbox-wrapper {
+  margin-left: 24px;
+  span {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+.ant-checkbox-inner {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.moonpay-modal-disclaimer-button {
+  background: #318BF5;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  width: 220px;
+  height: 48px;
+  margin: 0 266px 56px;
+}
+.moonpay-modal-email {
+  .moonpay-modal-email-icon {
+    margin: 16px 0 40px;
+  }
+  .moonpay-modal-email-text {
+    padding: 0 56px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
+.moonpay-modal-email-to {
+  display: flex;
+  justify-content: center;
+  color: #318BF5;
+  font-size: 18px;
+  line-height: 24px;
+  margin-right: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.moonpay-modal-allow {
+  .moonpay-modal-allow-icon {
+    margin: 16px 0 40px;
+  }
+  .moonpay-modal-allow-text {
+    padding: 0 26px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .moonpay-modal-allow-button {
+    background: #e9e9e9;
+    border: none;
+    color: rgba(51, 51, 51, 0.6);
+    width: 220px;
+    height: 48px;
+    margin: 0 auto 16px;
+  }
+}
+.ant-btn:hover {
+  background: #318BF5;
+  color: #fff;
+  border: none;
+}
+@media (max-width: 420px) {
+  .moonpay-modal-disclaimer-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0 0 10px;
+  }
+  .moonpay-modal-disclaimer-text {
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .moonpay-modal-disclaimer-checkbox {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .ant-checkbox-wrapper {
+    margin-left: 0;
+    span {
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+  .moonpay-modal-disclaimer-button {
+    background: #318BF5;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    width: 220px;
+    height: 48px;
+    margin: 0;
+  }
+  .moonpay-modal-email {
+    .moonpay-modal-email-icon {
+      margin: 0;
+    }
+    .moonpay-modal-email-text {
+      padding: 0;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  .moonpay-modal-allow {
+    .moonpay-modal-allow-icon {
+      margin: 0;
+    }
+    .moonpay-modal-allow-text {
+      padding: 0;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.6);
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    .moonpay-modal-allow-button {
+      background: #e9e9e9;
+      border: none;
+      color: rgba(51, 51, 51, 0.6);
+      width: 220px;
+      height: 48px;
+      margin: 0 auto 16px;
+    }
+  }
+}

@@ -1,0 +1,2472 @@
+{
+  "401": "无效的用户名或密码",
+
+  "500": "服务器繁忙，请重试",
+
+  "15007": "账号不存在",
+
+  "25002": "无效的用户名或密码",
+
+  "25006": "该账号已被锁定，无法解冻。如果您有疑问，请联系客服人员",
+
+  "25007": "该账号已被禁用",
+
+  "25010": "请先打开白名单",
+
+  "25011": "您所在的国家或地区不在我们的服务范围内，无法提供服务",
+
+  "25012": "年龄不符合服务条款",
+
+  "25013": "该地区不在服务条款内",
+
+  "25014": "该身份证不符合服务条款",
+
+  "25015": "该护照不符合服务条款",
+
+  "25016": "成立日期无效。",
+
+  "25017": "公司所在国家/地区不符合服务条款。",
+
+  "25018": "已经2次失败，无法再次提交了",
+
+  "25021": "有效期少于60天，不可用",
+
+  "25022": "居住国家/地区不符合服务条款。",
+
+  "25030": "无效的验证码",
+
+  "25032": "操作太频繁，请10秒后重试。",
+
+  "30001": "复制成功",
+
+  "30002": "成功转移",
+
+  "30010": "存款地址创建成功",
+
+  "30011": "存款申请处理完成",
+
+  "30021": "提款申请处理完成",
+
+  "31001": "该金额超过最大可用余额",
+
+  "31002": "请选择时间范围，不能超过3个月",
+
+  "31003": "金额低于最低提款要求",
+
+  "31004": "请输入地址",
+
+  "31005": "请输入金额",
+
+  "31006": "参数错误，缺少币种 id",
+
+  "31007": "参数错误，缺少账号 id",
+
+  "31008": "最多输入32个字符",
+
+  "35001": "复制失败，请重试",
+
+  "35002": "账号风险太高，金额数无法被转移",
+
+  "35003": "该账号无权限操作，如果您有疑问，请联系客服人员",
+
+  "35010": "存款地址创建失败",
+
+  "35011": "存款未被处理",
+
+  "35012": "该资产的存款地址已经请求了",
+
+  "35013": "该选中的币种，地址池中没有免费的存款地址。",
+
+  "35021": "提款失败",
+
+  "35022": "帐户风险太高，无法提取。 您可以减少提款金额，然后重试",
+
+  "35023": "该金额已超过您的提款限额",
+
+  "35024": "该地址已保存，无需再次保存。",
+
+  "35025": "无法提取到同一帐户",
+
+  "35026": "提款地址格式错误。 请检查提款地址的长度和字符内容，然后重试",
+
+  "35027": "当前不是主账号",
+
+  "35028": "提款金额不能超过8位数字",
+
+  "35029": "无法获得余额",
+
+  "35030": "无法获取市场价格",
+
+  "35031": "提款申请失败",
+
+  "35032": "余额不足",
+
+  "35033": "无法保存该账户地址",
+
+  "35034": "钱包API异常，请重试或联系客服人员",
+
+  "35035": "提款费的计算是错误的",
+
+  "35036": "可用余额不足",
+
+  "35037": "无法找到工具",
+
+  "35038": "快速转账失败，可能您有挂单、持仓或账户风险过高",
+
+  "35039": "金额不足以扣除费用，请重新输入。",
+
+  "35040": "提款费用不能为空",
+
+  "35041": "正在处理中，如有任何问题，请联系客户支持",
+
+  "35043": "暂停提款",
+
+  "35044": "暂停存款",
+
+  "40001": "创建成功",
+
+  "40002": "解冻成功",
+
+  "40003": "删除成功",
+
+  "40004": "绑定成功",
+
+  "40005": "解绑成功",
+
+  "40006": "重置成功",
+
+  "40007": "切换成功",
+
+  "40008": "冻结成功",
+
+  "40009": "更改成功",
+
+  "41001": "该用户名已经存在，请重新创建",
+
+  "41002": "需要8-128个字符，不能为单个字符，区分大写和小写字母",
+
+  "41003": "此帐户中有未结订单或未平的头寸，您只能在取消所有交易之后才能冻结该帐户",
+
+  "41004": "请输入有效的邮箱地址",
+
+  "41005": "该邮件地址已被注册",
+
+  "41006": "请输入邮箱地址",
+
+  "41007": "要求8-32位字符，不要纯数字",
+
+  "41008": "请输入密码",
+
+  "41009": "请输入密码",
+
+  "41010": "请输入有效的邮件地址",
+
+  "41011": "异常参数",
+
+  "41012": "确认类型不能为空",
+
+  "41013": "邮件类型不能为空",
+
+  "41014": "确认值不能为空",
+
+  "41015": "确认码不能为空",
+
+  "41016": "客户端类型不能为空",
+
+  "41017": "Geetest 验证不能为空",
+
+  "41018": "Geetest 验证不能为空",
+
+  "41019": "Geetest验证失败",
+
+  "41020": "用户ID不能为空",
+
+  "41021": "消息拼图验证失败",
+
+  "41022": "API ID不能为空",
+
+  "41023": "账号名不能为空",
+
+  "41024": "账号ID不能为空",
+
+  "41025": "子账号不能为空",
+
+  "41026": "输入的字符无效",
+
+  "41027": "IP地址格式错误",
+
+  "45004": "重置失败",
+
+  "45005": "子帐户只有一个，不能解绑",
+
+  "45006": "删除失败",
+
+  "45008": "密码不匹配，请重新输入",
+
+  "45011": "账号没有激活，请查看邮件且点击激活链接",
+
+  "45012": "无效的用户名或密码",
+
+  "45013": "密码错误，请重新输入",
+
+  "45014": "无效的邮箱地址",
+
+  "45015": "账号激活",
+
+  "45016": "链接无效",
+
+  "45017": "邮箱请求过于频繁",
+
+  "45018": "确认邮件已发出",
+
+  "45019": "该账号未被激活，请查看",
+
+  "45020": "API密钥不存在",
+
+  "45021": "API密钥无效",
+
+  "45022": "确认码无效",
+
+  "45023": "账号已存在",
+
+  "45024": "当前账户没有被冻结，无法删除",
+
+  "45025": "当前账户不是主账户",
+
+  "45026": "该子账户无效",
+
+  "45027": "该API密钥无效",
+
+  "45028": "当前账号没有管理员权限",
+
+  "45029": "该登录ID无效",
+
+  "45030": "邮件发送失败",
+
+  "45031": "当前账号处于冻结状态",
+
+  "45032": "无效账号，无法重置密码",
+
+  "45033": "如果您忘记了子账号密码，请联系主账号管理员",
+
+  "45034": "此子帐户无权使用当前交易对进行交易，请切换另一个子帐户或联系客服",
+
+  "45035": "主账户没有用于交易当前交易对的子账户",
+
+  "45036": "参数异常：缺少参数",
+
+  "45038": "错误太多导致源码失效，请申请一个新邮箱地址",
+
+  "45041": "密码中存在非法字符，请使用常规字符",
+
+  "55001": "没有flexearn 产品提供",
+
+  "55002": "请切换到主帐户创建一个Earn帐户",
+
+  "MAX": "最大",
+
+  "Register": "注册",
+
+  "Email": "邮箱",
+
+  "Password": "密码",
+
+  "Confirm_Password": "确认密码",
+
+  "Weak": "弱",
+
+  "Medium": "中",
+
+  "High": "強",
+
+  "Main_Account": "主帐户",
+
+  "register_text": "我同意{variable}",
+
+  "register_text_variable": "币飞服务条款。",
+
+  "register_Prompt": "已有帐户，",
+
+  "to_login": "登录",
+
+  "cancel": "取消",
+
+  "Confirm": "确认",
+
+  "ok": "同意",
+
+  "subaccount_management": "子账户管理",
+
+  "switch_account": "切换子帐户",
+
+  "create_account_title": "创建新的子帐户",
+
+  "create_title_error1": "请输入用户名称！",
+
+  "create_title_error2": "请输入密码！",
+
+  "create_title_error4": "请选择您的交易类型！",
+
+  "create_title": "创建子账户",
+
+  "Margin_Type": "保证金类型",
+
+  "account_type_delete": "删除后，子帐户将从列表中移除。我们会为您保留交易记录",
+
+  "account_type_freeze": "帐户解冻后便可正常使用。",
+
+  "account_type_disable": "此帐户的所有操作将被禁止。",
+
+  "freeze_success": "成功冻结",
+
+  "Unfreeze_success": "成功解冻",
+
+  "delete_success": "成功删除",
+
+  "account_model_unfreeze": "确认解冻",
+
+  "account_model_freeze": "确认冻结",
+
+  "account_model_delete": "确认删除",
+
+  "Sub_accounts": "子账户",
+
+  "sub_account_message": "币飞允许创建和管理连接到主账户的子账户。您可以创建一个或多个子帐户，用来做逐仓交易{variable}。",
+
+  "sub_account_variable": "相互制约，以限制您仓位保证金所承担的最大风险",
+
+  "add_subaccount": "添加子账户",
+
+  "Total_Value": "账户总值",
+
+  "Create_success": "创建成功",
+
+  "Assets": "资产",
+
+  "table_empty": "没有子账户",
+
+  "Account_Name": "帐户名称",
+
+  "Account_Type": "帐户类型",
+
+  "Freeze": "冻结",
+
+  "Unfreeze": "解冻",
+
+  "bottom_text": "受限国家：美国公民及居民、古巴、伊朗、叙利亚、苏丹、朝鲜、阿富汗和任何其他 {variable}禁止在币飞持仓或进行合约交易。",
+
+  "bottom_text_variable": "被限制在我们平台上进行交易的国家 ",
+
+  "bottom_text1": "如确认有任何币飞交易者对其所在地或居住地做出虚假陈述，则币飞有权注销该账户并执行强制平仓。",
+
+  "Trade_Type": "交易类型",
+
+  "Coin": "币",
+
+  "deposit_message": "可以将USDC用作美元存入Open Exchange， 兑换率1：1。",
+
+  "Total_balance": "总结余",
+
+  "Reserved": "冻结",
+
+  "Available_balance": "可用余额",
+
+  "Network": "网络",
+
+  "Address": "地址",
+
+  "address_empty": "正在创建地址...",
+
+  "deposit_address_title": "仅发送{coin}到存款地址。",
+
+  "Login": "登录",
+
+  "Reset": "重置",
+
+  "Search": "搜索",
+
+  "Status": "状态",
+
+  "Submit": "提交",
+
+  "Authy": "Authy",
+
+  "YubiKey": "YubiKey",
+
+  "Google_Auth": "谷歌验证",
+
+  "Disable": "禁用",
+
+  "Area": "地区",
+
+  "Success": "成功",
+
+  "no_space_login": "登录",
+
+  "Account": "帐户",
+
+  "forgot_password": "忘记密码",
+
+  "no_account_yet": "还没有帐号？",
+
+  "v2_account_password_setting": "V2帐户密码设置",
+
+  "before_using": "在使用V2系统之前，您需要为V2帐户设置一个登录密码。您的原始密码仍保留在V1系统中。",
+
+  "reset_login_password": "重置登录密码",
+
+  "account_name": "账户名称",
+
+  "account_security": "账户安全",
+
+  "enable_2fa": "开启2FA",
+
+  "protected_actions": "受保护的行为",
+
+  "Withdrawals": "提币",
+
+  "security_modifications": "安全修改",
+
+  "login_api_management": "登录&API管理",
+
+  "Login_Password": "登录密码",
+
+  "Increase": "增加",
+
+  "withdrawal_limit": "提币限制：10000 USDT（24小时）",
+
+  "increase_kyc_2": "达到KYC 第2级后提币可以增加到10,000 USD（24小时）",
+
+  "increase_kyc_3": "达到KYC 第3级后提币将没有限制。",
+
+  "Withdrawal_limit_Unlimited": "提币限制：无限制",
+
+  "Address_Management": "地址管理",
+
+  "Manage": "管理",
+
+  "Address_Management_Describe": "地址管理允许您保存并标记您的提款地址。",
+
+  "Account_Activity": "帐户活动",
+
+  "Login_name": "登录名",
+
+  "No_Account_Activity": "无帐户活动",
+
+  "turn_off_now": "现在关闭",
+
+  "after_switching_off": "关闭后，您的{protectedActions}将不会受到保护！ 强烈建议不要关闭此功能，因为这会增加你的财产风险。",
+
+  "enabling_2fa": "我了解不启用2FA验证的风险",
+
+  "Time": "时间",
+
+  "Source": "源",
+
+  "IP_Address": "IP地址",
+
+  "FAIL_TFA": "失败（没有提供有效的2FA验证码）",
+
+  "FAIL_PASSWORD": "失败（密码错误）",
+
+  "FAIL_PERMISSIONS": "失败（登录暂停）",
+
+  "KYC_Level": "KYC等级",
+
+  "Whitelist_On": "启用白名单",
+
+  "Whitelist_Off": "关闭白名单",
+
+  "Whitelist_Title": "启用此功能后，您的帐户只能提现到列入白名单的提币地址。 关闭此功能后，您的帐户可以提现到任何提币地址。",
+
+  "API_management": "API管理",
+
+  "Create_API_Key": "创建API密钥",
+
+  "User": "用户",
+
+  "Label": "标签",
+
+  "Notes": "本票",
+
+  "Permission": "权限",
+
+  "Can_Trade": "可以交易",
+
+  "IP_access_restrictions": "IP访问限制",
+
+  "Restrict_access": "限制仅访问受信任的IP（推荐）",
+
+  "Unrestricted": "不受限制（安全程度较低）",
+
+  "Unrestricted_Describe": "此API密钥允许从任何IP地址进行访问。 不建议这样做。",
+
+  "tip_ips": "提示：按Enter键确认IP，您也可以删除选定的IP。",
+
+  "Open_Exchange": "币飞",
+
+  "provides_users_details": "为用户提供了强大而灵活的API。 详细信息在",
+
+  "api_keys_details": "API密钥具有以下权限：只读、可以交易。 为避免资产损失，请不要向任何人透露您的API密钥和机密。",
+
+  "My_API_Key": "我的API密钥",
+
+  "Creation_Time": "创建时间",
+
+  "No_My_API_Key": "无API密钥",
+
+  "Edit": "编辑",
+
+  "API_Secret": "API私钥",
+
+  "API_Secret_details": "为了安全起见，API密钥仅在创建时显示。 如果丢失此密钥，您可以删除您的API并设置一个新的API。",
+
+  "Trade": "交易",
+
+  "Linked_IP_Address": "链接IP地址",
+
+  "Actions": "作用",
+
+  "API_Key_generated": "API密钥生成",
+
+  "API_Key_for": "API密钥",
+
+  "API_Key": "API密钥",
+
+  "API_Secret_Dialog": "请务必记录下您的API密钥，因为关闭此对话框后将不会显示该密钥。",
+
+  "OK": "同意",
+
+  "API_Key_to_others": "为避免资产损失，请不要将您的API Key或API密钥告诉他人；",
+
+  "Secret_Key_pair": "如果您忘记了API密钥，请删除它并申请新的密钥对。",
+
+  "Tips": "提示",
+
+  "API_Key_permissions": "API密钥权限",
+
+  "rules_1": "您的好友注册后，平台将从你的好友的期货和现货交易手续费中，抽取一定比例的手续费作为您的佣金。",
+
+  "rules_2": "推荐佣金将以FLEX的形式返还至您的主帐户，并记录在您的推荐记录中。",
+
+  "rules_3": "推荐佣金将在接下来的1小时内计算并计入。",
+
+  "rules_4": "对于现货，期货和点差：推荐佣金=交易所赚取的名义费用*您的被邀请人份额* 40％",
+
+  "rules_5": "如果您有任何疑问或需要帮助，请联系Affiliate@OPNX.com，并附上您的帐户电子邮件，以便我们更快地处理您的请求。",
+
+  "rules_6": "币飞不允许客户进行自我推荐，如果发现其违反我们的规定，则可能会暂停该账户的推荐佣金。",
+
+  "rules_7": "请参考币飞的更新。 币飞将保留最终解释权",
+
+  "take_1": "复制邀请链接或者二维码并发给您的朋友",
+
+  "take_2": "请您的朋友通过您的推荐链接或二维码在币飞进行注册",
+
+  "take_3": "检查您的推荐记录，确保里面的推荐帐户已注册",
+
+  "take_4": "当您的朋友在币飞交易时获得佣金",
+
+  "optins_rules1": "在你的朋友注册后，每月从你的追随者那里获得15%的返佣。",
+
+  "optins_rules2": "推荐佣金将以FLEX的形式返还至您的主帐户，并记录在您的推荐记录中。",
+
+  "optins_rules3": "推荐佣金是在月底之前计算并入帐的。",
+
+  "optins_rules4": "对于期权:总推荐佣金=所有追随者在历月的毛利润x 15%",
+
+  "optins_rules5": "如果您有任何疑问或需要帮助，请联系affiliate@OPNX.com，并附上您的帐户电子邮件，以便我们更快地处理您的请求。",
+
+  "optins_rules6": "请参考币飞的更新。 币飞将保留最终解释权",
+
+  "Steps_to_take": "邀请步骤：",
+
+  "Dropdown_referral": "邀请二维码",
+
+  "Your_Referral_QR_Code": "您的推荐二维码",
+
+  "Your_referral_link": "您的推荐链接",
+
+  "Copy_referral_link": "复制推荐链接",
+
+  "referral_code": "通过您的推荐码邀请别人注册",
+
+  "History": "历史记录",
+
+  "Deposit": "存款",
+
+  "Withdraw": "提币",
+
+  "Transfer": "划转",
+
+  "Delivery": "交割",
+
+  "Consolidated": "综合",
+
+  "deposit_BTC": "将除{coin}以外的硬币或令牌发送到该地址可能会导致您的存款丢失。 ",
+
+  "deposit_BCH": "将除BCH以外的硬币或令牌发送到该地址可能会导致您的存款丢失。 ",
+
+  "deposit_ETH": "将除ETH以外的硬币或令牌发送到该地址可能会导致您的存款丢失。 ",
+
+  "deposit_USD": "将除USDT（ERC20）以外的硬币或令牌发送到该地址可能会导致您的存款丢失。 ",
+
+  "deposit_USDT": "将除USDT（ERC20）以外的硬币或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "deposit_FLEX": "将除FLEX（BCH-SLP）以外的硬币或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "deposit_EOS": "将除EOS以外的硬币或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "deposit_TRX": "将除TRX以外的硬币或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "deposit_LTC": "将除LTC以外的硬币或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "deposit_XRP": "将除XRP以外的硬币或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "deposit_LINK": "将除LINK（ERC20）以外的币种或令牌发送到该地址可能会导致您的存款丢失。",
+
+  "Withdrawal_Limit": "24小时提币限制",
+
+  "Unlimited": "提币无限制",
+
+  "withdraw_Increase": "如果您想要每天提币数量高于{amount}USD，请向{email}发送电子邮件",
+
+  "withdraw_message": "USD将作为USDC提取，按USD:USDC=1:1比率。",
+
+  "withdraw_position": "您有仓位未平",
+
+  "withdraw_position_information1": "提币会增加清算风险",
+
+  "withdraw_position_information2": "建议您仅在关闭所有未平仓位后再进行提币",
+
+  "Save_address": "保存地址",
+
+  "whitelisted_addresses": "您还没有任何白名单地址。",
+
+  "coin_address": "目的地{coin}地址",
+
+  "Amount": "金额",
+
+  "address_error": "请输入接收方的地址",
+
+  "amount_error": "请输入接收方的金额",
+
+  "Minimum_Withdrawal": "最小提币",
+
+  "avbl": "可用",
+
+  "Transaction_Fee": "预计费用",
+
+  "receive": "您将提币",
+
+  "Switch_account": "切换账户",
+
+  "Current_account": "当前子账户",
+
+  "account_model_message": "请切换至主账号进行提币",
+
+  "model_btn": "切换到可提币账户",
+
+  "tfa_title": "双重验证",
+
+  "tfa_message": "输入您的2FA验证码",
+
+  "Verify": "验证",
+
+  "Withdrawal_Request": "提币请求",
+
+  "requested_withdraw": "您已申请提币",
+
+  "to_address": "提款到此地址",
+
+  "request_message": "在继续提币之前，请仔细检查目标地址",
+
+  "request_submit": "确定提币",
+
+  "Create": "创建",
+
+  "value_error": "请输入4到20位数字的非特殊字符",
+
+  "Saved_successfully": "成功保存",
+
+  "Referral_Features": "赚取高达{numberValue}的期货和现货交易佣金",
+
+  "Referral_Features_Options": "在期权交易中赚取高达{numberValue}的佣金",
+
+  "Commission_Rules": "佣金规则",
+
+  "Commission_Record": "佣金记录",
+
+  "Referral_Record": "推荐记录",
+
+  "Trade_History": "交易历史记录",
+
+  "Spot": "现货",
+
+  "Futures": "期货",
+
+  "Spread": "价差",
+
+  "Repo": "回购",
+
+  "Export_history": "导出{现货}历史记录",
+
+  "Market": "市场",
+
+  "Type": "类型",
+
+  "Date": "日期",
+
+  "Please_select": "请选择",
+
+  "No_Spot_History": "无现货历史记录",
+
+  "Side": "方向",
+
+  "Price": "价格",
+
+  "Filled": "已成交",
+
+  "Total": "总共",
+
+  "fee": "费用（数字和币种）",
+
+  "No_Futures_History": "无期货历史记录",
+
+  "Funding_Payments": "费用支付",
+
+  "No_Data": "无数据",
+
+  "Payment": "支付",
+
+  "Rate": "率",
+
+  "Leg_1_Price": "订单1价格",
+
+  "Leg_2_Price": "订单2价格",
+
+  "Contract": "合约",
+
+  "No_Spread_History": "无价差历史记录",
+
+  "No_Repo_History": "无回购历史记录",
+
+  "AddressManagement": "地址管理",
+
+  "Security": "安全",
+
+  "AddressWhitelist": "启用此功能后，您的帐户只能提现到列入白名单的提取地址。 关闭此功能后，您的帐户可以提现到任何提款地址。",
+
+  "AddAddress": "添加地址",
+
+  "Only_display_whitelisted_addresses": "只显示白名单地址",
+
+  "Add_to_Whitelist": "添加到白名单",
+
+  "Remove_from_Whitelist": "从白名单中移除",
+
+  "Delete": "删除",
+
+  "No_Address": "无地址",
+
+  "After_deleting": "删除之后，数据将从列表中移除。",
+
+  "Wallet_Label": "钱包标签",
+
+  "WhiteList": "白名单",
+
+  "Add_Withdrawal_Address": "添加提款地址",
+
+  "Search_for": "搜索",
+
+  "Balance_Details": "余额详情",
+
+  "Daily_Savings": "每日储蓄",
+
+  "Estimated_Account_Value": "账户估值",
+
+  "YubiKey_one": "YubiKey是一种易于使用的个人一次性密码生成设备，其形式为小型USB记忆棒，可提供很高的安全性。",
+
+  "There_devices": "无需重新输入令牌，只需将YubiKey插入计算机的USB端口，然后触摸金属板或在移动设备上使用NFC。",
+
+  "Open_Exchange_accepts": "币飞接受44个字符的YubiKey OTP令牌。",
+
+  "You_can": "您可以",
+
+  "purchase": "在线购买可兼容的YubiKey。",
+
+  "password_below": "请在下面输入密码，选择2FA 验证码字段，然后触摸金属板以启动YubiKey完成注册。",
+
+  "registration": "请在下面输入您的6位数字2FA验证码和密码以完成注册流程",
+
+  "IMPORTANT": "重要信息：这是唯一一次显示此密钥的机会。 请复制并将其安全地存储为备份。 如果您丢失了设备，则没有密钥就无法恢复2FA。",
+
+  "after_installation": "安装之后，在设备上打开Google 验证器并扫描以下二维码或输入密钥以获取6位2FA码",
+
+  "Download_from": "下载",
+
+  "App_Store": "应用商店",
+
+  "Google_Play": "Google Play",
+
+  "Download_app": "下载谷歌验证APP",
+
+  "Download_authy_app": "下载Authy APP",
+
+  "after_installation_authy": "安装之后，在设备上打开Authy并扫描以下二维码以获取8位2FA码",
+
+  "Dashboard": "控制面板",
+
+  "Advanced": "高级",
+
+  "SubAccount": "子账户",
+
+  "Login_Management": "登录账户管理",
+
+  "API_Management": "API接口管理",
+
+  "Balance": "余额",
+
+  "Position": "仓位",
+
+  "Wallet": "钱包",
+
+  "User_Name": "用户名",
+
+  "Trading": "交易",
+
+  "Active": "正常",
+
+  "Inverse-BTC": "反向-BTC",
+
+  "Inverse-ETH": "反向-ETH",
+
+  "Linear-USD": "正向-USD",
+
+  "Trade Banned": "禁止交易",
+
+  "Withdraw Banned": "禁止提款",
+
+  "Locked": "锁住",
+
+  "Read-Only": "只读",
+
+  "Links": "链接",
+
+  "2FA": "2FA验证",
+
+  "Link_subaccount": "连接子账户",
+
+  "UnFreeze": "解冻",
+
+  "Reset_Password": "重置密码",
+
+  "Login_Management_Title1": "创建其它的登录凭证，以允许其他人使用可配置的权限登录到您的帐户。 一个登录名可以访问并管理具有不同权限的多个子帐户。",
+
+  "Add_Login": "添加登录账户",
+
+  "No_Login_Management": "无登录账户管理",
+
+  "Bind_Subaccount": "绑定子账户",
+
+  "Add_Sub_Account": "添加子账户",
+
+  "Create_New_Login": "创建新的登录账户",
+
+  "Create_New_Login_Error1": "请输入登录名称，将用于登录账户使用",
+
+  "Max_32_Error": "需要32个字符",
+
+  "Min_8_Max_128_Error": "需要8-128位字符，不能纯数字",
+
+  "Login_Name": "登录名",
+
+  "Password_No_Set": "请设置一个密码，将作为登录密码使用",
+
+  "Withdraws": "提款",
+
+  "Linked_On": "链接到",
+
+  "Unlink": "解除链接",
+
+  "No_Sub_Account": "无子账户",
+
+  "Confirm_freeze": "确定冻结",
+
+  "Freeze_Content": "冻结之后，将无法登录",
+
+  "Confirm_Unfreeze": "确定解冻",
+
+  "Unfreeze_Content": "解冻之后，登录将恢复正常",
+
+  "Confirm_Unbind": "确定解绑",
+
+  "Unbind_Content": "解绑之后，登录的账户将无法操作子账户",
+
+  "Cancel": "取消",
+
+  "Change_Permission": "更改权限",
+
+  "Password_Set": "请输入您的密码",
+
+  "Withdrawal": "提款",
+
+  "Enter_Password": "请输入您的密码",
+
+  "dashboradr_twa_content1": "为了您的账户安全，请开启2FA验证。",
+
+  "Enable_2FA": "开启2FA验证",
+
+  "Identity_Verification": "身份验证",
+
+  "Set_up": "设置",
+
+  "Linked_Email": "链接电子邮件",
+
+  "Two_Fa_Modal": "我了解不启用2FA验证的风险",
+
+  "Skip_for_now": "现在跳过",
+
+  "Name": "名称",
+
+  "Value": "值",
+
+  "FLEXEarn": "每日储蓄",
+
+  "Search_Coin": "搜索币种",
+
+  "Export_History": "导出{type}历史记录",
+
+  "Yesterday": "昨天",
+
+  "Last_2_Weeks": "最近2周",
+
+  "Last_1_Month": "最近1个月",
+
+  "Last_3_Months": "最近3个月",
+
+  "custom": "自定义（最多3个月）",
+
+  "Recent_History": "最近{type}历史记录",
+
+  "View_All": "查看所有",
+
+  "Information": "信息",
+
+  "Fee": "费用",
+
+  "Recent_Withdrawal_History": "最近提款历史记录",
+
+  "One_week": "1周",
+
+  "From": "从",
+
+  "To": "到",
+
+  "Password_Reset": "密码重置",
+
+  "Verify_your_email": "验证您的邮箱",
+
+  "MailVerification_content1": "我们已将电子邮件发送到您的注册电子邮件地址：",
+
+  "MailVerification_content2": "请点击我们发送给您的电子邮件中的链接，设置V2帐户的登录密码。",
+
+  "MailVerification_content3": "如果您尚未收到电子邮件，请尝试以下操作",
+
+  "MailVerification_content4": "确保您提供的电子邮件地址正确无误。",
+
+  "MailVerification_content5": "检查您的垃圾邮件或垃圾邮件文件夹。",
+
+  "MailVerification_content6": "没有收到邮件",
+
+  "Verification_Code": "验证码",
+
+  "Resend_email": "重发邮件",
+
+  "Time_UTC": "时间（国际标准时间）",
+
+  "Markets": "市场",
+
+  "Net_Deliver": "净交割",
+
+  "Auction_Price": "标售价",
+
+  "Funding_Rate": "资金费率",
+
+  "Annualised_Funding_Rate": "年资金费率",
+
+  "Funding_History": "费用历史记录",
+
+  "No_Funding_History": "无费用历史记录",
+
+  "*": "数据请求失败，请刷新页面或联系客服。",
+
+  "Disconnect": "网络连接失败，请查看且重新试一遍",
+
+  "0003": "服务器繁忙，请重试",
+
+  "0007": "无操作权限",
+
+  "0004": "无法批准未初始化的授权请求",
+
+  "05001": "您的操作权限无效",
+
+  "05006": "功能暂停，请联系客服支持",
+
+  "05004": "操作失败，请重试",
+
+  "*Successful": "成功",
+
+  "00001": "成功完成",
+
+  "FLEX_level": "FLEX VIP等级",
+
+  "Update_time": "于每天0:00 早晨(世界标准时间)更新",
+
+  "flex_vip_message1": "您的FLEX VIP等级由您的FLEX持有量所决定，FLEX持有量不仅限于主账号，子账号的也可以计入其中",
+
+  "flex_vip_message2": "某一天的FLEX持有量由前一天FLEX持有量的随机快照所记录。",
+
+  "flex_vip_message3": "FLEX VIP等级和持有量于每天0:00（世界标准时间）更新",
+
+  "More_Details": "更多详情",
+
+  "flex_vip_message4": "持有更多{Balance}的FLEX才能升级到VIP{nextLevel}。",
+
+  "flex_vip_message5": "您的用户级别将由您的FLEX持有量所决定。 您的主帐户和子帐户的数据将一起计算。",
+
+  "flex_vip_message6": "前一天{random_snapshot}捕获的FLEX持有量将被视为当天的FLEX持有量；",
+
+  "flex_vip_message7": "用户等级和费率于每天0:00(世界标准时间)更新",
+
+  "Fee_Schedule": "费用表",
+
+  "Trading_Fee": "交易费用",
+
+  "fee_Maker/Taker": "“挂单/吃单”是什么意思？",
+
+  "Fees_loading": "费用加载中",
+
+  "VIP_Level": "VIP等级",
+
+  "FLEX_Balance": "FLEX 余额",
+
+  "Derivatives/Contracts": "衍生品/合约",
+
+  "Maker": "挂单",
+
+  "Taker": "吃单",
+
+  "contractsTaker": "合约吃单",
+
+  "Spot_Markets": "现货市场",
+
+  "Spread_Trading": "价差交易",
+
+  "Repo_Trading": "回购交易",
+
+  "Fee_Specifications": "费用详情",
+
+  "trad_fee_message1": "费用默认使用FLEX支付，切换关闭以便稍后实现。使用FLEX的市场价格进行计算。",
+
+  "trad_fee_message2": "费率为正表示吃单者支付费用，而负费率表示挂单者支付费用（折扣为FLEX）。",
+
+  "trad_fee_message3": "如果您的帐户中有一定数量的FLEX余额，则可以享受费用优惠 (这可以适用于所有子帐户)，这些费用优惠通过FLEX支付。",
+
+  "trad_fee_message4": "价差交易的费用交易双方都需要支付。",
+
+  "trad_fee_message5": "例如，如果您以1个BTC的价差@ 10进行交易，则Leg1价格为9000，Leg2价格为9010。",
+
+  "enough_FLEX": "如果FELX不足",
+
+  "Contracts_Spread": "衍生品/合约、价差",
+
+  "Linear_accounts": "USD作为线性账户",
+
+  "Inverse_accounts": "代币可以作为反向帐户",
+
+  "trad_fee_message6": "交易完成之后，直接从余额里扣除。USD/币种可以低于零",
+
+  "trad_fee_message7": "交易完成之后，直接从余额里扣除",
+
+  "trad_fee_message8": "如果USD余额不够，我们将减少您的交易量并保证您的交易完成。",
+
+  "fee_model_message1": "当你下了一个订单，通过立即部分成交或者全部成交，在进入订单薄之前，这些交易将是“吃单”交易。",
+
+  "fee_model_message2": "市场订单中的交易始终是吃单者，因为市场订单永远不会进入订单簿。 这些交易从定订单薄中“减少”了交易量，因此被称为“吃单”。",
+
+  "fee_model_message3": "当你下的单子部分或全部出现在订单簿上时(比如通过OPNX.com的交易屏幕下的限价订单)，来自该订单的任何后续交易都将被称为“挂单”。",
+
+  "fee_model_message4": "这些订单增加了订单簿的数量，有助于“做市”，因此被称为“挂单”。",
+
+  "Got_it": "了解",
+
+  "random_model-title": "FLEX余额计算方法",
+
+  "Example": "事例",
+
+  "Available_FLEX": "可用FLEX余额",
+
+  "random_model_message1": "系统每天都会随机捕获您帐户中FLEX资产的快照。 快照中您的FLEX持有资产将在接下来的日期确定您的水平和费率。",
+
+  "random_model_message2": "交易账户中的实时可用资产",
+
+  "random_model_message3": "【FLEX 持有资产被随机快照捕获】",
+
+  "random_model_message4": "前一天的随机快照捕获的所有币飞账户中的FLEX持有资产。 该术语不同于“可用的FLEX”。它使用的是“总FLEX”。",
+
+  "random_model_message5": "您的帐户中有0个FLEX。今天，您在10:00 AM购买了1000 FLEX。",
+
+  "random_model_message6": "如果系统今天在10:30 AM拍摄快照，则快照捕获的FLEX持有量将为1000 FLEX，这意味着您的费率将在第二天的00:00 AM升级；",
+
+  "random_model_message7": "如果系统今天在09:30 AM拍摄快照，则快照捕获的FLEX持有量将为0 FLEX，这意味着您的费率将在第二天的00:00 AM不升级。",
+
+  "Please_Enter": "请输入",
+
+  "Please_Select": "请选择",
+
+  "sub_account": "子账户",
+
+  "Mint": "铸造",
+
+  "Redeem": "赎回",
+
+  "Borrow": "借入",
+
+  "Reward": "奖励",
+
+  "MintReddmHistory": "铸造&赎回",
+
+  "BorrowRepayHistory": "借入&偿还历史",
+
+  "BorrowRepay": "借入&偿还",
+
+  "LiquidationHistory": "清算",
+
+  "OrderHistory": "订单历史",
+
+  "InterestPayments": "利息支付",
+
+  "FlexAsset_History": "FLEXAsset",
+
+  "FlexAssets_History": "flexAssets 历史",
+
+  "FLEXAssets": "flexAssets",
+
+  "Mint_tab_Receive": "收到",
+
+  "Burn": "燃烧",
+
+  "Average_APR": "平均年利率",
+
+  "Collateralized": "抵押",
+
+  "ActualCollateral": "实际抵押品",
+
+  "Actualborrow": "实际借到",
+
+  "No_History": "无历史记录",
+
+  "Hide Small Balances": "隐藏数额小余额",
+
+  "05008": "托管账户不可操作",
+
+  "CoinBorrowed": "借币",
+
+  "Borrowing": "借款中",
+
+  "Collateralize": "抵押",
+
+  "ExistingCollatreal": "现有抵押品",
+
+  "ExistingBorrow": "现有借款",
+
+  "DailyDate": "每日日期",
+
+  "ExistingCollateral": "现有抵押品 ",
+
+  "DailyRate": "每日费率",
+
+  "ActuallyRepaid": "实际已偿还\n",
+
+  "ActuallyReceived": "实际收到",
+
+  "RepayCost": "偿还成本",
+
+  "Repaid": "偿还",
+
+  "CollateralReturn": "抵押品归还",
+
+  "CoinRepaid": "已还币",
+
+  "ALL": "所有",
+
+  "Get Passive Interest": "铸币赚息",
+
+  "deposit_account": "托管账户",
+
+  "copy_success": "复制地址",
+
+  "copy_error": "复制到剪切板",
+
+  "address_empty_error": "请输入收款人地址",
+
+  "min_balance": "该金额低于最低提款要求",
+
+  "max_balance": "该金额超过最大可用余额",
+
+  "vote_bottom_message1": "投票结束后，获胜项目将于24小时内在币飞市场上线。",
+
+  "vote_bottom_message2": "投票结束后，奖励会立即派发至所有参与者的主账户中。",
+
+  "vote_bottom_message3": "用户只能使用其主帐户对任一项目进行投票。一旦他们投了票，所有的选票都将投给这个项目。",
+
+  "vote_bottom_message4": "币飞保留所有在不通知的情况下更改投票规则的权利，并撤销涉嫌操纵的结果。",
+
+  "Order": "订单",
+
+  "SettlementHistory": "结算历史",
+
+  "SettlementContract": "结算合约",
+
+  "Qty": "数量",
+
+  "ToContract": "到合约",
+
+  "WalletHistory": "钱包历史",
+
+  "Vote_for_coin": "投票给{coin}",
+
+  "votesA": "您的合格投票：{quantity}",
+
+  "votesB": "您的合格投票：基于从{timeA}到{time B}的FLEX余额快照",
+
+  "quntity_vote": "{quantity} 投票",
+
+  "win_coin": "这是平局！改天会有一场复赛。\n",
+
+  "win_coinA": "该回合投票的获奖者是{coin}",
+
+  "flex_vote": "FLEX投票上币",
+
+  "Round": "轮",
+
+  "will_share": "所有参与者将共享一个池",
+
+  "vote_ended": "投票环节已结束，感谢您的参与！",
+
+  "vote_end": "投票结束之前的剩余时间",
+
+  "vote_start": "投票开始之前的剩余时间",
+
+  "vote_calculation": "投票计算",
+
+  "snapshot_time": "快照时间的 FLEX 持有量",
+
+  "nunmber_votes": "投票数",
+
+  "flex_hoid": "FLEX持有量",
+
+  "date": "日期",
+
+  "felx_history": "FLEX快照历史",
+
+  "no_data": "活动期间无快照记录",
+
+  "login_now": "现在登录",
+
+  "terms": "条款&条件",
+
+  "vote_email": "对于有兴趣使用FLEX投票的项目，请发送电子邮件：",
+
+  "vote_goes_to": "本轮投票的获胜者去",
+
+  "kycTitle": "个人验证",
+
+  "kycSubtitle": "请注意，验证后无法更改您的信息。请提供完整和准确的信息。币飞{url}请{url1}",
+
+  "kycLever": "等级{num}",
+
+  "Verification": "认证",
+
+  "goto_lv2": "继续Lv2认证",
+
+  "details_1": "所有推荐佣金实时计算，并每小时转入相应的用户币飞账户。",
+
+  "details_2": "推荐率更新于0：00 AM （UTC）",
+
+  "details_3": "单个帐户可以邀请的好友数量没有限制。",
+
+  "details_4": "币飞不允许任何用户通过多个帐户自行邀请。一旦检测到此类活动，所有转介绍将被取消，受邀者帐户的所有推荐佣金回扣将被取消。",
+
+  "details_5": "由于市场条件变化，欺诈风险或我们认为相关的任何其他因素，币飞保留随时更改推荐计划条款的权利。",
+
+  "Lifetime": "终身",
+
+  "level1": "提款限额：10,000 USD",
+
+  "level2": "提款限额：10,000 USD/24小时",
+
+  "Basic_Info": "基本信息",
+
+  "with_id": "需要和ID保持一致",
+
+  "Continue_Lv3": "继续Lv3 认证",
+
+  "Individual": "个人",
+
+  "Salutation": "性别",
+
+  "birth_date": "出生日期",
+
+  "Nationality": "国籍",
+
+  "Country": "居住国",
+
+  "id_type": "证件类型",
+
+  "id_number": "证件序列号",
+
+  "id_date": "证件有效期",
+
+  "Corporate": "公司",
+
+  "Company_name": "公司名称",
+
+  "Incorporation_date": "注册日期",
+
+  "Incorporation_Country": "注册地",
+
+  "Incorporation_number": "注册号",
+
+  "First_Name": "名字",
+
+  "Middle_Name": "中间名字",
+
+  "Last_Name": "姓",
+
+  "id_kyc_number": "身份证号码",
+
+  "miss": "女士",
+
+  "mr": "先生",
+
+  "Manual_review": "手动检查",
+
+  "sendEmail": "如果您想继续，请发送电子邮件至{email}",
+
+  "Rejected": "已拒绝",
+
+  "Additional": "额外的",
+
+  "Approved": "已通过",
+
+  "level3": "提高无限制提款额度",
+
+  "kyc_level3_limit": "提款额度不限制",
+
+  "verify_user": "完成身份验证后，您可以获得更高的取款金额。",
+
+  "then_email": "如果你想要提现额度超过10000 USD/天，请发送电子邮件至 {email}",
+
+  "kyc_error": "您已失败两次，无法提交 KYC 2 验证。如果您想继续，请发送电子邮件至 {email}",
+
+  "old_level2": "在发布新功能之前，您已完成 KYC 验证。",
+
+  "Index": "指数",
+
+  "Classic": "经典版",
+
+  "spot_futures": "现货&期货&可交割的永续合约",
+
+  "spread_trading": "250倍杠杆，专业的价差交易",
+
+  "Spreads": "价差",
+
+  "Play": "娱乐",
+
+  "Options": "期权",
+
+  "Competitions": "交易大赛",
+
+  "FLEX": "FLEX",
+
+  "Vote": "投票",
+
+  "Wallet_Order": "钱包&订单",
+
+  "Wallet_History": "钱包历史",
+
+  "Settlement_History": "结算历史",
+
+  "mint_redeem": "铸造&赎回历史",
+
+  "borrow_repay": "借入&偿还历史",
+
+  "Referral": "推荐",
+
+  "Referral_Open_Exchange": "推荐币飞",
+
+  "Referral_Options": "推荐币飞期权",
+
+  "KYC": "实名认证",
+
+  "log_out": "退出",
+
+  "DownLoad": "下载",
+
+  "Legacy": "旧地址",
+
+  "SegWit": "SegWit",
+
+  "CashAddr": "现金地址",
+
+  "memo_warn": "请输入备注和地址数据，这是把ERC20-BTC令牌存入您的币飞帐户所必需的。",
+
+  "memo": "备忘录",
+
+  "memo_message": "您必须填写标签/备忘录，这样币飞能够识别您的资产。未填写或未正确填写将导致资产丢失。其他交易所或钱包也把标签称为备忘录、数字 ID、标签和注释。",
+
+  "memo_lowercase": "备忘录",
+
+  "invite_earn": "邀请好友赚取佣金",
+
+  "up_to": "高达{rate}%",
+
+  "spot_trading": "现货及期货交易",
+
+  "Invite": "邀请",
+
+  "Permissions": "权限",
+
+  "Add": "添加",
+
+  "Total_including_Fee": "总共（包括费用）",
+
+  "Txid": "交易ID",
+
+  "Delivered_Position": "交割仓位",
+
+  "Delivered_Assets": "交割资产",
+
+  "Received_Assets": "接收资产",
+
+  "No_account_available": "无可用帐号",
+
+  "exceeds_balance": "金额超过可用余额",
+
+  "transferring": "划转资产会增加你清算的风险。",
+
+  "tran_position": "建议您在关闭所有仓位后进行划转\n",
+
+  "select_account": "请先选择帐号",
+
+  "Contracts": "合约",
+
+  "Size": "大小",
+
+  "Entry_Price": "入场价（USD）",
+
+  "Market_Price": "市场价",
+
+  "PNL": "盈亏",
+
+  "Liquidation_Price": "强平价",
+
+  "No_Position": "无仓位",
+
+  "Repayment": "偿还",
+
+  "To_borrow": "去借款",
+
+  "User Name": "用户名",
+
+  "supercharged_index": "对冲资金费用的指数合约",
+
+  "tfaModal": "为了提高你账户的安全性，请开启双重验证",
+
+  "EnterTwoFactor": "请输入2FA验证码",
+
+  "supercharged index contracts with funding": "对冲资金费用的指数合约",
+
+  "take_1_f": "复制邀请码或者分享你的二维码给你的好友",
+
+  "take_2_f": "邀请你的好友通过你的链接或者二维码注册Open Exchange 账号",
+
+  "take_3_f": "检查你的邀请记录，确保你的好友注册成功。",
+
+  "take_4_f": "当你的好友在币飞交易成功后，你将收到返佣。",
+
+  "EnterEmailAccount": "输入账号",
+
+  "APIRemoved": "删除之后，API将从列表移除",
+
+  "pleaseEnterIPAddress": "请输入IP地址",
+
+  "pleaseEnterUp": "标签最多输入32个字符",
+
+  "EditAPI": "编辑API",
+
+  "current_city": "目前仅服务于以下国家/地区的客户。",
+
+  "see_trading": "查看被禁止交易的国家。",
+
+  "Today PNL": "今日盈亏",
+
+  "PNL Analysis": "盈亏分析",
+
+  "Export": "导出",
+
+  "Passport": "护照",
+
+  "ID card": "身份证",
+
+  "Days": "天数",
+
+  "Hours": "时",
+
+  "Minutes": "分",
+
+  "Seconds": "秒",
+
+  "accountStatus": "当前账号被设置为{status}，不能被解冻。如果你有任何问题，请联系客服服务。",
+
+  "flex_holding": "持有FLEX",
+
+  "flex_vip_message_4": "FLEX持有包含持有FLEX和flexFLEX",
+
+  "SetUpAuthyYubiKey": "设置YubiKey双重验证",
+
+  "NoRecordsYet": "暂无记录",
+
+  "Commission": "佣金",
+
+  "FromAccount": "账户",
+
+  "InvitedAccount": "被邀请账号",
+
+  "RegisterTime": "注册时间",
+
+  "Invalid": "未激活",
+
+  "VerificationFailed": "验证失败，请重试",
+
+  "PleaseCompleteVerification": "请先完成验证",
+
+  "Valid": "激活",
+
+  "WARNING": "警告",
+
+  "warn_text": "请注意！当前您的账户USD余额为负，则此操作可能会触发对您其他现货资产进行抵押清算，为避免自动清算请主动部分或全部还清该负余额。",
+
+  "Begin work on whitelisting function": "打开白名单功能",
+
+  "Turn on": "打开",
+
+  "After turning on this function, you will only be able to withdraw to whitelisted withdrawal addresses. Are you sure you want to turn it on?": "开启该功能后，你将只能提币到白名单地址。确定要打开吗？",
+
+  "Are you sure you want to turn on whitelist?": "你确定要开启白名单功能吗？",
+
+  "Are you sure you want to turn off whitelist?": "你确定要关闭白名单功能吗？",
+
+  "Turn Off": "关闭",
+
+  "After turning off this function, you can begin to withdraw to any withdrawal address, which may lead to greater risk. Are you sure you want to turn it off?": "关闭该功能后，你的账户可以向任何一个地址提币，这可能会带来提币风险。 您确定要关闭该功能吗？",
+
+  "Remove from whitelist": "从白名单中移除",
+
+  "Remove": "移除",
+
+  "Are you sure you want to remove it?": "你确定要移除它吗？",
+
+  "logOut": "登录失效，请重新登录",
+
+  "PleaseAddress": "请输入你的地址",
+
+  "USDWillbeWithdraw": "USD将提取为USDC，按USD:USDC=1:1比率。",
+
+  "USDWillbeWithdrawRatio": "USD将提取为USDC，按USD:USDC=1:1比率。",
+
+  "PleaseMemo": "请输入你的MEMO",
+
+  "PleaseNumber": "请输入数量",
+
+  "SetUpAuthyGoogle": "设置谷歌验证器",
+
+  "TurnOff": "关闭",
+
+  "protection": "保护",
+
+  "GoogleAuth": "谷歌验证器",
+
+  "tfaCode": "双重验证码",
+
+  "Completed": "已完成",
+
+  "Failed": "失败",
+
+  "CopiedSuccessfully": "复制成功！",
+
+  "PleaseClickVIP": "点击查看VIP等级及规则：",
+
+  "Rebate": "返利",
+
+  "maxFeeShareRate": "币飞已升级了返利规则。 从今天开始，邀请朋友注册币飞并进行交易。 邀请者最多可以分享{maxFeeShareRate}％的折扣。",
+
+  "here": "此处",
+
+  "Details": "详情",
+
+  "RulesCommission": "邀请人的VIP级别越高，邀请的佣金率就越高。",
+
+  "Rules": "规则",
+
+  "CryptocurrencyFuturesExchange": "加密货币期货交易所。",
+
+  "AllRightsReserved": "保留所有权利©",
+
+  "OnNomics": "\nOn Nomics",
+
+  "ExchangeIndex": "Exchange Index",
+
+  "OVERVIEW": "总览",
+
+  "POLICIES": "政策及条款",
+
+  "REFERENCES": "参考资料",
+
+  "PROGRAMS": "项目",
+
+  "Company": "公司简介",
+
+  "Blog": "博客",
+
+  "Careers": "职业招聘",
+
+  "TermsOfService": "服务条款",
+
+  "CookiesPolicy": "Cookies政策",
+
+  "PrivacyPolicy": "隐私条款",
+
+  "Risk": "风险",
+
+  "AffiliateTerms": "邀请返佣项目",
+
+  "API": "API",
+
+  "Fees": "费用表",
+
+  "SupportCenter": "支持中心",
+
+  "Spectifications": "规格",
+
+  "ReferralForOpenExchange": "邀请注册币飞",
+
+  "ReferralforOptions": "邀请注册期权",
+
+  "Earn": "理财",
+
+  "error_2FACode": "请输入双重验证码",
+
+  "random_snapshot": "随机快照",
+
+  "registration_authy": "请在下面输入您的8位2FA验证码和密码以完成注册",
+
+  "Enable": "启用",
+
+  "pleaseEnterLabel": "请输入标签",
+
+  "Change": "更换",
+
+  "name": "名称",
+
+  "first_name": "请输入您的名字",
+
+  "last_name": "请输入您的姓氏",
+
+  "Please_Choose": "请选择",
+
+  "idSerialNumber": "序列编号",
+
+  "select_data": "请选择日期",
+
+  "Company_Name": "公司名称",
+
+  "incorporation_date": "请输入注册日期",
+
+  "incorporation_Country": "请输入注册国家",
+
+  "incorporation_number": "请输入注册编号",
+
+  "kyc_salutation": "请选择称呼语",
+
+  "PleaseAgreeTo": "请同意服务条款",
+
+  "DontUsePart": "请不要在密码中使用部分登录电子邮件地址/名称。",
+
+  "PleaseConfirm": "请确认密码",
+
+  "disabling2fa": "当同时启用密码和2FA认证时，您的帐户更安全。如果移除2FA，您的账户容易被盗。禁用2FA后，如果我们的风险系统检测到任何可疑行为，提现功能可能会暂停24小时。",
+
+  "memoTag": "备忘录标签",
+
+  "ItSeemsThat": "您的确认链接似乎无效。 也许您已经确认了您的地址？ 尝试登录以进行验证。",
+
+  "requestVerification": "如果您无法登录，您可以请求一封新的认证邮件",
+
+  "Processing": "处理中",
+
+  "Onhold": "暂搁置",
+
+  "Pending": "待处理",
+
+  "CANCEL_DELIVERY": "取消交割",
+
+  "DELIVER": "交割",
+
+  "DEPOSIT": "存款",
+
+  "FUNDING": "资金费用",
+
+  "INTERNAL": "划转",
+
+  "LENDING_EARN": "贷款赚取",
+
+  "LIQUIDATION": "清算",
+
+  "PNL_DELIVERY": "交割盈亏",
+
+  "STAKING_REWARD": "锁仓奖励",
+
+  "SUBMIT_DELIVERY": "交割提交",
+
+  "TRADE_FEE": "费用",
+
+  "WITHDRAW": "提款",
+
+  "ZRT": "ZRT",
+
+  "TRADE": "交易",
+
+  "CanWithdraw": "可以提款",
+
+  "TheSubAccountHas": "该子帐户没有提款历史。 目前只有主帐户可以提款。",
+
+  "Web": "网页",
+
+  "ComingSoon": "敬请期待",
+
+  "SubAccountEmail": "子账号邮箱",
+
+  "Key": "密钥",
+
+  "PleaseEnterTheRegistered": "请输入注册电子邮件以接收验证码！",
+
+  "TRADEFEE": "手续费",
+
+  "MainAccount": "主帐户",
+
+  "No_Index_History": "无指数交易的历史",
+
+  "Liquidation": "清算",
+
+  "specialVipLevel1": "亲爱的用户：",
+
+  "specialVipLevel2": "您当前的VIP等级",
+
+  "specialVipLevel3": "您无须在意您之前的等级，该特殊等级就是您现在的等级",
+
+  "specialVipLevel4": "此特殊级别将用作您收取交易费和计算佣金奖励的级别。",
+
+  "FLEX_special_level": "您当前的VIP等级",
+
+  "switch_main": "请切换到主账户后再投票",
+
+  "Switch to vote": "切换账户",
+
+  "success": "成功",
+
+  "LoanDays": "借款天数",
+
+  "REPO": "回购",
+
+  "profit_1": "• 此盈亏分析主要计算以美元计价的账户资金的变化。币飞是一个统一的账户系统，因此账户盈亏包括现货盈亏、合约盈亏、flexAssets等多种业务的整体盈亏。",
+
+  "profit_2": "•数据更新时间为UTC + 0时区。数据维护时间为每天凌晨0点至凌晨1点(UTC+0)。在此期间，今天的数据计算是基于前一天的资产。维护完成后，所有数据显示正常。",
+
+  "profit_3": "•声明：由于财务数据的复杂性，可能会有细微差别和延迟。上面显示的数据仅供参考。不便之处，敬请原谅。",
+
+  "Last7days": "过去7天",
+
+  "EstimatedBalance": "估计余额",
+
+  "HideBalance": "隐藏余额",
+
+  "ProfitLossAnalysis": "盈亏分析",
+
+  "DailyPNL": "每日盈亏",
+
+  "AssetNetWorth": "资产净值",
+
+  "AssetNetWorth_day": "资产净值 = 从第 1 天到第 N 天账户中所有资产的总净值（UTC 0：00 的快照）",
+
+  "AssetAllocation": "资产分配",
+
+  "TodayPnl": "今天的 PNL = 当前现货总资产 - 今天的初始资产总额 - 今天的净转账和存款",
+
+  "ServiceAreas": "服务区域",
+
+  "EmailUs": "邮件联系",
+
+  "BugBountyProgram": "漏洞赏金计划",
+
+  "SelfRepayment": "自动还款",
+
+  "Repay": "还款",
+
+  "ToBeRepaid": "待偿还",
+
+  "NotExpired": "未过期",
+
+  "FixedRate": "固定利率",
+
+  "FloatingRate": "浮动利率",
+
+  "Long": "做多",
+
+  "Short": "做空",
+
+  "Buy": "买入",
+
+  "Sell": "卖出",
+
+  "Future": "期货",
+
+  "Floating": "浮动",
+
+  "Fixed": "固定",
+
+  "transfer": "划转",
+
+  "account": "账户",
+
+  "No account available": "无账户可用",
+
+  "Amount exceeds available balance": "金额超过可用余额",
+
+  "Avbl": "可用余额",
+
+  "You currently have open positions": "您当前有未结的仓位",
+
+  "Transferring coins increases your risk of liquidation.": "资产划转会增加您的清算风险",
+
+  "It is recommended you transfer only after closing all open positions": "建议您在关闭所有未平仓头寸后再进行转账",
+
+  "CLIENT": "客户端",
+
+  "note swaps": "本票兑换",
+
+  "withdrawal_limit2": "提币限制：{value}",
+
+  "Highest-level": "最高等级",
+
+  "random_model": "随机模型",
+
+  "WrongAddress": "错误地址",
+
+  "WITHDRAWAL": "提币",
+
+  "PRIZE": "奖励",
+
+  "Trade repayment": "交易赎回",
+
+  "I'm sure": "我确定",
+
+  "Please confirm if you have closed your swap position and get your BTC back.": "请确认你平掉了永续的仓位并拿回了你的抵押品。",
+
+  "Trade repayment failed": "交易赎回失败",
+
+  "I Know": "知道了",
+
+  "Found that you have a long position that has not been closed. Please choose to repay or close the position manually.": "发现你的多头仓位没有关闭，请通过赎回来操作。",
+
+  "Not Whitelisted": "非白名单",
+
+  "Whitelisted": "白名单",
+
+  "NewPassword": "新密码",
+
+  "ConfirmPassword": "确认密码",
+
+  "PleaseConfirmPassword": "请输入确认密码",
+
+  "Passwords do not match, please re-enter": "密码不正确，请重试",
+
+  "Offline notification": "离线通知",
+
+  "The account has been logged in on another device. If it is not operated by yourself, please change the password as soon as possible.": "该帐户已在另一台设备上登录。如果不是您自己操作的，请尽快更改密码。",
+
+  "Close": "关闭",
+
+  "Cancelled": "已取消",
+
+  "OTHER": "其他",
+
+  "SWAP": "永续合约",
+
+  "ThinkAbout": "想一下",
+
+  "Miss": "女士",
+
+  "Mr": "先生",
+
+  "ID Card": "身份证",
+
+  "flex-info": "FLEX相关",
+
+  "chart": "图表",
+
+  "ERC20 Token": "ERC20 代币",
+
+  "SLP Token": "SLP 代币",
+
+  "FLEX Price": "FLEX 价格",
+
+  "Market Cap": "总市值",
+
+  "Volume 24H": "24小时交易量",
+
+  "Supply": "供应",
+
+  "Last 7 Days": "过去7天",
+
+  "Last 1 Month": "过去1个月",
+
+  "Last 1 Year": "过去1年",
+
+  "Circulating Supply": "当前流通量",
+
+  "Max Supply": "最大供应量",
+
+  "Burrned": "已销毁",
+
+  "SLP": "SLP",
+
+  "MarketCap": "总市值",
+
+  "Note": "注意",
+
+  "The volume of transactions in the spot market in the past 24 hours.": "现货市场的过去24小时内交易量。",
+
+  "Market price*Circulating Supply": "市场价*当前流通量",
+
+  "Last30days": "过去30天",
+
+  "Customize": "自定义",
+
+  "Mortgage position": "抵押仓位",
+
+  "Est. Interest": "预估利息",
+
+  "Margin Ration": "保证金率",
+
+  "Est.max withdraw": "预估最大提款",
+
+  "When LTV is equal to 0, Max withdraw=a=Available balance": "LTV等于0时，最大提款=a=可用余额",
+
+  "When LTV is not equal to 0, Max withdraw=MIN((Collateral-Portflio margin) /Mark price * LTV, Available)": "LTV不等于0时，最大提款=最低((抵押品-投资组合保证金) /标记价格 * LTV, 可用余额)",
+
+  "E-mail verification code": "邮箱验证吗",
+
+  "Click to get code": "点击获取验证码",
+
+  "Enter the 6 digit code received by": "输入您收到的 6 位验证码",
+
+  "At least": "至少",
+
+  "characters": "字符",
+
+  "uppercase": "大写",
+
+  "lowercase": "小写",
+
+  "number": "数字",
+
+  "special character": "特殊字符",
+
+  "Anti-Phishing Code": "反网络钓鱼码",
+
+  "What is an Anti-Phishing Code?": "反网络钓鱼码是什么？",
+
+  "An Anti-Phishing Code is a code that helps to prevent phishing attempts from fake Binance websites or email addresses.": "防网络钓鱼码是一种有助于防止来自虚假币飞网站或电子邮件地址的网络钓鱼尝试的代码。",
+
+  "How does it work?": "它是如何运作的？",
+
+  "Once you've set your unique Anti-Phishing Code, it will be included in all genuine Open Exchange emails.": "一旦您设置了反网络钓鱼码，它将包含在所有真实的币飞电子邮件中。",
+
+  "Create Anti-Phishing Code": "创建反网络钓鱼码",
+
+  "Please input Anti-phishing Code": "请输入反网络钓鱼码",
+
+  "Please enter 4-20 non-special characters": "请输入4-20个非特殊字符",
+
+  "Change code": "更改反钓鱼码",
+
+  "Old Anti-Phishing Code": "旧的反网络钓鱼码",
+
+  "Open Exchange recommends you to change your Anti-Phishing Code from time to time in order to improve your account security.": "币飞建议您定期更改您的反钓鱼码，提高您的账户安全。",
+
+  "Protect your account from phishing attempts and ensure that your notification emails are from Open Exchange only.": "保护您的帐户免受网络钓鱼攻击，并确保您的通知电子邮件仅来自币飞。",
+
+  "Other Trading Names": "其它交易名",
+
+  "Please enter content": "请输入内容",
+
+  "Corporate Application Entity Details": "企业申请实体详情",
+
+  "Comepany Number": "公司名称",
+
+  "Entity Type": "实体类型",
+
+  "Regulated Corporation": "受监管的公司",
+
+  "Unregulated Corporation": "不受监管的公司",
+
+  "Partnership": "合作关系",
+
+  "Fund": "基金",
+
+  "Trust": "信托",
+
+  "Other": "其他",
+
+  "Regulator Status": "监管机构状态",
+
+  "Regulator (if applicable)": "监管机构（如果适用）",
+
+  "Listed on a Stock Exchange": "在证券交易所上市",
+
+  "Save": "保存",
+
+  "Contact Details": "详情信息",
+
+  "Company Telephone Number": "公司电话",
+
+  "Company Email Address": "公司邮件地址",
+
+  "Company Website Address": "公司网址",
+
+  "Registered Company Address Street": "注册公司地址街道",
+
+  "Registered Address City": "注册城市地址",
+
+  "Registered Address Country": "注册国家地址",
+
+  "Registered Address Postal Code": "注册地邮政编码",
+
+  "Registered Address same as Trading Address? ": "注册地址和所在地址一样？",
+
+  "* If ‘No’ please provide your trading address": "如果不是，请输入您的所在地址",
+
+  "Trading Address": "地址",
+
+  "Trading Address Street": "地址（街道）",
+
+  "Trading Address City": "地址（城市）",
+
+  "Trading Address Country": "国家",
+
+  "Trading Address Postal Code": "邮政编码",
+
+  "Previous": "上一个",
+
+  "Shareholders/Beneficial Owners (please list everyone with a holding of 25% or above).": "股东/利益拥有人（请列出所有持股 25% 或以上的人）。",
+
+  "Corporate Structure": "公司架构",
+
+  "Residential Address": "居住地址",
+
+  "Directors (please list all active Directors below).": "董事（请在下方列出所有在职董事）。",
+
+  "Estimated Activity": "估计活动",
+
+  "Please state your estimated monthly activity": "请说明您估计的每月活动",
+
+  "Currency": "货币",
+
+  "Amount is not a valid number": "金额无效",
+
+  "Trading Volume": "交易量",
+
+  "Business & Financial Details": "业务和财务详情",
+
+  "Nature of Business": "业务性质",
+
+  "Sector": "部门",
+
+  "Financial Services": "金融服务",
+
+  "Money Service Business": "货币服务业务",
+
+  "Consumer Goods": "消费品",
+
+  "Export-Import": "进出口",
+
+  "Property-Construction": "物业建设",
+
+  "Pharmaceuticals": "制药",
+
+  "Legal": "法律",
+
+  "IT": "信息技术",
+
+  "Marketing": "市场",
+
+  "Manufacturing": "制造业",
+
+  "Education": "教程",
+
+  "Gambling": "赌博",
+
+  "What is the company’s source of funds?": "公司资金来源",
+
+  "Earnings in Fiat": "法币收入",
+
+  "Third Party Funds": "第三方资金",
+
+  "Commerical Activities": "商业活动",
+
+  "Reason for Opening an Account": "开立账户的原因",
+
+  "Mining": "挖矿",
+
+  "Investing (storing value)": "投资（保值）",
+
+  "Brokering": "经纪",
+
+  "Divesting (selling earned crypto)": "剥离（出售赚取的加密货币）",
+
+  "Remittance": "汇款",
+
+  "Retail (spending crypto)": "零售（使用加密货币）",
+
+  "OTC Trading": "场外交易",
+
+  "Payments Processing Other": "付款处理其他",
+
+  "Upload information": "上传信息",
+
+  "Corporation": "公司",
+
+  "Sole Trader": "个体经营",
+
+  "Initial Coin Offerings (ICOs)": "首次代币发行 (ICO)",
+
+  "We consider corporations to be the following entity types:": "我们将公司视为以下实体类型：",
+
+  "Limited": "有限",
+
+  "Limited Liability Companies": "有限责任公司",
+
+  "Sp. z.o.o.": "有限公司",
+
+  "S.A.": "股份公司",
+
+  "S.A.R.L.": "有限责任公司",
+
+  "Privaat maatskappy, etc.": "私人企业",
+
+  "Please provide the documentation listed below:": "请提供下列文件：",
+
+  "1、Certificate of Incorporation": "1、公司注册证书",
+
+  "2、Memorandum / Articles of Association of Association (also known as Statutes or Bylaws)": "2、组织章程大纲/章程细则（也称为章程或章程）",
+
+  "3、Shareholders Register (also known as a Members Register)": "3、股东名册（又称会员名册）",
+
+  "4、Directors Register (also known as a Managers Register)": "4、董事名册（也称为经理名册）",
+
+  "5、Anti-Money Laundering Policy – (only needs to be provided if the company is brokering or accepting crypto as payment for services)": "5、反洗钱政策—（仅当公司代理或接受加密作为服务付款时才需要提供）",
+
+  "6、Signed Certified Board Resolution as provided by Open Exchange;": "6、由币飞提供的签署的认证董事会决议；",
+
+  "Shareholders Register & Directors Register may be replaced by Certificate of Incumbency that lists the current Directors and Shareholders. Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:": "股东名册和董事名册可由列出现任董事和股东的在职证明书取代。 还请为每位持有 25% 或以上股份的活跃董事和股东提供以下文件：",
+
+  "1、Colour copy of Passport(s)": "1、护照彩色复印件",
+
+  "2、Proof of Address (dated within the last 3 months) (The proof of address can be a posted utility bill (e.g. gas, electricity, water, broadband, television); a letter from a Government body; a personal bank statement; or an ID with address.)": "2、地址证明（最近3个月内）（地址证明可以是公用事业账单（如煤气、电、水、宽带、电视）；政府机构的信函；个人银行对账单；或带有地址的 ID。）",
+
+  "If the Director is an entity, please provide the entity’s:": "如果董事是实体，请提供该实体的：",
+
+  "2、Directors Register (also known as a Managers Register)": "2、董事名册（也称为经理名册）",
+
+  "3、ID & Proof of Address of the Directors": "3、董事身份证明及地址证明",
+
+  "If the Shareholder is an entity, please provide the entity’s:": "如果股东是实体，请提供实体的：",
+
+  "2、Shareholders Register (also known as a Members Register)": "2、股东名册（又称会员名册）",
+
+  "3、ID & Proof of Address of Shareholders with a holding of 25% or more": "3、持股25%以上股东身份证明及住址证明",
+
+  "Download Document here": "在此处下载文档",
+
+  "1、Certificate of Registration / Incorporation": "注册证书/公司注册证书",
+
+  "2、Partnership Agreement": "2、合作协议",
+
+  "3、Proof of Company’s Registered Address (dated within the last 3 months)": "3、公司注册地址证明（最近3个月内）",
+
+  "4、Proof of Company’s Operational Address – if applicable (dated within the last 3 months)": "4、公司经营地址证明——如果合适（最近3个月内）",
+
+  "5、Signed Certified Board Resolution as provided by Open Exchange;": "5、由币飞提供的签署的认证董事会决议；",
+
+  "Please also provide the following documentation for all General Partners, Designated Members, etc:": "请为所有普通合伙人、指定成员等提供以下文件：",
+
+  "2、Members Register": "2、会员注册",
+
+  "3、ID & Proof of Address of Members": "3、会员身份证明及地址证明",
+
+  "Please provide only one of the following documents to prove your Sole Trader Status. The document should be current (dated within the last three months, quarter or year):": "请仅提供以下文件之一来证明您的个体户身份。 该文件应该是最新的（日期在过去三个月、季度或年度内）：",
+
+  "1、Self-Assessment Welcome letter": "1、自我评价欢迎信",
+
+  "2、Class 2 National Insurance Contributions bill": "2、第2类国民保险缴款法案",
+
+  "3、Certificate of registration for Value Added Tax (VAT)": "3、增值税（VAT）登记证明",
+
+  "4、Correspondence from HMRC acknowledging UTR number": "4、HMRC确认UTR号码的来信",
+
+  "5、Notice to complete Self-Assessment Tax Return": "5、完成自我评估纳税申报表的通知",
+
+  "You must also provide both of the documents stated below:": "您还必须提供以下两份文件：",
+
+  "1、Trust Deed and all Supplementary Deeds": "1、信托契约及所有附属契约",
+
+  "2、Copy of Schedule(s)": "2、附表复印件",
+
+  "3、Verification of the Trustee(s) (ID for individual, certificate of incorporation for entity)": "3、受托人的验证（个人身份证，实体公司注册证明）",
+
+  "4、Verification of the Settlor (ID for individual, certificate of incorporation for entity)": "4、委托人验证（个人身份证，实体公司注册证明）",
+
+  "5、Verification of the Beneficiaries (ID for individual, certificate of incorporation for entity)": "5、受益人验证（个人身份证，实体法人证明）",
+
+  "6、Signed Certified Board Resolution as provided by Open Exchange": "6、由币飞提供的签署的认证董事会决议",
+
+  "We require all of the documentation listed below for Funds.If you are a UK regulated or equivalent status Fund, please refer to the Account Management team for documentation requirements.": "我们需要以下列出的所有基金文件。如果您是英国监管或同等地位的基金，请咨询账户管理团队了解文件要求。",
+
+  "1、Most up to date Prospectus/Offering Memorandum & Supplements": "1、最新的招股说明书/报告和补充",
+
+  "2、Certificate of Incorporation": "2、公司注册证书",
+
+  "3、Memorandum / Articles of Association of Association (also known as Statutes or Bylaws)": "3、组织章程大纲/章程细则（也称为条例或章程）",
+
+  "5、Signed Certified Board Resolution as provided by Open Exchange": "5、由币飞提供的签署的认证董事会决议",
+
+  "1、Copy of Passport(s)": "护照复印件",
+
+  "Please also provide the following documentation for each active Director and Shareholder (with Management Shares or Common Shares):": "还请为每位在职董事和股东（管理股份或普通股）提供以下文件：",
+
+  "For the Fund Investment Manager Please provide the documentation listed below:": "基金投资经理请提供下列文件：",
+
+  "6、Proof of Address (dated within the last 3 months) (The proof of address can be a posted utility bill (e.g. gas, electricity, water, broadband, television); a letter from a Government body; a personal bank statement; or an ID with address.)": "6、地址证明（最近3个月内）（地址证明可以是公用事业账单（如煤气、电、水、宽带、电视）；政府机构的信函；个人银行对账单；或带有地址的 ID。）",
+
+  "4、Directors Register (also known as a Managers Register) Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:": "4、董事名册（也称为经理名册） 还请为每位持有 25% 或以上股份的在职董事和股东提供以下文件：",
+
+  "For The Fund Administrator Please provide the documentation listed below:": "基金管理人请提供下列文件：",
+
+  "4、Admin Comfort Letter": "4、管理安慰信",
+
+  "5、Anti-Money Laundering Policy Please also provide the following documentation for each active Director:": "5、反洗钱政策 请同时为每位在职董事提供以下文件：",
+
+  "Please also provide the following documentation for each active Director and Shareholder with a holding of 25% or more:": "还请为每位持有 25% 或以上股份的在职董事和股东提供以下文件：",
+
+  "Select entity types": "选择实体类型",
+
+  "MetaMask": "MetaMask",
+
+  "Connect": "连接",
+
+  "Bind": "绑定",
+
+  "MetamMask": "MetaMask",
+
+  "Quick-Deposit": "快速存款",
+
+  "MetamaskQuick-Deposit": "Metamask快速存款",
+
+  "Transfer-in-address": "Transfer-in-address",
+
+  "Current-account": "当前账户",
+
+  "Outgoing-address": "发送地址",
+
+  "transation": "交易",
+
+  "files": "文件",
+
+  "remark": "评论",
+
+  "bindMetaMask": "绑定MetaMask",
+
+  "Bind existing account": "绑定已有账号",
+
+  "Jump to the login page": "跳转到登录页面",
+
+  "you need to log in to the original account first": "您需要先登录原有帐户",
+
+  "I agree to": "我同意",
+
+  "Already have an account": "已经有账户了",
+
+  "Bind you email": "绑定邮箱",
+
+  "Bind Success": "成功绑定",
+
+  "Bind Failed": "绑定失败",
+
+  "The current MetaMask Account has been bound to Open Exchange，place change to another MetaMask Account": "当前MetaMask账户已绑定币飞，请更换其他MetaMask账户",
+
+  "not found Matemask Account": "没有找到Metamask账号",
+
+  "MetaMask create failed, place try again": "MetaMask创建失败，请重试",
+
+  "MetaMask Connect failed, place try again": "MetaMask连接失败，请重试",
+
+  "MetaMask Login failed, place try again": "MetaMask登录失败，请重试",
+
+  "MetaMask send email validation failed": "MetaMask发送邮件验证失败",
+
+  "Use MetaMask address": "使用MetaMask地址",
+
+  "MetamaskQuick Deposit": "Metamask快速存款",
+
+  "Estimated handling fee {coin}": "预估手续费 {coin}",
+
+  "Deposit {coin} to Open Exchange": "存款 {coin}到币飞",
+
+  "Note: Minimum deposit is {value} {coin}（Metamask）": "注：最低存款为{value} {coin}（Metamask）",
+
+  "Gas price: {coin} wei": "油费：{coin} \n",
+
+  "slow": "慢",
+
+  "average": "平均",
+
+  "fast": "快",
+
+  "Disposit Submit Success": "存款请求成功提交",
+
+  "Disposit Success": "存款成功",
+
+  "Disposit Submit Failed": "存款请求提交失败",
+
+  "Invalid Disposit to address": "无效的存款地址",
+
+  "Invalid Disposit amount": "无效的存款金额",
+
+  "Minimum deposit is {value} {coin}（Metamask）": "最低存款额为 {value} {coin}（Metamask）",
+
+  "Submit apply for NON-US users": "为非美国用户提交申请",
+
+  "The system automatically determines that you are currently a US user. According to US policy, there are the following restrictions:": "系统会自动检测您当前是美国用户。 根据美国的政策，有以下限制：",
+
+  "All positions cannot be greater than 25 days, otherwise the system will force liquidation ": "所有持仓不能超过25天，否则系统将强制平仓",
+
+  "Cannot use SLP network deposit": "不能使用 SLP 网络存款",
+
+  "Can't use Copper": "不能用Copper",
+
+  "If you are not a U.S. user, please send an email to": "如果您不是美国用户，请发送电子邮件至",
+
+  "You are current a U.S. user. According to U.S. policy, SLP network is temporarily not supported": "您目前是美国用户。 根据美国政策，暂时不支持SLP网络",
+
+  "Please upload an address proof image": "请上传地址证明图片",
+
+  "Please upload file proof is valid": "请上传文件证明有效",
+
+  "File must smaller than 5MB": "文件必须小于 5MB",
+
+  "Please upload document or image is valid": "请上传文件或图片有效",
+
+  "Click to Upload": "点击上传",
+
+  "Open Exchange Corporate KYC Form": "币飞企业 KYC 表格",
+
+  "List of KYC documents can be found here": "可以在此处找到 KYC 文件列表",
+
+  "Complete it and upload it together with the corporate onboarding documents.": "完成并与公司实名认证文件一起上传。",
+
+  "Address proof (dated within the last 3 months) can be:": "地址证明（日期在过去 3 个月内）可以是：",
+
+  "a utility bill (e.g. gas, electricity, water, broadband, television);": "水电费账单（例如煤气、电、水、宽带、电视）；",
+
+  "a letter from a Government body;": "来自政府机构的信函；",
+
+  "a personal bank statement; or": "个人银行对账单；",
+
+  "a government-issued ID with address.": "政府颁发的有地址的身份证件。",
+
+  "Information required for institutional account：": "机构账户所需资料：",
+
+  "Address Proof": "地址证明",
+
+  "You are currently trading inside the US region. According to the regulations, the maximum duration for holding a position is 25 days, and it will be closed automatically thereafter": "您目前在美国区域内进行交易。 根据规定，持仓最长持仓期限为25天，之后将自动平仓。",
+
+  "You will need to change your software wallet account to use": "您需要更改您的软件钱包帐户才能使用",
+
+  "You can quickly withdraw funds to the current MetamMask Wallet address. If you need to withdraw funds to other addresses, please bind your email and activate two-step verification (2FA) ": "您可以快速提取资金到当前的 MetaMask 钱包地址。 如需提现到其他地址，请绑定邮箱并激活双重验证（2FA）",
+
+  "Metamask wallet network Worth, place change to mainnet": "Metamask 钱包网络错误，更改主网",
+
+  "MetaMask open failed, place try again": "MetaMask 打开失败，请重试",
+
+  "MetaMask Signature: User denied transaction signature.": "MetaMask 签名：用户拒绝交易签名。",
+
+  "Transaction rejected:": "交易拒绝",
+
+  "MetaMask is not on mainnet, please switch MetaMask to Ethereum mainnet": "MetaMask 不在主网上，请将 MetaMask切换到以太坊主网上",
+
+  "Not found Matemask, Place Install Matemask": "未找到 Matemask，放置安装 Matemask",
+
+  "Matemask not unlocked, Place first unlocked": "Matemask 未解锁，首先解锁放置",
+
+  "The address is already registered, please login": "该地址已被注册，请登录",
+
+  "MetaMask open failed, place try again-refresh": "MetaMask 打开失败，重新尝试-刷新",
+
+  "MetaMask open failed, Please refresh the page or change MetaMask": "MetaMask 打开失败，请刷新页面或更改 MetaMask",
+
+  "The current Email has been registered or bounded, Please change to another Email account": "当前邮箱已注册或绑定，请更换其他邮箱",
+
+  "Cannot connect to MetaMask": "无法连接到 MetaMask",
+
+  "If MetaMask fails to open, it may be locked or MetaMask is not installed": "如果MetaMask无法打开，则可能是被锁定或未安装MetaMask",
+
+  "Convert Small Coins to FLEX": "将剩余少量币种转换成FLEX",
+
+  "You can convert small balances with total value below 100 FLEX into FLEX once every 24 hours.": "您可以每 24 小时将总价值低于 100 USD 的小余额转换为 FLEX。",
+
+  "selected coin converted to": "选定的资产转换为",
+
+  "net of": "净资产",
+
+  "Transaction Fee": "交易手续费",
+
+  "Conversion History >": "转换历史记录>",
+
+  "Appro x FLEX": "大约 x FLEX",
+
+  "Conversion Successful": "转换成功",
+
+  "FLEX Convert": "FLEX 转换",
+
+  "Converted FLEX": "转换 FLEX",
+
+  "registration-auth": "注册-auth",
+
+  "registrationAuthTwa": "请在下面输入 8 位 2FA 代码和密码以完成注册",
+
+  "Convert Small Balance to FLEX": "将剩余少量资产转换成FLEX",
+  "25027": "密码与您之前的密码相同，请使用新密码"
+}

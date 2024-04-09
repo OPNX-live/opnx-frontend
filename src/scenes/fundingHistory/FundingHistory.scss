@@ -1,0 +1,381 @@
+@import "../../style/globalStyle.scss";
+$fontSizeHeader: 14px;
+$fontSizeContent: 14px;
+$tableHeaderCorlor: rgba(229, 223, 245, 0.3);
+$tableContentColor: rgba(229, 223, 245, 1);
+$tableHeaderBackground: #12233a;
+$tableContentBackground: rgba(18, 35, 58, 0.3);
+$tableHover: rgba(20, 22, 25,1);
+.fundingHistory {
+  padding: 40px 76px 40px 76px;
+  background: rgba(20, 22, 25,1);
+  min-height: 100%;
+  .fundingHistory-top {
+    border-bottom: 1px solid #31353d;
+    font-size: 32px;
+    font-weight: bold;
+    font-weight: 600;
+    color: rgba(229, 223, 245, 1);
+    padding-bottom: 24px;
+  }
+  .fundingHistory-container {
+    margin-top: 16px;
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 1);
+    }
+    .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+      border: 1px solid #318bf5 !important;
+    }
+
+    @include ant-select(259px);
+    @include date(259px);
+    @include ant-picker();
+    .ant-btn-text:not([disabled]) {
+      background: inherit !important;
+    }
+    .ant-picker {
+      margin-left: 24px;
+      .ant-picker-input input {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(229, 223, 245, 1);
+      }
+      .ant-picker-suffix {
+        svg {
+          g g g g path {
+            fill: rgba(130, 128, 155, 1);
+          }
+        }
+      }
+    }
+    .ant-btn-primary {
+      margin-left: 36px;
+    }
+    @include ant-btn-primary(150px, 40px);
+    @include ant-btn-default(150px, 40px);
+    .ant-btn-default {
+      margin-left: 12px;
+    }
+    .ant-table {
+      margin-top: 16px;
+      background: none;
+      .ant-table-content {
+        .ant-table-thead > tr > th {
+          background-color: $tableHeaderBackground;
+          font-size: $fontSizeHeader;
+          font-weight: 400;
+          color: $tableHeaderCorlor;
+          border: none;
+          padding: 0 16px;
+          height: 40px;
+          line-height: 40px;
+        }
+        .ant-table-tbody > tr > td {
+          background-color: $tableContentBackground;
+          border-bottom: 1px solid #31353d;
+          font-size: $fontSizeContent;
+          color: $tableContentColor;
+          padding: 0 16px;
+          height: 40px;
+          line-height: 40px;
+          white-space: nowrap;
+        }
+        .ant-table-tbody > tr.ant-table-placeholder:hover > td {
+          background-color: none;
+        }
+        .ant-table-tbody > tr.ant-table-row:hover > td {
+          background-color: $tableHover;
+        }
+      }
+    }
+    // checkbox
+    .ant-table-tbody,
+    .ant-table-thead {
+      .ant-checkbox-inner {
+        background-color: $tableContentBackground;
+        border-radius: 4px;
+        border-color: rgba(229, 223, 245, 0.3);
+      }
+      .ant-checkbox {
+        color: #e5dff5;
+      }
+      .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #318bf5;
+        border-radius: 4px;
+        border-color: #318bf5;
+      }
+      .ant-checkbox-checked::after {
+        border-radius: 4px;
+        border-color: #318bf5;
+      }
+      .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+      .ant-checkbox:hover .ant-checkbox-inner,
+      .ant-checkbox-input:focus + .ant-checkbox-inner {
+        border-color: #318bf5;
+        border-radius: 4px;
+      }
+      .ant-checkbox-indeterminate .ant-checkbox-inner::after {
+        background-color: #318bf5;
+      }
+      .ant-checkbox-disabled .ant-checkbox-inner {
+        border-color: rgba(229, 223, 245, 0.3) !important;
+      }
+      .ant-checkbox-inner {
+        background-color: $tableContentBackground;
+      }
+    }
+    .ant-table-thead {
+      .ant-checkbox-inner {
+        background-color: $tableHeaderBackground;
+      }
+    }
+    .ant-table-wrapper {
+      .ant-spin-nested-loading {
+        .ant-spin-container {
+          @include ant-pagination();
+          .ant-pagination {
+            .ant-pagination-item,
+            .ant-pagination-prev .ant-pagination-item-link,
+            .ant-pagination-next .ant-pagination-item-link {
+              background-color: rgba(20, 22, 25,1);
+              border: 1px solid rgba(229, 223, 245, 0.3);
+
+              color: white;
+            }
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .ant-pagination-options {
+              vertical-align: -3%;
+              .ant-select {
+                margin-top: 0;
+                .ant-select-selector {
+                  padding: 0;
+                  display: flex;
+                  align-items: center;
+                  width: 100px;
+                  padding: 0;
+                  .ant-select-selection-item {
+                    line-height: 22px;
+                    color: white;
+                  }
+                }
+              }
+              .ant-pagination-options-quick-jumper {
+                height: 40px;
+                font-size: 14px;
+                input {
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .fundingHistory-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 8px;
+      .fundingHistory-left {
+        display: flex;
+        align-items: center;
+        .fundingHistory-left-btn {
+          display: flex;
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+  .ant-select-dropdown {
+    padding: 12px;
+    border-radius: 0;
+    color: white;
+  }
+  .ant-select-item {
+    color: white;
+    background-color: rgba(20, 22, 25,1) !important;
+    &:hover {
+      background-color: rgba(20, 22, 25, 1) !important;
+    }
+  }
+  .ant-select-arrow {
+    color: #e5dff5;
+    opacity: 0.3;
+  }
+  .ant-select-single.ant-select-sm:not(
+      .ant-select-customize-input
+    ).ant-select-show-arrow
+    .ant-select-selection-item,
+  .ant-select-single.ant-select-sm:not(
+      .ant-select-customize-input
+    ).ant-select-show-arrow
+    .ant-select-selection-placeholder {
+    padding-right: 28px;
+  }
+  .empty-table {
+    height: 190px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 234, 237, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > img {
+      width: 48px;
+      height: 60px;
+    }
+  }
+  .fundingHistory-tabs {
+    margin-top: 12px;
+    display: flex;
+    font-size: 22px;
+    color: rgb(229, 223, 245);
+    border-bottom: 1px solid #31353d;
+    .fundingHistory-tabs-item {
+      padding: 18px 0;
+      height: 56px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+      margin: 0 4px;
+      margin-right: 12px;
+      &[data-active="true"] {
+        color: #539ef7;
+      }
+      &[data-active="true"]::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -2px;
+        width: 100%;
+        border-bottom: 4px solid #318bf5;
+        border-radius: 2px;
+        transition: 0.2s ease-in-out;
+        transform: translate(-50%) scaleX(1);
+      }
+      &[data-active="false"]::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -2px;
+        width: 100%;
+        border-bottom: 4px solid #318bf5;
+        border-radius: 2px;
+        transition: 0.2s ease-in-out;
+        opacity: 0;
+        transform: translate(-50%) scaleX(0);
+      }
+      &:hover::after {
+        opacity: 1;
+        transform: translate(-50%) scaleX(1);
+      }
+      &:hover {
+        color: #539ef7;
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .fundingHistory {
+    .fundingHistory-container {
+      .fundingHistory-content {
+        flex-direction: column;
+        .fundingHistory-left {
+          flex-wrap: wrap;
+          width: 100%;
+          .fundingHistory-left-btn {
+            margin-top: 24px;
+            .ant-btn-primary {
+              margin-left: 0;
+              margin-bottom: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+  .fundingHistory {
+    padding: 20px 16px 0 16px;
+    .fundingHistory-container {
+      .ant-picker-range,
+      .ant-btn-primary,
+      .ant-btn-default {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+      .ant-btn-default {
+        margin-left: 16px;
+      }
+      .ant-table .ant-table-content .ant-table-thead > tr > th {
+        white-space: nowrap;
+      }
+      .fundingHistory-content {
+        flex-direction: column;
+        .fundingHistory-left {
+          flex-direction: column;
+          align-items: flex-start;
+          width: 100%;
+          .fundingHistory-left-btn {
+            margin-top: 24px;
+            width: 100%;
+            justify-content: space-between;
+            .ant-btn {
+              width: 50%;
+            }
+          }
+          .ant-btn-primary {
+            margin: 0;
+            margin-left: 0;
+            margin-bottom: 12px;
+          }
+        }
+        .fundingHistory-right {
+          text-align: left;
+          width: 100%;
+          margin: 12px 0;
+        }
+      }
+      .ant-select {
+        width: 100% !important;
+        .ant-select-selector {
+          width: 100% !important;
+        }
+      }
+      .ant-picker {
+        width: 100%;
+      }
+    }
+    .fundingHistory-tabs {
+      font-size: 16px;
+    }
+  }
+}
+// .fundingHistory
+//   .fundingHistory-container
+//   .ant-pagination
+//   .ant-pagination-options
+//   .ant-select-single:not(.ant-select-customize-input)
+//   .ant-select-selector {
+//   width: 120px;
+//   height: 30px;
+//   line-height: 30px;
+//   .ant-select-selection-search {
+//     height: 30px;
+//     line-height: 30px;
+//   }
+// }
+// .ant-select-single.ant-select-sm:not(.ant-select-customize-input):not(.ant-select-customize-input)
+//   .ant-select-selection-search-input {
+//     height: 30px;
+//     line-height: 30px;
+// }

@@ -1,0 +1,25 @@
+export interface ITradeHistoryStates {
+  activeKey: "Borrow" | "Repayment" | string;
+  marketsType: string[];
+  visible: boolean;
+  exportList: any;
+  initDate: any;
+  initCoin: string[];
+}
+
+export interface ITradeSubTab {
+  key: string;
+  component: React.ReactNode;
+}
+export interface IIradeExportList {
+  Spot: IIradeExport | {};
+  Futures: IIradeExport | {};
+  Spread: IIradeExport | {};
+  Repo: IIradeExport | {};
+}
+export interface IIradeExport {
+  initDate: string[];
+  coin: any;
+  status?: string[];
+  // type: "Spot" | "Futures" | "Spread" | "Repo"
+}

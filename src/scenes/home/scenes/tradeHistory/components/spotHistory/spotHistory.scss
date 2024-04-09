@@ -1,0 +1,162 @@
+@import "src/style/globalStyle.scss";
+
+.spot-history {
+  .spot-history-top {
+    display: flex;
+    align-items: flex-end;
+
+    .markets-top {
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+    }
+
+    .markets {
+      .spot-select {
+        margin-top: 8px;
+      }
+
+      @include ant-select(100%, 32px, 14px);
+    }
+
+    .date {
+      margin-left: 10px;
+
+      .ant-picker-suffix {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+
+        svg {
+          width: 16px;
+          height: 14.4px;
+        }
+      }
+
+      .ant-picker-range-separator {
+        padding: 0 3px;
+      }
+
+      .ant-picker-suffix {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+
+        svg {
+          width: 16px;
+          height: 14.4px;
+        }
+      }
+
+      @include date(100%, 32px, 14px);
+
+      & > div:last-child {
+        margin-top: 8px;
+      }
+    }
+
+    .spot-btn {
+      margin-left: 10px;
+      @include ant-btn-default(80px, 32px);
+
+      .ant-btn-text:not([disabled]) {
+        background: none;
+        border-radius: 4px;
+        font-size: 14px;
+        color: rgba(229, 223, 245, 1);
+        border: 1px solid #31353d;
+
+        &:hover {
+          border: 1px solid #31353d;
+          color: rgba(229, 223, 245, 0.6);
+        }
+      }
+    }
+
+    .spot-search {
+      margin-left: 40px;
+      @include ant-btn-default(80px, 32px);
+
+      .ant-btn-text:not([disabled]) {
+        background: none;
+        border-radius: 4px;
+        border: 1px solid #318bf5;
+        font-size: 14px;
+        color: #318bf5;
+
+        &:hover {
+          color: rgba(49, 139, 245, 0.6);
+        }
+      }
+    }
+  }
+
+  .type {
+    margin-left: 10px;
+
+    .spot-select {
+      margin-top: 8px;
+    }
+
+    @include ant-select(200px, 32px, 14px);
+  }
+  .ant-select-selector {
+    &:hover {
+      border: 1px solid #318bf5 !important;
+    }
+  }
+  .empty-table {
+    height: 190px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(235, 234, 237, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ant-table {
+    margin-top: 24px;
+  }
+
+  @include ant-table(
+    14px,
+    14px,
+    rgba(229, 223, 245, 0.3),
+    rgba(229, 223, 245, 1),
+    #12233a,
+    rgba(20, 22, 25,1),
+    rgb(0, 21, 41)
+  );
+
+  tbody {
+    td {
+    }
+  }
+}
+
+@include ant-picker();
+
+@media only screen and (max-width: 760px) {
+  .spot-history {
+    .spot-history-top {
+      // flex-direction: column;
+      flex-wrap: wrap;
+
+      .date {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+
+      .spot-btn {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+
+    .ant_table {
+      padding-right: 27px;
+    }
+  }
+}

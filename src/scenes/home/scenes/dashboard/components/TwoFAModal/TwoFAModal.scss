@@ -1,0 +1,61 @@
+.twoFaModal {
+  min-width: 518px;
+  .ant-modal-content {
+    border-radius: 12px;
+    width: 100%;
+    .ant-modal-header {
+      border-radius: 12px 12px 0 0;
+      border-bottom: 0;
+      padding-top: 40px;
+      padding-bottom: 0;
+      padding-left: 39px;
+      .twoFaModal-header-title {
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 28px;
+        margin-bottom: 12px;
+        span {
+          font-size: 600;
+          font-weight: bold;
+        }
+      }
+    }
+    .ant-modal-body {
+      padding: 0 0 24px 39px;
+      .twoFaModal-container {
+        .twoFaModal-container-item {
+          display: inline-block;
+          width: 138px;
+          height: 160px;
+          margin-right: 12px;
+          border: 1px solid rgba(49, 139, 245, 0.2);
+          text-align: center;
+          border-radius: 4px;
+          color: #333333;
+          font-size: 14px;
+          cursor: pointer;
+          transition: all 0.3s;
+          img {
+            margin-top: 28px;
+            width: 64px;
+            height: 64px;
+            transition: all 0.3s;
+          }
+        }
+        .twoFaModal-container-item:hover {
+          border: 1px solid #318bf5;
+          color: #318bf5;
+        }
+        .twoFaModal-p-hover {
+          color: #999999;
+          cursor: pointer;
+          margin-top: 20px;
+        }
+        .twoFaModal-p-hover:hover {
+          color: #318bf5;
+        }
+      }
+    }
+  }
+}

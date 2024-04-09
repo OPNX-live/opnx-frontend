@@ -1,0 +1,55 @@
+@import "src/style/globalStyle.scss";
+.TermService {
+  width: 100%;
+  min-height: 100%;
+  font-size: 16px;
+  background: rgb(0, 21, 41);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .TermService-conetnt {
+    width: 600px;
+    p {
+      margin-bottom: 12px;
+      color: rgba(229, 223, 245, 0.6);
+      line-height: 24px;
+    }
+    p:first-child {
+      font-size: 18px;
+      color: #e5dff5;
+    }
+    .btnBase {
+      width: 100%;
+      height: 42px;
+      margin-top: 20px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @include ant-checkbox(rgba(0, 0, 0, 0), rgba(229, 223, 245, 0.8));
+    .ant-checkbox-wrapper {
+      span {
+        color: rgba(229, 223, 245, 0.8);
+      }
+    }
+  }
+}
+.TermService-modal {
+  .ant-modal-content {
+    .ant-modal-body {
+      text-align: center;
+      padding-bottom: 0;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .TermService {
+    padding-top: 20px;
+    .TermService-conetnt {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+}

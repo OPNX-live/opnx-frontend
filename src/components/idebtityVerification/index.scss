@@ -1,0 +1,67 @@
+.idebtity {
+  .ant-modal-content {
+    width: 424px;
+
+    .ant-modal-header {
+      border: none;
+      border-radius: 12px;
+
+      .ant-modal-title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+      }
+    }
+
+    .ant-modal-body {
+      .idebtity-top {
+        color: rgba(51, 51, 51, 1);
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .idebtity-bottom {
+        color: rgba(51, 51, 51, 1);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 16px;
+
+        span {
+          color: rgba(51, 51, 51, 1);
+          font-weight: bold;
+        }
+
+        a{
+          color: #318BF5;
+          margin-left: 4px;
+          font-weight: bold;
+          text-decoration: underline;
+        }
+      }
+
+      .goit {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        div {
+          width: 120px;
+          height: 34px;
+          background: #318BF5;
+          border-radius: 4px;
+          text-align: center;
+          line-height: 34px;
+          font-size: 12px;
+          cursor: pointer;
+          font-weight: 600;
+          font-weight: bold;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+
+  }
+
+}

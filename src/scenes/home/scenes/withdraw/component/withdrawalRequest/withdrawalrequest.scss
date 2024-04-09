@@ -1,0 +1,104 @@
+.withdraw-request-model {
+    width: 424px;
+
+    .ant-modal-content {
+        width: 424px;
+        border-radius: 4px;
+        .ant-modal-body {
+            padding-bottom: 0;
+            padding: 24px;
+
+            .withdrawSaveAddress-content {
+                .ant-input {
+                    margin-top: 16px;
+                    color: #333333;
+                    height: 40px;
+                    border-radius: 4px;
+                    border: 1px solid rgba(173, 177, 187, 1);
+                }
+
+                .ant-form-item-explain {
+                    margin-top: 8px;
+                    margin-left: 0;
+                }
+
+                .tfa-title {
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #333333;
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
+
+                .tfa-subtitle {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: rgba(51, 51, 51, 1);
+                    margin-top: 10px;
+                }
+
+                .before-title {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #666666;
+                    margin: 24px 0 16px 0;
+                    font-size: 12px;
+                }
+
+                .address-content {
+                    color: #333333;
+                    font-size: 16px;
+                }
+
+                .to-address-title {
+                    color: #666666;
+                }
+
+                .requested-title {
+                    margin-top: 16px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #CCCCCC;
+                    font-size: 12px;
+                }
+
+                .coin-title-div {
+                    width: 232px;
+                    height: 36px;
+                    line-height: 16px;
+                    text-align: right;
+                    font-size: 12px;
+                    
+                    color: #333333;
+
+                }
+                .cftv-only{
+                    color: red;
+                    margin-top: 16px;
+                    line-height: 16px;
+                    font-size: 12px;
+                    margin-bottom: 16px;
+                }
+                .coin-title {
+                    font-weight: 500;
+                    color: #333333;
+                    padding-left: 8px;
+                    
+                    font-size: 12px;
+                }
+
+                .ant-btn {
+                    width: 100%;
+                    height: 48px;
+                    background: #318BF5;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    color: rgba(229, 223, 245, 1);
+                    border: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,160 @@
+.balance-details {
+  background-color: rgba(20, 22, 25, 1);
+  margin-top: 12px;
+  padding: 20px;
+  padding-bottom: 7px;
+  .eyeimg {
+    cursor: pointer;
+  }
+  .title {
+    color: #e5dff5;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #31353d;
+    padding-bottom: 12px;
+    .btns {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .withdraw {
+        font-size: 12px;
+        background: none;
+        border-color: #ebeaed;
+      }
+    }
+  }
+  .account-details {
+    // margin: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    .estimated {
+      color: #adb1bb;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .amount {
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+      .amount-tile {
+        font-size: 20px;
+      }
+    }
+    .account-details-top {
+      display: flex;
+      width: 100%;
+      align-items: flex-start;
+      padding-right: 26px;
+      justify-content: space-between;
+      .account-details-top-left {
+        .account-value {
+          display: flex;
+        }
+      }
+    }
+    .coin-titles {
+      display: flex;
+      justify-content: space-between;
+      .coin-ul {
+        width: 100%;
+        flex: 1;
+        .coin-li {
+          // display: flex;
+          // flex-wrap: wrap;
+          // width: 410px;
+          margin-top: 20px;
+          .li-item {
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .icon {
+              // border-radius: 100%;
+              margin-right: 6px;
+              width: 4px;
+              height: 4px;
+              background-color: #318bf5;
+            }
+            .coin-name {
+              margin-right: 10px;
+              padding-top: 4px;
+              max-width: 76px;
+              min-width: 32px;
+            }
+            .amount {
+              min-width: 135px;
+            }
+          }
+          .li-item-active {
+            background-color: rgba(20, 22, 25, 1);
+          }
+        }
+      }
+      .li-item-active {
+        background-color: rgba(20, 22, 25, 1);
+      }
+    }
+  }
+  .deposit-btn {
+    background: #318bf5;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    width: 64px;
+    font-weight: 400;
+    margin-right: 8px;
+  }
+  .deposit-btn:hover {
+    cursor: pointer;
+    background-color: #318bf5 !important;
+  }
+}
+.balance-title-savings {
+  position: relative;
+  overflow: hidden;
+}
+.btn-11:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #906dfb;
+  animation: shiny-btn1 3s ease-in-out infinite;
+}
+@keyframes shiny-btn1 {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(50) rotate(90deg);
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .balance-details {
+    padding: 12px;
+    .balance-title-savings {
+      display: none;
+    }
+  }
+}

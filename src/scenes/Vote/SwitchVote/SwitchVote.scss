@@ -1,0 +1,83 @@
+@import "../../../style/globalStyle.scss";
+.switch-vote {
+  .switch-vote{
+    @include ant-btn-primary(78px, 34px, 12px);
+    @include ant-modal-cancel(78px, 34px, 12px);
+
+  }
+  .ant-modal-content {
+    width: 378px;
+
+    .ant-modal-header {
+      border: none;
+      border-radius: 12px;
+
+      .ant-modal-title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+      }
+    }
+.ant-modal-footer{
+  border: none;
+  .ant-btn-primary{
+    background: #318BF5;
+    color: #E5DFF5;
+    font-weight: 400;
+    border: none;
+    
+    &:focus {
+      border: none;
+    }
+    &:hover {
+      background: #0B71EA;
+      border: none;
+    }
+  }
+  .ant-btn-default{
+    background:none;
+    color: rgba(102, 102, 102, 1);
+    font-weight: 400;
+    
+    // border: 1px solid rgba(102, 102, 102, 1);
+    &:hover{
+      color: rgba(102, 102, 102, 1);
+      border: 1px solid rgba(173, 177, 187, 0.5);
+    }
+  }
+}
+    .ant-modal-body {
+      padding-top: 10px;
+
+      .idebtity-top {
+        color: rgba(102, 102, 102, 1);
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        span {
+          color: rgba(51, 51, 51, 1);
+          font-weight: bold;
+          display: inline-block;
+          margin-left: 8px;
+          max-width: 130px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+
+      .idebtity-bottom {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+      }
+
+    }
+
+  }
+
+}

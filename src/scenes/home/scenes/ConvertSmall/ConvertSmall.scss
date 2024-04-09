@@ -1,0 +1,191 @@
+@import "src/style/globalStyle.scss";
+.convertSmall {
+  background: rgba(20, 22, 25,1);
+  height: 100%;
+  padding: 24px 0 0 24px;
+  .convertSmall-title {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    > :last-child {
+      color: rgba(255, 255, 255, 0.85);
+    }
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .convertSmall-conten {
+    margin-top: 24px;
+    margin-right: 44px;
+    font-size: 14px;
+    p:nth-child(1) {
+      font-size: 36px;
+      margin-bottom: 24px;
+      color: #fff;
+    }
+    p:nth-child(2) {
+      margin-bottom: 24px;
+      line-height: 18px;
+      display: flex;
+      justify-content: space-between;
+      div {
+        font-size: 14px;
+        color: #539ef7;
+        cursor: pointer;
+      }
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.85);
+      display: flex;
+      align-items: center;
+      line-height: 26px;
+      span {
+        color: #539ef7;
+        font-size: 20px;
+        margin-right: 8px;
+        margin-left: 8px;
+      }
+      span:first-child {
+        margin-left: 0;
+      }
+    }
+    p:nth-child(3) {
+      justify-content: space-between;
+      align-items: center;
+      .convertSmall-conten-Convert {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 101px;
+        height: 36px;
+        background: #318bf5;
+        // border: 1px solid #318bf5;
+        color: #ffffff;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+    @include ant-table(14px, 14px);
+    .ant-table {
+      margin-top: 33px;
+      .ant-table-content {
+        overflow: hidden !important;
+        .ant-table-thead {
+          width: 100%;
+          tr {
+            th {
+              color: rgba(255, 255, 255, 0.85);
+              width: 20%;
+              border: none;
+            }
+            th:first-child {
+              text-align: left;
+            }
+          }
+          .ant-checkbox {
+            .ant-checkbox-inner {
+              border-color: rgba(255, 255, 255, 0.85);
+            }
+          }
+          .ant-checkbox-checked {
+            .ant-checkbox-inner {
+              border: none;
+            }
+          }
+        }
+        .ant-table-tbody {
+          tr {
+            td {
+              width: 20%;
+              color: #ffffff;
+              border: none;
+            }
+            td:first-child {
+              text-align: left;
+            }
+          }
+          .ant-checkbox {
+            .ant-checkbox-inner {
+              border-color: rgba(255, 255, 255, 0.85);
+            }
+          }
+          .ant-checkbox-checked {
+            .ant-checkbox-inner {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.convertSmall-modal {
+  background: #24243d;
+  border-radius: 4px;
+  width: 368px;
+  padding: 0;
+  .ant-modal-content {
+    background: #24243d;
+    box-shadow: none;
+    height: 337px;
+    .ant-modal-body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      svg {
+        margin-top: 20px;
+      }
+
+      p {
+        color: #f3efff;
+        font-size: 16px;
+        margin-top: 24px;
+        span {
+          color: #539ef7;
+        }
+      }
+
+      p:last-child {
+        margin-top: 12px;
+      }
+      .ant-btn,
+      .ant-btn::after,
+      .ant-btn:focus,
+      .ant-btn:hover {
+        box-shadow: #318bf5;
+        border-color: #318bf5;
+        background-color: #318bf5;
+      }
+      .convertSmall-modal-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        div {
+          width: 128px;
+          height: 40px;
+          border: 1px solid rgba(243, 239, 255, 0.2);
+          box-sizing: border-box;
+          border-radius: 4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 18px;
+          cursor: pointer;
+          color: rgba(255, 255, 255, 0.5);
+        }
+        .ant-btn {
+          width: 128px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          svg {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}

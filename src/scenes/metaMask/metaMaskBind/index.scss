@@ -1,0 +1,136 @@
+.metamask-bind {
+  height: auto;
+  background: #151414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  .metamask-bind-content {
+    width: 576px;
+    height: 388px;
+    padding: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 50%);
+    background-color: #ffffff;
+    border-radius: 24px;
+    .metamask-bind-title {
+      text-align: center;
+      margin: 0 0 32px 0;
+      font-size: 20px;
+      color: rgba(55, 52, 78, 1);
+    }
+    .metamask-bind-pannel {
+      text-align: center;
+      display: flex;
+      .ant-card {
+        width: 240px;
+        border-radius: 24px;
+        border: 1px solid rgba(55, 52, 78, 0.12);
+        .ant-card-head {
+          width: 240px;
+          padding: 0;
+          overflow: hidden;
+          border: none;
+          .ant-card-head-title {
+            padding: 25px 0;
+          }
+        }
+      }
+      .ant-avatar-circle {
+        position: relative;
+        background-color: rgba(243, 239, 255, 0.45);
+      }
+      .metamask-register-card {
+        margin-right: 32px;
+        .ant-avatar-string {
+          top: 12px;
+        }
+
+        .metamask-bind-terms {
+          display: flex;
+          text-align: center;
+          position: relative;
+          padding-left: 14px;
+          img {
+            position: absolute;
+            top: 0;
+            left: -4px;
+            width: 14px;
+            height: 14px;
+          }
+          .terms-select-radio {
+              width: 100%;
+              text-align: center;
+              font-size: 12px;
+              color: #318BF5;
+              cursor: pointer;
+              .terms-select-item {
+                color: rgba(55, 52, 78, 0.45);
+                position: relative;
+                display: inline-block;
+                margin-right: 4px;
+                user-select: none;
+                &:after {
+                  position: absolute;
+                  display: inline-block;
+                  width: 28px;
+                  height: 28px;
+                  content: "";
+                  left: -25px;
+                  top: -8px;
+                  transform: scale(0.5);
+                }
+              }
+
+              .terms-select-item-text-link {
+                color: #318BF5
+              }
+              .terms-select {
+                &:after {
+                  background: url("../../../assets/image/register-select.png") 0 0 no-repeat;
+                }
+                
+              }
+              .terms-no-select {
+                &:after {
+                  background: url("../../../assets/image/register-not-selet.png") 0 0 no-repeat;
+                }
+              }
+          }
+        }
+      }
+      .metamask-bin-sub-text {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+      .metamask-bind-card {
+        #metamask-logo-container {
+          margin-top: 20px;
+        }
+      }
+      .ant-card-body {
+        padding: 0 10px;
+        .anticon-loading {
+          color: #318BF5;
+        }
+      }
+      .metamask-bind-sub-desc {
+        text-align: center;
+        height: 50px;
+        line-height: 16px;
+      }
+      .metamask-bind-to-link {
+        margin-bottom: 20px;
+        label {
+          user-select: none;
+          cursor: pointer;
+          margin-right: 4px;
+          color: #318BF5;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@import '../../style/globalStyle.scss';
+.OPNX-modal {
+    .ant-modal-content {
+        border-radius: 4px;
+        .ant-modal-header {
+            border-radius: 4px 4px 0 0;
+            border-bottom: none;
+            text-align: center;
+            padding-top: 24px;
+            padding-bottom: 0;
+            font-size: 18px;
+            .ant-modal-title {
+                font-weight: 600;
+                font-weight: bold;
+                color: rgba(51, 51, 51, 1);
+            }
+        }
+        .ant-modal-body {
+            font-size: 16px;
+            padding-top: 20px;
+            line-height: 19px;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 0.8);
+        }
+        .ant-modal-footer {
+            border-radius: 0;
+            border-top: none;
+            padding-bottom: 20px;
+            div {
+                @include ant-btn-primary(78px, 34px, 12px);
+                @include ant-modal-cancel(78px, 34px, 12px);
+            }
+            .ant-btn::after,
+            .ant-btn:focus,
+            .ant-btn:hover {
+                box-shadow: #318BF5;
+                border-color: #318BF5;
+                background-color: #318BF5;
+            }
+            .icyModal-btn-primay,
+            .icyModal-btn-primay-disabled {
+                display: flex;
+                width: 360px;
+                justify-content: center;
+                align-items: center;
+                height: 43px;
+                background: #0B71EA;
+                border-radius: 2px;
+                font-size: 16px;
+                border: none;
+                font-weight: 400;
+                color: rgba(255, 252, 252, 1);
+                margin: 0 auto;
+            }
+            .icyModal-btn-primay-disabled {
+                background: rgba(0, 0, 0, 0.08);
+                border: none;
+                color: rgba(0, 0, 0, 0.32);
+            }
+        }
+    }
+}

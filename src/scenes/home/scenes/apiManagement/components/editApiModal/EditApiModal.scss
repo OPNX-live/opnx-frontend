@@ -1,0 +1,48 @@
+@import "../../../../../../style/globalStyle.scss";
+.edit-api-modal {
+    .ant-modal-body {
+        .edit-api-modal-label {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            margin-bottom: 4px;
+        }
+        @include ant-input( 100%, 32px, rgba(255, 255, 255, 0), rgba(153, 153, 153, 1), 2px, 0 8px, rgba(51, 51, 51, 1), 16px, 600, "bold");
+        .edit-api-modal-permissions {
+            margin-top: 21px;
+            margin-bottom: 20px;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            @include ant-checkbox(rgba(255, 255, 255, 0), rgba(153, 153, 153, 1));
+            .ant-checkbox {
+                margin-left: 8px;
+                margin-right: 4px;
+            }
+        }
+        .edit-api-modal-restrictio {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            @include ant-radio(#318BF5, '#ffffff');
+            .ant-radio-group {
+                margin-top: 8px;
+                .ant-radio-wrapper {
+                    font-size: 12px;
+                    font-weight: 400;
+                    white-space: normal;
+                    color: rgba(51, 51, 51, 1);
+                }
+            }
+        }
+        .edit-api-modal-bottom {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+        }
+    }
+    .ant-modal-footer {
+        padding-bottom: 0;
+        padding: 0 10px 16px 16px;
+    }
+}

@@ -1,0 +1,102 @@
+.depositTable {
+  .ant-table {
+    background: rgb(0, 21, 41);
+    margin-top: 16px;
+    .ant-table-tbody > tr:hover > td {
+      background-color: rgba(20, 22, 25,1);
+    }
+    color: rgba(229, 223, 245, 0.6);
+    .ant-table-tbody {
+      background: rgb(0, 21, 41);
+      tr {
+        td {
+          background: rgba(20, 22, 25,1);
+          border-bottom: 8px solid black;
+          .information,
+          .information-top {
+            position: relative;
+            cursor: pointer;
+            .information-address,
+            .information-txid {
+              line-height: 20px;
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 1);
+              span {
+                color: rgba(229, 223, 245, 0.6);
+              }
+            }
+            .information-txid {
+              p {
+                display: inline-block;
+                // margin-bottom: -1px;
+                // border-bottom: 1px solid rgba(229, 223, 245, 1);
+              }
+              a {
+                color: inherit;
+                text-decoration: underline;
+              }
+            }
+            .information-txid:hover > p {
+              text-decoration: underline;
+            }
+          }
+          .information-txid-selectd {
+            width: 0px;
+            height: 0px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid rgba(229, 223, 245, 0.6);
+            position: absolute;
+            top: 5px;
+            right: 5%;
+          }
+          .information-txid-select {
+            width: 0px;
+            height: 0px;
+            border-top: 5px solid rgba(229, 223, 245, 0.6);
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            position: absolute;
+            top: 5px;
+            right: 5%;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .ant-table-thead {
+      tr {
+        th {
+          background: #12233a;
+          border-bottom: 8px solid black;
+          color: rgba(229, 223, 245, 0.6);
+        }
+      }
+    }
+  }
+  .ant-table-empty {
+    width: 100%;
+    .ant-table-tbody {
+      width: 100%;
+      background: rgb(0, 21, 41);
+      .ant-table-expanded-row-fixed {
+        width: 100% !important;
+      }
+      .recentHistory-empty-table {
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(229, 223, 245, 0.6);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .depositTable {
+    .ant-table-container {
+      padding-right: 0;
+    }
+  }
+}

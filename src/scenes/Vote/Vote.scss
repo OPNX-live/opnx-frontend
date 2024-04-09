@@ -1,0 +1,575 @@
+.vote {
+  background-color: rgb(0, 21, 41);
+  height: 100%;
+
+  .empty-div {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 48px;
+      height: 60px;
+    }
+
+    .login-now {
+      margin-top: 12px;
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+      color: #318BF5;
+    }
+    .empty-span{
+      margin-top: 12px;
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+      color: rgba(229, 223, 245, 1);
+    }
+  }
+
+  .vote-top {
+    width: 100%;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .vote-flex-coin {
+      font-size: 24px;
+      font-weight: 400;
+      color: #FFFFFF;
+      margin-top: 40px;
+    }
+
+    .vote-coin {
+      font-size: 80px;
+      font-weight: bold;
+      color: #FFFFFF;
+      margin-top: 16px;
+      white-space: nowrap;
+    }
+
+    .vote-message {
+      margin-top: 24px;
+      font-size: 16px;
+      min-height: 20px;
+      font-weight: 400;
+      color: rgba(229, 223, 245, 0.6);
+    }
+
+    .vote-trophy {
+      min-height: 44px;
+      background: #764BFB;
+      border-radius: 4px;
+      display: flex;
+      padding: 0 24px;
+      align-items: center;
+      position: relative;
+      margin-top: 52px;
+
+      .trophy {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 26px;
+      }
+
+      .matrix,
+      .matrix1 {
+        width: 48px;
+        height: 46px;
+      }
+
+      .matrix {
+        position: absolute;
+        top: 10px;
+        left: -26px;
+      }
+
+      .matrix1 {
+        position: absolute;
+        top: 10px;
+        right: -26px;
+      }
+
+      .vote-tropth-span {
+        font-size: 20px;
+        font-weight: 500;
+        color: #FFFFFF;
+        margin-left: 4px;
+
+        span {
+          
+        }
+      }
+    }
+
+    .vote-timer {
+      display: flex;
+      margin-top: 16px;
+      margin-left: -32px;
+
+      .days {
+        width: 80px;
+        height: 91px;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 32px;
+        border-radius: 4px;
+        .timer-day {
+          text-align: center;
+          font-size: 14px;
+          
+          font-weight: 500;
+          color: white;
+        }
+
+        .time {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+          height: 64px;
+
+          span:first-child,
+          span:last-child {
+            width: 2px;
+            height: 9px;
+            background: white;
+            border-radius: 2px;
+          }
+
+          span:nth-child(2) {
+
+            font-size: 50px;
+            
+            font-weight: 500;
+            color: white;
+            margin-bottom: 4px;
+          }
+        }
+
+        .time::before {
+          content: "";
+          display: inline-block;
+          width: 80px;
+          height: 1px;
+          background: rgba(19, 20, 38, 0.54);
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  .vote-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 21, 41);
+    align-items: center;
+
+    .not-voted {
+      width: 1200px;
+      background: rgba(20,22,25,1);
+      border-radius: 8px;
+      margin-top: 100px;
+      padding: 0 60px;
+
+      .voted-coin {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 44px;
+
+        .v-coin1,
+        .v-coin2 {
+          display: flex;
+          align-items: center;
+          width: 48%;
+        }
+
+        .v-coin2 {
+          justify-content: flex-end;
+          img {
+            margin-left: 8px;
+          }
+        }
+
+        .coin-img {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 32px;
+            height: 32px;
+          }
+
+          span {
+            font-size: 20px;
+            
+            font-weight: 500;
+            color: white;
+            margin-left: 8px;
+            white-space: nowrap;
+          }
+        }
+
+        .coin-public {
+          margin-left: 12px;
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          width: 80%;
+          text-align: left;
+          word-break:break-word;
+          line-height: 18px;
+        }
+
+        .coin2-public {
+          margin-right: 4px;
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          text-align: right;
+          width: 80%;
+          word-break:break-word;
+          line-height: 18px;
+        }
+      }
+
+      .voted {
+        width: 100%;
+        display: flex;
+        height: 80px;
+        margin-top: 35px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+        position: relative;
+
+        .voted-left {
+          height: 36px;
+          background: #FFFFFF;
+          box-shadow: 0px 3px 0px 0px #987AF4;
+          border-radius: 20px;
+          opacity: 0.5;
+          font-size: 16px;
+          
+          font-weight: 500;
+          color: #318BF5;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        }
+
+        .voted-right {
+          height: 36px;
+          background: #FFFFFF;
+          box-shadow: 0px 3px 0px 0px #FF8680;
+          border-radius: 20px;
+          opacity: 0.5;
+          cursor: pointer;
+          font-size: 16px;
+          
+          font-weight: 500;
+          color: #318BF5;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .voter-vs {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background: #318BF5;
+          box-shadow: 0px 0px 8px 0px rgba(118, 75, 251, 0.5);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 24px;
+          
+          font-weight: 500;
+          color: white;
+          border-radius: 50%;
+          left: 50%;
+          margin-left: -25px;
+        }
+      }
+
+      .v-quanity {
+        text-align: center;
+        font-size: 16px;
+        
+        font-weight: 500;
+        color: white;
+        margin-top: 26px;
+        margin-bottom: 21px;
+      }
+
+      .in-the-vote {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+
+        .coin1-voted {
+          min-width: 10% !important;
+          height: 32px;
+          padding-left: 20px;
+          background: #318BF5;
+          border-bottom-left-radius: 20px;
+          position: relative;
+          font-size: 16px;
+          
+          color: white;
+          line-height: 32px;
+          transition: width 2s ease;
+          .in-the-vs {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: #318BF5;
+            box-shadow: 0px 0px 8px 0px rgba(118, 75, 251, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            
+            font-weight: 500;
+            color: white;
+            border-radius: 50%;
+            right: -25px;
+            top: -10px;
+          }
+        }
+
+        .coin2-voted {
+          width: 100px;
+          height: 32px;
+          background: #FF4F45;
+          border-top-right-radius: 20px;
+          font-size: 16px;
+          
+          color: white;
+          padding-right: 20px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          min-width: 10% !important;
+          transition: width 2s ease;
+        }
+      }
+
+      .win-coin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 24px;
+
+        img {
+          width: 32px;
+          height: 32px;
+        }
+
+        span {
+          font-size: 20px;
+          
+          font-weight: 500;
+          color: #FFFFFF;
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .vote-calculation {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 44px;
+      width: 1200px;
+
+      .calculation-left {
+        width: 584px;
+
+        .ca-title {
+          width: 584px;
+          font-size: 16px;
+          
+          font-weight: 500;
+          color: white;
+        }
+
+        .ca-l-table {
+          margin-top: 24px;
+
+          .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+            background: rgba(20,22,25,1);
+            padding: 0 24px;
+            font-size: 14px;
+            color: rgba(229, 223, 245, 0.6);
+          }
+
+          .table-content {
+            width: 584px;
+            height: 40px;
+            border-bottom: 1px solid rgba(49, 139, 245, .2);
+            font-size: 14px;
+            
+            font-weight: 500;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 24px;
+          }
+        }
+      }
+    }
+
+    .vote-bootom {
+      margin-top: 44px;
+      background: rgba(20,22,25,1);
+      padding-bottom: 48px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .box {
+        width: 1180px;
+      }
+
+      .btm-title {
+        margin-top: 48px;
+        margin-bottom: 16px;
+        font-size: 16px;
+        
+        font-weight: 500;
+        color: white;
+
+      }
+
+      .btm-message {
+        font-size: 14px;
+        color: rgba(229, 223, 245, 0.6);
+        position: relative;
+        margin-left: 12px;
+        margin-top: 8px;
+        a{
+          color: #318BF5;
+          margin-left: 4px;
+        }
+      }
+
+      .btm-message::after {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: rgba(229, 223, 245, 0.6);
+        left: -12px;
+        top: 4px;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 800px) {
+.vote{
+  .vote-top{
+    height: 274px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .vote-coin{
+      white-space: normal;
+      font-size: 36px;
+
+    }
+    .vote-timer{
+      margin: 30px 0 0 -10px;
+      .days{
+        margin-left: 10px;
+        width: 70px;
+        height: 80px;
+        .time{
+          height: 44px;
+          span:nth-child(2) {
+            font-size: 36px;
+          }
+        }
+      }
+   }
+   .vote-trophy{
+     max-height: 44px;
+     margin-top: 20px;
+     .vote-tropth-span{
+       font-size: 16px;
+     }
+   }
+  }
+  .vote-content{
+    .not-voted{
+      margin-top: 80px;
+      padding: 0;
+      width: 100%;
+      .voted-coin{
+        margin-top: 20px;
+        .v-coin1{
+          flex-direction: column;
+          align-items: flex-start;
+          .coin-img{
+            margin-left:10px ;
+          }
+          .coin-public{
+            margin-top: 10px;
+            text-align: left;
+          }
+        }
+        .v-coin2{
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+         .coin2-public{
+           text-align: left;
+         }
+         .coin-img{
+           .coin{
+             margin-left: 0;
+           }
+         }
+        }
+      }
+      .voted{
+        padding: 0 16px;
+      }
+    }
+    .vote-calculation{
+      width: auto;
+      margin-top: 0;
+      .calculation-left{
+        width: 100%;
+        margin-top: 40px;
+        .ca-title{
+          width: 100%;
+          margin-left: 20px;
+        }
+        .table-content{
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+}

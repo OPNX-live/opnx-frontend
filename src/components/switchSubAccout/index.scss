@@ -1,0 +1,108 @@
+@import "src/style/globalStyle.scss";
+
+.switch-window {
+  .ant-modal-content {
+    width: 405px;
+    border-radius: 4px;
+    .ant-modal-close-x {
+      line-height: 0;
+      margin-top: 11px;
+
+      .anticon-close {
+        margin-left: 10px;
+      }
+    }
+
+    .ant-modal-header {
+      border: none;
+      border-radius: 4px;
+      padding:24px 24px 20px 24px;
+      .ant-modal-title {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+      }
+    }
+
+    .ant-modal-body {
+      padding: 0;
+
+      .big-box {
+        max-height: 400px;
+        overflow-y: scroll;
+        width: 100%;
+
+        .window-info {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 16px 0 24px;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 400;
+          color: #666;
+
+          &:hover {
+            background: #EDECFF;
+          }
+          .info-account-div{
+            display: flex;
+            div{
+             max-width: 200px;
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+            }
+          }
+          .ant-radio-wrapper{
+            margin: 0;
+          }
+          @include ant-radio(#318BF5, white);
+        }
+
+
+      }
+
+      .big-box::-webkit-scrollbar {
+        background-color: white;
+        width: 4px;
+      }
+      ::-webkit-scrollbar {
+        border-radius: none;
+      }
+      ::-webkit-scrollbar-thumb{
+        background: rgba(49, 139, 245, 0.5);
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-track{
+        background-color: white;
+      }
+      .switch-subaccout {
+        width: 100%;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div {
+          width: 357px;
+          height: 40px;
+          border-radius: 4px;
+          border: 1px solid #318BF5;
+          font-size: 14px;
+          font-weight: 400;
+          color: #318BF5;
+          line-height: 40px;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .ant-modal-body{
+      border-radius: 4px !important;
+  }
+}

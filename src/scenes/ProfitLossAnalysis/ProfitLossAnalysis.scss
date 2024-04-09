@@ -1,0 +1,261 @@
+@import "style/globalStyle.scss";
+.profitLossAnalysis {
+  width: 100%;
+  background: #fbfaff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 50px;
+  .profitLossAnalysis-top {
+    background: #318BF5;
+    height: 168px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .profitLossAnalysis-container {
+    width: 1200px;
+    position: relative;
+    z-index: 1;
+    .profitLossAnalysis-container-header {
+      .profitLossAnalysis-container-header-balance {
+        margin-top: 16px;
+        width: 83px;
+        height: 26px;
+        border: 1px solid rgba(250, 249, 255, 0.3);
+        box-sizing: border-box;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fbfaff;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+    .profitLossAnalysis-container-header-title {
+      margin-top: 16px;
+      display: flex;
+      font-weight: 600;
+      font-size: 32px;
+      color: #fbfaff;
+      align-items: center;
+      line-height: 32px;
+      .profitLossAnalysis-container-header-hide {
+        border: 1px solid rgba(250, 249, 255, 0.3);
+        padding: 1px 4px;
+        border: 1px solid rgba(243, 239, 255, 0.2);
+        border-radius: 2px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+        cursor: pointer;
+        svg {
+          height: 13px;
+          margin-top: -1px;
+        }
+        span {
+          margin-left: 5px;
+        }
+      }
+    }
+    .profitLossAnalysis-container-balance {
+      display: flex;
+      width: 100%;
+      min-height: 108px;
+      background: #ffffff;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02);
+      border-radius: 2px;
+      color: #37344e;
+      margin-top: 24px;
+      cursor: pointer;
+      .profitLossAnalysis-container-balance-item {
+        padding: 24px 0 0 24px;
+      }
+      .profitLossAnalysis-container-balance-item:last-child {
+        padding-left: 219px;
+      }
+      .profitLossAnalysis-container-balance-item {
+        p {
+          font-size: 14px;
+          .ant-tooltip-inner {
+            color: rgba(55, 52, 78, 0.85);
+          }
+        }
+        .profitLossAnalysis-container-balance-item-l1 {
+          display: inline-flex;
+          height: 41px;
+          align-items: center;
+          font-weight: 500;
+          font-size: 32px;
+          
+          span {
+            display: inline-flex;
+            align-self: flex-end;
+            margin-left: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            
+          }
+        }
+      }
+    }
+    .profitLossAnalysis-container-date {
+      margin-top: 20px;
+      display: flex;
+      .profitLossAnalysis-container-date-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        width: 94px;
+        height: 32px;
+        background: #ffffff;
+        border-radius: 2px;
+        margin-right: 16px;
+        color: rgba(55, 52, 78, 0.45);
+        cursor: pointer;
+      }
+      .profitLossAnalysis-container-date-item-active {
+        border: 1px solid #539EF7 ;
+        color: #539EF7 ;
+      }
+      @include date(310px, 32px, 14px);
+      .ant-picker {
+        background: white;
+        border: 1px solid rgba(55, 52, 78, 0.2);
+        color: rgba(55, 52, 78, 0.85);
+      }
+      .ant-picker-input input {
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(55, 52, 78, 0.85);
+        
+      }
+      .ant-picker-suffix,
+      .ant-picker-separator {
+        .anticon {
+          color: rgba(55, 52, 78, 0.85);
+        }
+      }
+    }
+    .profitLossAnalysis-chart {
+      display: flex;
+      width: 100%;
+      margin-top: 20px;
+      .profitLossAnalysis-chart-left {
+        width: 700px;
+        margin-right: 20px;
+      }
+      .profitLossAnalysis-chart-right {
+        width: calc(100% - 700px - 20px);
+        height: auto;
+      }
+    }
+    .profitLossAnalysis-container-footer {
+      font-size: 12px;
+      line-height: 22px;
+      color: rgba(55, 52, 78, 0.85);
+      margin-top: 43px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .profitLossAnalysis {
+    height: auto;
+    padding-bottom: 0;
+    .profitLossAnalysis-container {
+      width: 100%;
+      .profitLossAnalysis-container-header {
+        .profitLossAnalysis-container-header-balance {
+          margin-left: 24px;
+        }
+        .profitLossAnalysis-container-header-title {
+          font-size: 20px;
+          margin-left: 24px;
+        }
+      }
+      .profitLossAnalysis-container-balance {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        .profitLossAnalysis-container-balance-item {
+          .profitLossAnalysis-container-balance-item-l1 {
+            font-size: 20px;
+          }
+        }
+        .profitLossAnalysis-container-balance-item:last-child {
+          padding-left: 24px;
+        }
+      }
+      .profitLossAnalysis-container-date {
+        margin-left: 20px;
+        flex-wrap: wrap;
+        .ant-picker {
+          margin-top: 10px;
+        }
+      }
+      .profitLossAnalysis-chart {
+        flex-wrap: wrap;
+        .profitLossAnalysis-chart-left {
+          width: 100%;
+          margin-right: 0;
+        }
+        .profitLossAnalysis-chart-right {
+          margin-top: 18px;
+          width: 100%;
+        }
+      }
+      .profitLossAnalysis-container-footer {
+        padding: 0 24px;
+        margin-top: 24px;
+        padding-bottom: 24px;
+      }
+    }
+  }
+  .ant-picker-panel-container {
+    .ant-picker-panels {
+      flex-wrap: wrap;
+    }
+    .ant-picker-panel,
+    .ant-picker-date-panel,
+    .ant-picker-content {
+      width: 100%;
+    }
+  }
+  .ant-picker-dropdown {
+    top: 30px !important;
+  }
+  .ant-picker-range-arrow::after {
+    display: none;
+  }
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-start.ant-picker-cell-range-hover::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end.ant-picker-cell-range-hover::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single).ant-picker-cell-range-hover-start::before,
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single).ant-picker-cell-range-hover-end::before,
+.ant-picker-panel
+  > :not(.ant-picker-date-panel)
+  .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start::before,
+.ant-picker-panel
+  > :not(.ant-picker-date-panel)
+  .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end::before {
+  background: rgba(49, 139, 245, 0.2);
+}
+
+.ant-picker-date-panel
+  .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-start
+  .ant-picker-cell-inner::after,
+.ant-picker-date-panel
+  .ant-picker-cell-in-view.ant-picker-cell-in-range.ant-picker-cell-range-hover-end
+  .ant-picker-cell-inner::after {
+  background: rgba(0, 0, 0, 0);
+}

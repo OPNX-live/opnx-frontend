@@ -1,0 +1,37 @@
+.recentHistory {
+  width: 100%;
+  margin-top: 50px;
+  padding-left: 8px;
+  .recentHistory-top {
+    .recentHistory-top-title {
+      font-size: 24px;
+      color: rgba(229, 223, 245, 1);
+      padding-left: 8px;
+    }
+    .recentHistory-top-viewAll {
+      font-size: 14px;
+      font-weight: 400;
+      color: #318BF5;
+      float: right;
+      margin-right: 39px;
+      vertical-align: middle;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  }
+  .recentHistory-empty-table {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .recentHistory {
+    .recentHistory-top {
+      .recentHistory-top-viewAll {
+        margin-right: 0;
+      }
+      .recentHistory-top-title {
+        font-size: 18px;
+      }
+    }
+  }
+}

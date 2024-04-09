@@ -1,0 +1,74 @@
+.anti-phishing {
+  height: 100%;
+  .anti-title {
+    color: #e5dff5;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(243, 239, 255, 0.12);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    .symbol {
+      margin: 0 20px;
+    }
+    span:first-child{
+      cursor: pointer;
+    }
+  }
+
+  .anti-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 100px;
+    .content-title {
+      color: #e5dff5;
+      font-size: 24px;
+    }
+    .code-content {
+      width: 388px;
+      padding: 14px 26px 24px 26px;
+      background: #ffffff;
+      border-radius: 4px;
+      margin-top: 44px;
+      .anti-img {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background: #f3efff;
+        margin-top: 20px;
+        img {
+          width: 80%;
+          height: 100%;
+        }
+      }
+      .anti-btn {
+        background: #318BF5;
+        border-radius: 4px;
+        height: 40px;
+        font-size: 14px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      .code-problem {
+        margin-top: 20px;
+        .code-subtitle {
+          color: #37344e;
+          font-size: 16px;
+        }
+        .code-reply {
+          margin-top: 10px;
+          line-height: 17px;
+          color: rgba(55, 52, 78, 0.75);
+        }
+      }
+    }
+  }
+}

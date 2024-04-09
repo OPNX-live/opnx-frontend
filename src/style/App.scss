@@ -1,0 +1,190 @@
+@import "./globalStyle.scss";
+@import "./reset.scss";
+
+body,
+#OPNX {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: rgba(20, 22, 25, 1);
+}
+a,
+a:hover {
+  color: #318bf5;
+}
+#root {
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(20, 22, 25);
+}
+.App {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  .ant-layout {
+    height: 100%;
+    background: none;
+    background-color: black;
+    position: relative;
+    padding-bottom: 4px;
+    .ant-layout-header {
+      height: auto;
+      line-height: normal;
+      padding: 0;
+      background: none;
+      > div {
+        background: rgba(20, 22, 25, 1);
+      }
+    }
+    .ant-layout-content {
+      position: relative;
+      color: $fontColorHeader;
+      min-height: auto;
+      height: 100%;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+    }
+    .ant-layout-footer {
+      margin-top: 10px;
+      padding: 0;
+    }
+  }
+  .server-icon {
+    height: 54px;
+    width: 54px;
+    background: #318bf5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
+  .ant-layout-content {
+    color: $fontColorHeader;
+  }
+  .ant-layout-footer {
+    margin-top: 10px;
+    padding: 0;
+  }
+}
+.ant-table {
+  background: #141619 !important;
+  .ant-table-thead > tr > th {
+    color: #a9b1b8 !important;
+    background: #1b1e24 !important;
+  }
+  .ant-table-tbody {
+    background: none !important;
+    & > tr > td {
+      background: none !important;
+    }
+  }
+}
+
+.btn-gradient {
+  border: none !important;
+  width: 100%;
+  height: 48px !important;
+  background: #318bf5;
+  color: #ffffff;
+  border-radius: 4px !important;
+}
+.btn-no-gradient {
+  width: 100%;
+  height: 48px !important;
+  border-radius: 4px !important;
+}
+
+.modal-btn-gradient {
+  border: none !important;
+  width: 100%;
+  height: 32px !important;
+  background: #318bf5;
+  color: #ffffff;
+}
+
+.modal-btn-gradient:hover,
+.modal-btn-gradient:focus,
+.modal-btn-gradient:active {
+  background: #0b71ea;
+}
+
+.btn-gradient:hover,
+.btn-gradient:focus {
+  color: #ffffff;
+  background: #0b71ea;
+}
+
+.btn-gradient:active {
+  background: #318bf5;
+  color: #ffffff;
+}
+
+.ant-form-item-explain {
+  // margin-top: 8px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.ant-modal-content {
+  border-radius: 12px;
+}
+
+.ant-select-selector {
+  box-shadow: none !important;
+}
+
+.ant-empty-description {
+  color: white;
+}
+
+.ant-select-dropdown {
+  // background-color: rgba(20,22,25,1);
+  color: white;
+}
+
+.ant-select-item {
+  color: white;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: white;
+  background: rgba(20, 22, 25, 1);
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #0e0f1c;
+}
+
+.ant-modal-root {
+  .ant-modal-confirm-btns {
+    .ant-btn-primary {
+      background: #318bf5;
+      border-color: #318bf5;
+    }
+    .ant-btn {
+      border-radius: 4px;
+    }
+  }
+  .ant-modal-confirm-btns .ant-btn:nth-child(1):hover {
+    border-color: #318bf5;
+    color: #318bf5;
+  }
+}
+
+.ant-spin-nested-loading div {
+  height: auto;
+}
+
+.ant-layout-sider-zero-width-trigger {
+  top: auto;
+  bottom: 100px;
+  z-index: 10;
+  background: rgba(20, 22, 25, 1);
+}
+
+.ant-layout-sider-zero-width-trigger:hover {
+  background: rgba(20, 22, 25, 1);
+}

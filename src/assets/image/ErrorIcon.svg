@@ -1,0 +1,23 @@
+<svg id="Error" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f76260;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_584" data-name="椭圆 584" class="cls-1" cx="11.5" cy="11.5" r="11.5"/>
+  <g id="组_2680" data-name="组 2680" transform="translate(-2.271 -0.565)">
+    <rect id="矩形_2660" data-name="矩形 2660" class="cls-2" width="2.689" height="11.908" rx="1.345" transform="translate(17.033 6.906) rotate(45)"/>
+    <rect id="矩形_2662" data-name="矩形 2662" class="cls-2" width="2.689" height="11.908" rx="1.345" transform="translate(8.612 8.807) rotate(-45)"/>
+  </g>
+  <rect id="矩形_2666" data-name="矩形 2666" class="cls-3" width="24" height="24"/>
+</svg>

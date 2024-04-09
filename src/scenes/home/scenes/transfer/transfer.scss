@@ -1,0 +1,279 @@
+@import "src/style/globalStyle.scss";
+
+.cf-transfer {
+  //   padding: 11px 0 0 9px;
+  background-color: rgba(20,22,25,1);
+  min-height: 100%;
+  flex-direction: column;
+  .transfer-header {
+    width: 100%;
+    font-size: 36px;
+    color: #e5dff5;
+    border-bottom: 1px solid rgba(49, 53, 61, 1);
+    padding: 16px 24px;
+  }
+
+  .transfer-from {
+    width: 100%;
+    padding: 23px 0 0 27px;
+    .transfer-account {
+      width: 100%;
+      font-size: 20px;
+
+      font-weight: 400;
+      color: rgba(229, 223, 245, 1);
+      line-height: 22px;
+      margin-bottom: 24px;
+    }
+
+    .transfer-container {
+      display: flex;
+      flex-direction: column;
+
+      .transfer-input-row {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-bottom: 26px;
+
+        .transfer-input {
+          width: 300px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          .transfer-amount-max {
+            position: absolute;
+            bottom: 20px;
+            right: 10px;
+            transform: translateY(50%);
+            z-index: 3;
+            cursor: pointer;
+            color: #318BF5;
+          }
+          .transfer-prompt {
+            color: #f73461;
+            font-size: 12px;
+
+            position: absolute;
+            bottom: -16px;
+          }
+
+          .transfer-input-title {
+            width: 100%;
+            font-size: 16px;
+
+            font-weight: 400;
+            color: rgba(229, 223, 245, 0.6);
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+
+            & > span:last-child {
+              font-size: 14px;
+
+              font-weight: 500;
+              color: rgba(229, 223, 245, 0.6);
+            }
+          }
+
+          .ant-input {
+            padding: 0 16px;
+            height: 40px;
+            background: none;
+            border-color: rgba(49, 139, 245, 0.5);
+            font-size: 16px;
+
+            font-weight: 400;
+            border-radius: 4px;
+            color: rgba(229, 223, 245, 1);
+            line-height: 22px;
+            &:hover {
+              border: 1px solid #318BF5;
+            }
+            &:focus {
+              box-shadow: none;
+            }
+          }
+          .transfer-input-amount {
+            padding: 0 40px 0 16px;
+          }
+          .ant-select {
+            font-size: 16px;
+
+            font-weight: 400;
+            color: rgba(229, 223, 245, 1);
+            line-height: 22px;
+            @include ant-select-down();
+          }
+
+          .ant-select-selector {
+            max-width: 300px;
+            width: 100%;
+            background: none;
+            border-radius: 4px;
+            border: 1px solid #31353D;
+            &:hover {
+              border: 1px solid #318BF5 !important;
+            }
+            .ant-select-selection-item {
+              font-size: 16px;
+              height: 40px;
+              font-weight: 400;
+
+              & > span:first-child {
+                display: inline-block;
+                // max-width: 100px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                vertical-align: middle;
+              }
+
+              // & > span:last-child {
+              //   color: rgba(229, 223, 245, 0.3);
+              //   vertical-align: middle;
+              // }
+            }
+          }
+
+          .ant-select-item {
+            min-height: 40px;
+            padding: 0 16px;
+            line-height: 40px;
+            color: rgba(229, 223, 245, 1);
+            font-size: 16px;
+            font-weight: 400;
+
+            .ant-select-item-option-content {
+              & > span:first-child {
+                display: inline-block;
+                // max-width: 100px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                vertical-align: middle;
+              }
+
+              // & > span:last-child {
+              //   color: rgba(229, 223, 245, 0.3);
+              //   vertical-align: middle;
+              // }
+            }
+          }
+
+          .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+            background-color: #12233A;
+          }
+
+          .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+            background: rgba(20,22,25,1);
+            color: #318BF5;
+
+            .ant-select-item-option-content {
+              & > span:last-child {
+                color: #318BF5;
+              }
+            }
+
+            &:hover {
+              background-color: #12233A;
+            }
+          }
+
+          .ant-select-single .ant-select-selector .ant-select-selection-item {
+            line-height: 38px;
+          }
+
+          .ant-select-single:not(.ant-select-customize-input)
+            .ant-select-selector {
+            background-color: none;
+            border: 1px solid rgba(49, 53, 61, 1);
+            border-radius: 4px;
+            height: 40px;
+            padding: 0 16px;
+          }
+
+          .ant-select-arrow {
+            color: #adb1bb;
+          }
+        }
+
+        .transfer-input-transform {
+          width: 62px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          div {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 2px solid #318BF5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+
+    .transfer-warning {
+      min-width: 355px;
+      height: 130px;
+      border: 1px solid rgba(49, 53, 61, 1);
+      background: #12233A;
+      border-radius: 4px;
+      margin: 24px 0 0 34px;
+      padding: 0 24px 0 24px;
+      align-items: center;
+
+      .transfer-warning-box {
+        display: flex;
+        align-items: flex-start;
+
+        img {
+          margin-right: 8px;
+        }
+
+        .transfer-warning-content {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+
+          & > div:first-child {
+            font-size: 20px;
+            font-weight: bold;
+            font-weight: 600;
+            color: rgba(255, 190, 0, 1);
+            margin-bottom: 19px;
+          }
+
+          & > div:last-child {
+            width: 244px;
+            font-size: 12px;
+
+            font-weight: 400;
+            color: rgba(255, 190, 0, 1);
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+  .btn {
+    padding-left: 27px;
+    @include ant-btn-primary(300px, 40px);
+    @include ant-btn-disabled(300px, 40px);
+  }
+  .transfer-table {
+    padding-left: 27px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .cf-transfer {
+    .transfer-input:last-child {
+      margin-top: 20px;
+    }
+  }
+}

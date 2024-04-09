@@ -1,0 +1,20 @@
+.white-address{
+  .ant-modal-header{
+    border-bottom: 1px solid rgba(55, 52, 78, 0.12) !important;
+    padding: 12px 24px !important;
+    line-height: 24px;
+  }
+  .ant-modal-body{
+    color: rgba(55, 52, 78, 0.75) !important;
+    font-size: 14px !important;
+  }
+  .ant-modal-footer{
+    div{
+      display: flex;
+      justify-content: space-between;
+      .ant-btn {
+        width: 148px;
+      }
+    }
+  }
+}

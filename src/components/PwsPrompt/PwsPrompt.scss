@@ -1,0 +1,23 @@
+.pws-prompt{
+  color: rgba(55, 52, 78, 0.75);
+  .pws-success{
+    width: 14px;
+    height: 14px;
+   
+  }
+  .pws-title{
+    color: rgba(55, 52, 78, 0.75);
+  }
+  .pws-box{
+    padding-left: 16px;
+    .pws-letter{
+      display: flex;
+      align-items: center;
+      margin-top: 4px;
+      white-space: nowrap;
+      svg{
+        margin-right: 4px;
+      }
+    }
+  }
+}

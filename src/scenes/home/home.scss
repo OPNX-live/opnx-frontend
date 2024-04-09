@@ -1,0 +1,285 @@
+.home {
+  height: 100%;
+  position: relative;
+  .ant-tooltip-arrow-content {
+    width: 10px;
+    height: 10px;
+  }
+  .ant-menu-inline-collapsed {
+    display: none;
+  }
+  .ant-layout-sider {
+    background: inherit;
+  }
+  .ant-menu-item-raidus {
+    display: none;
+  }
+  .home-hint {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 10%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    .message {
+      color: rgba(55, 52, 78, 0.6);
+      font-size: 16px;
+    }
+    .hint-btn {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      .skip-now {
+        color: rgba(55, 52, 78, 0.45);
+        cursor: pointer;
+      }
+      .set-now {
+        width: 92px;
+        height: 30px;
+        background: linear-gradient(180deg, #318bf5 0%, #539ef7 100%);
+        box-shadow: 0px 4px 10px rgba(49, 139, 245, 0.2);
+        border-radius: 4px;
+        color: #faf9ff;
+        line-height: 30px;
+        text-align: center;
+        margin-left: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+  .ant-menu {
+    margin-top: 1px;
+    background: rgba(20, 22, 25, 1);
+    font-size: 14px;
+
+    .ant-menu-item {
+      height: auto;
+      line-height: 20px;
+      padding: 20px 0 20px 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      .ant-menu-item-raidus,
+      .ant-menu-item-raidus-active {
+        display: none;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        border: 1px solid rgba(229, 223, 245, 1);
+        position: absolute;
+        top: 27px;
+        left: 42px;
+      }
+      .ant-menu-item-raidus-active {
+        border: none;
+        background: #318bf5;
+      }
+      span {
+        a {
+          font-size: 14px;
+          padding-left: 0;
+        }
+      }
+      a {
+        color: rgba(229, 223, 245, 1);
+        padding-left: 8px;
+        font-size: 14px; // 7-10
+      }
+      .home-Dashboard {
+        margin-right: 8px;
+        vertical-align: -26%;
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .ant-layout-sider-zero-width-trigger {
+      .anticon svg {
+        animation: rotate 0.5s ease-out;
+        animation-fill-mode: forwards;
+      }
+    }
+    .ant-menu-submenu-title {
+      padding-left: 14px;
+      padding-right: 14px;
+      height: 60px;
+      line-height: 60px;
+      .ant-menu-submenu-arrow::after,
+      .ant-menu-submenu-arrow::before {
+        background: #e5dff5;
+        display: none;
+      }
+    }
+    .ant-menu-submenu-title:active {
+      background: rgba(23, 24, 46, 0.5);
+    }
+    .ant-menu-submenu-selected {
+      .ant-menu-sub {
+        // background-color: rgba(255, 255, 255, 0.08) !important;
+      }
+      .ant-menu-submenu-arrow::after,
+      .ant-menu-submenu-arrow::before {
+        background: #318bf5;
+      }
+    }
+    .ant-menu-submenu-title .home-Dashboard {
+      margin-right: 8px;
+      vertical-align: -14%;
+      width: 16px;
+      height: 16px;
+      // width: 17px;
+      // height: 19px;
+    }
+    .ant-menu-selected::after {
+      left: 0;
+      right: 100%;
+      border-right: none;
+    }
+    .ant-menu-item:hover {
+      background: rgb(49, 53, 61);
+    }
+  }
+  .ant-menu-item-selected {
+    a {
+      color: #318bf5 !important;
+    }
+  }
+  .ant-menu-item-selected::after,
+  .ant-menu-selected::after {
+    left: 0;
+    right: 100%;
+    border-right: none;
+  }
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: rgb(49, 53, 61);
+    color: #318bf5;
+  }
+  .ant-menu-inline .ant-menu-item::after {
+    left: 0;
+    right: 100%;
+    border-right: none;
+  }
+  .ant-menu-submenu .ant-menu-submenu-title {
+    width: 100%;
+    color: rgba(229, 223, 245, 1);
+    display: flex;
+    align-items: center;
+  }
+  .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow,
+  .ant-menu-submenu-vertical-left
+    > .ant-menu-submenu-title
+    .ant-menu-submenu-arrow,
+  .ant-menu-submenu-vertical-right
+    > .ant-menu-submenu-title
+    .ant-menu-submenu-arrow,
+  .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    right: 16px;
+  }
+  .ant-menu-item .ant-menu-item-icon + span,
+  .ant-menu-submenu-title .ant-menu-item-icon + span,
+  .ant-menu-item .anticon + span,
+  .ant-menu-submenu-title .anticon + span {
+    margin-left: 0;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@media only screen and (max-width: 760px) {
+  .home {
+    .site-layout-background {
+      padding: 0 !important;
+    }
+  }
+}
+.home-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  opacity: 1;
+  transition: opacity 0.3s linear, height 0s ease 0.3s;
+  z-index: 10;
+}
+@keyframes ball {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home {
+    .ant-menu {
+      background: rgb(20, 22, 25);
+    }
+    .ant-layout-sider {
+      position: absolute;
+      top: 0;
+      z-index: 11;
+      height: 100%;
+    }
+    .ant-layout-sider-zero-width-trigger {
+      position: fixed;
+      bottom: 64px;
+      left: 0;
+    }
+  }
+}
+.ant-menu {
+  top: auto;
+}
+.home-toltip {
+  left: 140px !important;
+
+  .ant-menu-inline,
+  .ant-menu-item {
+    overflow: initial !important;
+  }
+  .ant-menu-inline .ant-menu-item {
+    width: 100%;
+    margin: 0;
+  }
+  .ant-layout-sider-children {
+    position: relative;
+  }
+
+  .tfa-tooltip {
+    width: 309px;
+    height: 130px;
+    color: black;
+    padding: 12px 18px;
+    .tfa-tp-text {
+      color: rgba(55, 52, 78, 0.75);
+      font-size: 16px;
+      white-space: initial;
+    }
+    .wfa-tp-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      margin-top: 22px;
+      .skip {
+        color: rgba(55, 52, 78, 0.3);
+        cursor: pointer;
+      }
+      .click-here {
+        color: #318bf5;
+        cursor: pointer;
+      }
+    }
+  }
+}

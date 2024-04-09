@@ -1,0 +1,244 @@
+.deposit {
+  background-color: rgba(20, 22, 25,1);
+  padding: 0 24px;
+  .deposit-title {
+    height: 72px;
+    border-bottom: 1px solid rgba(49, 53, 61, 1);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 72px;
+    color: rgba(229, 223, 245, 1);
+    padding-left: 16px;
+  }
+  .deposit-voice {
+    min-height: 92px;
+    width: 100%;
+    background: rgba(20, 22, 25,1);
+    border: 2px solid #318bf5;
+    display: flex;
+    padding: 14px 24px;
+    .deposit-img {
+      height: 100%;
+      display: flex;
+    }
+    .deposit-voice-message {
+      display: flex;
+      flex-direction: column;
+      margin-left: 12px;
+      .message-top {
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .message-bottom {
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 1.2;
+      }
+    }
+  }
+  .ant-select-selection-search-input {
+    color: #e5dff5;
+    font-size: 14px;
+  }
+  .deposit-account {
+    display: flex;
+    height: auto;
+
+    .deposit-left {
+      flex: 1;
+      margin-top: 20px;
+      .deposit-box {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+
+        box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.5);
+
+        padding-bottom: 50px;
+        .deposit-name {
+          display: flex;
+          height: 44px;
+          margin-top: 16px;
+          justify-content: space-between;
+
+          .deposit-name-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .deposit-name-span1 {
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 0.6);
+            }
+
+            .deposit-name-div1 {
+              width: 100%;
+              display: flex;
+              align-items: flex-end;
+              margin-top: 12px;
+              & > span {
+                font-size: 14px;
+                font-weight: 600;
+                color: #ffffff;
+                overflow: hidden;
+                width: 100%;
+                display: inline-block;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+            }
+          }
+
+          .deposit-name-right {
+            font-size: 14px;
+            font-weight: 400;
+            color: #cccccc;
+            height: 100%;
+            display: flex;
+            line-height: 18px;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-left: 23px;
+          }
+        }
+        .deposit-message {
+          font-size: 12px;
+          font-weight: 400;
+          color: rgb(240, 185, 11);
+          margin-top: 8px;
+        }
+        .deposit-balance {
+          width: 100%;
+          .deposit-total {
+            width: 100%;
+            display: flex;
+            margin-top: 12px;
+            justify-content: space-between;
+            span:first-child {
+              font-size: 14px;
+              font-weight: 400;
+              color: rgba(229, 223, 245, 0.6);
+            }
+            span:last-child {
+              font-size: 14px;
+              font-weight: 500;
+
+              color: rgba(229, 223, 245, 1);
+            }
+          }
+          .deposit-total:first-child {
+            margin-top: 16px;
+          }
+        }
+        .depopsit-coin {
+          display: flex;
+          flex-direction: column;
+          margin-top: 12px;
+
+          .ant-select-arrow {
+            .anticon {
+              & > svg {
+                color: #adb1bb;
+              }
+            }
+          }
+          .ant-select-item-option-selected:not(
+              .ant-select-item-option-disabled
+            ) {
+            background-color: #1b1e24;
+          }
+          .ant-select-dropdown {
+            background-color: rgba(20, 22, 25, 1);
+            .ant-select-item-option-content {
+              color: #e5dff5;
+            }
+            .ant-select-item:hover {
+              background-color: #1b1e24;
+            }
+          }
+          .coin {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(229, 223, 245, 0.6);
+          }
+
+          .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+            background-color: #1b1e24;
+          }
+          .deposit-select {
+            width: 100%;
+            margin-top: 8px;
+
+            .ant-select-selector {
+              width: 100%;
+              background: none;
+              border-radius: 4px;
+              border: 1px solid #31353d;
+              cursor: pointer;
+
+              .ant-select-selection-item {
+                font-size: 16px;
+                font-weight: 400;
+                color: rgba(229, 223, 245, 1);
+              }
+            }
+          }
+        }
+      }
+      .ant-select-selector {
+        &:hover {
+          border: 1px solid #318bf5 !important;
+        }
+      }
+    }
+    .deposit-right {
+      flex: 1;
+      margin-top: 20px;
+    }
+  }
+}
+@media only screen and(min-width: 760px) and (max-width: 1150px) {
+  .deposit {
+    .deposit-account {
+      flex-wrap: wrap;
+      flex-direction: column;
+      .deposit-right {
+        padding-left: 16px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+  .deposit {
+    .deposit-account {
+      flex-wrap: wrap;
+      flex-direction: column;
+      .deposit-left {
+        .deposit-select {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .deposit {
+    padding: 12px;
+    .deposit-account {
+      flex-wrap: wrap;
+      flex-direction: column;
+      .deposit-right {
+        .deposit-address {
+          margin-left: 0;
+        }
+      }
+      .deposit-empty {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.qr-login {
+  padding: 0 24px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  .open-mobile{
+    display: inline-block;
+    width: 100%;
+    color: #666666;
+    font-size: 12px;
+    
+    margin-top: 4px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .qr-box {
+    padding: 16px 32px;
+    background: rgba(55, 52, 78, 0.04);
+    height:230px;
+    .loadding .spinner-box{
+      margin-top: -16px;
+      margin-left: -16px;
+    }
+    .empty-code{
+      width: 114px;
+      height: 114px;
+    }
+    .open-img {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 6px;
+      .mobile-img {
+        width: 78px;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .success-status{
+      width: 100%;
+      height: 100%;
+      padding: 24px 0 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      .error-text {
+        color: #37344e;
+        font-size: 14px;
+        margin-top: 28px;
+        text-align: center;
+        width: 240px;
+        line-height: 18px;
+      }
+      .refresh-now {
+        width: 146px;
+        height: 36px;
+        background: #318BF5;
+        border-radius: 2px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        cursor: pointer;
+      }
+    }
+    .error-status {
+      width: 100%;
+      height: 100%;
+      padding: 24px 0 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .error-text {
+        color: #37344e;
+        font-size: 14px;
+        margin-top: 28px;
+      }
+      .refresh-now {
+        width: 146px;
+        height: 36px;
+        background: #318BF5;
+        border-radius: 2px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        cursor: pointer;
+      }
+    }
+    .open-status {
+      .open-text {
+        color: #666666;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+      }
+    }
+  }
+  .to-register {
+    display: flex;
+    justify-content: flex-end;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    .reg-link {
+      color: #318BF5;
+      margin-left: 3px;
+    }
+  }
+}

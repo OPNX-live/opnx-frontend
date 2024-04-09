@@ -1,0 +1,72 @@
+.methodo-model {
+    .ant-modal-content,
+    .ant-modal-body {
+        padding: 12px 0 0px 0px;
+    }
+    .ant-modal-body {
+        height: 550px;
+    }
+    .methodo-box {
+        padding: 0px 0px 0px 32px;
+        height: 477px;
+        .methodo-title {
+            color: #333333;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .methodo-subtitle {
+            display: inline-block;
+            color: #333333;
+            font-size: 14px;
+            font-weight: 500;
+            margin: 12px 0;
+            p {
+                display: contents;
+            }
+        }
+        p {
+            color: #666666;
+            font-size: 14px;
+            margin: 12px 0;
+        }
+        .notes {
+            color: #333333;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    .methodo-content {
+        & ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+            border-radius: 3px;
+        }
+        &::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        /*定义滚动条轨道
+       内阴影+圆角*/
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        /*定义滑块
+       内阴影+圆角*/
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: rgba(51, 51, 51, 0.5);
+        }
+    }
+    .btn-go-it {
+        margin-top: 10px;
+        width: 100%;
+        height: 44px;
+        border: none;
+        background-color: #318BF5;
+        color: #ffffff;
+    }
+}

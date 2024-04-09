@@ -1,0 +1,125 @@
+@import "../../style/globalStyle.scss";
+.verification {
+  position: relative;
+  background: #151414;
+  overflow: hidden;
+  height: 100%;
+  .verification-content {
+    width: 388px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 227px;
+    .verification-content-top {
+      text-align: center;
+      padding-top: 38px;
+      margin: 0 0 27px 0;
+      color: #333333;
+      .verification-content-top-title1 {
+        font-size: 24px;
+        font-weight: bold;
+        font-weight: bold;
+      }
+    }
+    .verification-container {
+      margin: 0 17px 26px 26px;
+      display: flex;
+      .verification-container-right {
+        color: #333333;
+        font-size: 12px;
+        margin-left: 21px;
+        line-height: 14px;
+      }
+    }
+    .verification-content-bottom {
+      margin: 0 26px 0 26px;
+      .verification-content-bottom-title {
+        height: 22px;
+        font-size: 12px;
+        font-weight: 600;
+        font-weight: bold;
+        color: #666666;
+        line-height: 22px;
+      }
+      .ant-input {
+        background: rgba(255, 255, 255, 1);
+        border-radius: 4px;
+        border: 1px solid #cccccc;
+        width: 336px;
+        height: 40px;
+        font-size: 16px;
+        box-shadow: none !important;
+        display: inline-block;
+      }
+      .ant-input:hover,
+      .ant-input:focus {
+        border: 1px solid #318BF5;
+      }
+      @include ant-btn-primary(336px, 40px, 14px, #318BF5);
+      @include ant-btn-disabled(336px, 40px);
+      .ant-btn-primary[disabled] {
+        background: #318BF5;
+        border: none;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    .verification-content-bottom-title2 {
+      margin-top: 26px;
+      height: 17px;
+      font-size: 12px;
+      font-weight: 600;
+      font-weight: bold;
+      color: #333333;
+      line-height: 17px;
+      margin-bottom: 18px;
+    }
+    .verification-content-bottom-title3 {
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      font-size: 12px;
+      p {
+        padding-bottom: 5px;
+      }
+    }
+    .verification-content-bottom-resend-email {
+      height: 17px;
+      font-size: 14px;
+      font-weight: 600;
+      font-weight: bold;
+      color: #318BF5;
+      line-height: 17px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .verification {
+    position: relative;
+    background: white;
+    .verification-content {
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
+      background: rgba(255, 255, 255, 1);
+      margin: 0;
+      .verification-content-bottom {
+        .ant-input {
+          width: 100%;
+        }
+        @include ant-btn-primary(100%, 40px, 14px, #318BF5);
+        @include ant-btn-disabled(100%, 40px);
+        .ant-btn-primary[disabled] {
+          background: rgba(49, 139, 245, 0.5);
+          border: none;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+  }
+}
